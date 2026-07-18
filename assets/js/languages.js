@@ -110,6 +110,36 @@ const WEBSITE_TRANSLATIONS = {
         "hero.slideFour":
             "A loving educator dedicated to every child’s development.",
 
+            /* ==========================================================
+   TRUST STRIP
+========================================================== */
+
+"trust.ariaLabel": "Child care information",
+
+"trust.eyebrow": "Trusted family child care",
+
+"trust.title":
+    "Licensed care families can feel confident about.",
+
+"trust.licenseTitle": "EEC Licensed",
+
+"trust.licenseText":
+    "Licensed family child care",
+
+"trust.agesTitle": "Ages 0–5",
+
+"trust.agesText":
+    "Care for infants and young children",
+
+"trust.daysTitle": "Monday–Friday",
+
+"trust.daysText":
+    "A dependable weekly routine",
+
+"trust.hoursTitle": "7:00 AM–5:30 PM",
+
+"trust.hoursText":
+    "Hours designed for working families",
 
         /* VISUAL STORY */
 
@@ -229,7 +259,36 @@ const WEBSITE_TRANSLATIONS = {
         "hero.slideFour":
             "Uma educadora dedicada ao desenvolvimento de cada criança.",
 
+/* ==========================================================
+   TRUST STRIP
+========================================================== */
 
+"trust.ariaLabel": "Informações sobre a creche",
+
+"trust.eyebrow": "Creche familiar de confiança",
+
+"trust.title":
+    "Um cuidado licenciado em que as famílias podem confiar.",
+
+"trust.licenseTitle": "Licenciada pelo EEC",
+
+"trust.licenseText":
+    "Creche familiar licenciada",
+
+"trust.agesTitle": "Crianças de 0 a 5 anos",
+
+"trust.agesText":
+    "Cuidado para bebês e crianças pequenas",
+
+"trust.daysTitle": "Segunda a sexta-feira",
+
+"trust.daysText":
+    "Uma rotina semanal segura e consistente",
+
+"trust.hoursTitle": "7:00 AM–5:30 PM",
+
+"trust.hoursText":
+    "Horários pensados para famílias que trabalham",
         /* VISUAL STORY */
 
         "visualStory.eyebrow":
@@ -347,6 +406,46 @@ const WEBSITE_TRANSLATIONS = {
 
         "hero.slideFour":
             "Una educadora dedicada al desarrollo de cada niño.",
+
+/* ==========================================================
+   TRUST STRIP
+========================================================== */
+
+"trust.ariaLabel":
+    "Información sobre el cuidado infantil",
+
+"trust.eyebrow":
+    "Cuidado infantil familiar de confianza",
+
+"trust.title":
+    "Cuidado autorizado en el que las familias pueden confiar.",
+
+"trust.licenseTitle":
+    "Licencia del EEC",
+
+"trust.licenseText":
+    "Cuidado infantil familiar autorizado",
+
+"trust.agesTitle":
+    "Niños de 0 a 5 años",
+
+"trust.agesText":
+    "Cuidado para bebés y niños pequeños",
+
+"trust.daysTitle":
+    "De lunes a viernes",
+
+"trust.daysText":
+    "Una rutina semanal segura y constante",
+
+"trust.hoursTitle":
+    "7:00 AM–5:30 PM",
+
+"trust.hoursText":
+    "Horarios pensados para familias que trabajan",
+
+
+
 
 
         /* VISUAL STORY */
