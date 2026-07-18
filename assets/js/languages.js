@@ -207,67 +207,91 @@ const WEBSITE_TRANSLATIONS = {
 "programs.cardSixText":
     "Songs, dancing and movement activities that make learning joyful.",
         
-        /* ==========================================================
+
+    /* ==========================================================
    DAILY ROUTINE
 ========================================================== */
 
-"routine.eyebrow": "DAILY ROUTINE",
+"routine.eyebrow":
+    "DAILY ROUTINE",
 
 "routine.title":
     "A balanced day filled with learning, play and care.",
 
 "routine.description":
-    "Every day follows a consistent routine that helps children feel safe, confident and excited to learn.",
+    "Every day follows a consistent routine that helps children feel safe, confident and excited to learn through hands-on experiences.",
 
 "routine.item1.title":
-    "Arrival & Welcome",
+    "Welcome & Arrival",
 
 "routine.item1.text":
-    "Children arrive, greet their friends and settle into a calm start to the day.",
+    "Children arrive, settle in and enjoy a calm start to the day.",
 
 "routine.item2.title":
-    "Morning Snack",
+    "Free Play",
 
 "routine.item2.text":
-    "Healthy snacks prepared to keep little learners energized.",
+    "Children explore, socialize and choose age-appropriate activities.",
 
 "routine.item3.title":
-    "Learning Activities",
+    "Morning Snack",
 
 "routine.item3.text":
-    "Reading, letters, numbers, crafts and hands-on educational experiences.",
+    "Hand washing followed by a healthy morning snack.",
 
 "routine.item4.title":
-    "Outdoor Play",
+    "Circle Time",
 
 "routine.item4.text":
-    "Fresh air, movement and fun in a safe outdoor environment.",
+    "Songs, stories, calendar, language and group learning activities.",
 
 "routine.item5.title":
-    "Lunch Time",
+    "Learning Activities",
 
 "routine.item5.text":
-    "Nutritious homemade meals shared together.",
+    "Hands-on educational activities including arts, crafts, letters and numbers.",
 
 "routine.item6.title":
-    "Nap & Quiet Time",
+    "Outdoor Play",
 
 "routine.item6.text":
-    "Rest helps children recharge for the afternoon.",
+    "Outdoor activities that encourage movement, exploration and teamwork.",
 
 "routine.item7.title":
-    "Creative Play",
+    "Lunch Time",
 
 "routine.item7.text":
-    "Music, games, art projects and imagination.",
+    "Hand washing followed by a nutritious homemade lunch.",
 
 "routine.item8.title":
-    "Pick-up Time",
+    "Brush Teeth",
 
 "routine.item8.text":
-    "Happy children head home after a full day of learning and fun.",
+    "Children practice healthy hygiene habits after lunch.",
 
+"routine.item9.title":
+    "Nap & Quiet Time",
 
+"routine.item9.text":
+    "Rest time helps children recharge for the afternoon.",
+
+"routine.item10.title":
+    "Afternoon Snack",
+
+"routine.item10.text":
+    "Healthy snacks shared together before afternoon activities.",
+
+"routine.item11.title":
+    "Music & Movement",
+
+"routine.item11.text":
+    "Music, dancing and movement activities that encourage confidence and coordination.",
+
+"routine.item12.title":
+    "Goodbye & Pick-up",
+
+"routine.item12.text":
+    "Children prepare to go home after a fun and enriching day.",
 
 /* ==========================================================
    MEALS
@@ -668,9 +692,8 @@ const WEBSITE_TRANSLATIONS = {
 "programs.cardSixText":
     "Músicas, danças e atividades de movimento que tornam o aprendizado mais alegre.",
       
-      
-
-/* ==========================================================
+   
+   /* ==========================================================
    DAILY ROUTINE
 ========================================================== */
 
@@ -681,57 +704,80 @@ const WEBSITE_TRANSLATIONS = {
     "Um dia equilibrado, repleto de aprendizado, brincadeiras e cuidado.",
 
 "routine.description":
-    "Cada dia segue uma rotina consistente que ajuda as crianças a se sentirem seguras, confiantes e animadas para aprender.",
+    "Todos os dias seguem uma rotina consistente que ajuda as crianças a se sentirem seguras, confiantes e animadas para aprender por meio de experiências práticas.",
 
 "routine.item1.title":
-    "Chegada e Boas-vindas",
+    "Boas-vindas e Chegada",
 
 "routine.item1.text":
-    "As crianças chegam, cumprimentam os amigos e começam o dia em um ambiente calmo e acolhedor.",
+    "As crianças chegam, se acomodam e começam o dia de forma tranquila.",
 
 "routine.item2.title":
-    "Lanche da Manhã",
+    "Brincadeira Livre",
 
 "routine.item2.text":
-    "Lanches saudáveis preparados para manter as crianças cheias de energia.",
+    "As crianças exploram, socializam e escolhem atividades adequadas para sua idade.",
 
 "routine.item3.title":
-    "Atividades de Aprendizagem",
+    "Lanche da Manhã",
 
 "routine.item3.text":
-    "Leitura, letras, números, artes e experiências educativas práticas.",
+    "Lavagem das mãos seguida de um lanche saudável.",
 
 "routine.item4.title":
-    "Brincadeiras ao Ar Livre",
+    "Hora da Roda",
 
 "routine.item4.text":
-    "Ar fresco, movimento e diversão em um ambiente externo seguro.",
+    "Músicas, histórias, calendário, linguagem e atividades em grupo.",
 
 "routine.item5.title":
-    "Hora do Almoço",
+    "Atividades de Aprendizagem",
 
 "routine.item5.text":
-    "Refeições caseiras e nutritivas compartilhadas em grupo.",
+    "Atividades educativas práticas com artes, trabalhos manuais, letras e números.",
 
 "routine.item6.title":
-    "Soneca e Momento de Descanso",
+    "Brincadeiras ao Ar Livre",
 
 "routine.item6.text":
-    "O descanso ajuda as crianças a recuperarem as energias para a tarde.",
+    "Atividades ao ar livre que incentivam movimento, exploração e trabalho em equipe.",
 
 "routine.item7.title":
-    "Brincadeiras Criativas",
+    "Hora do Almoço",
 
 "routine.item7.text":
-    "Música, jogos, atividades artísticas e muita imaginação.",
+    "Lavagem das mãos seguida de um almoço caseiro e nutritivo.",
 
 "routine.item8.title":
-    "Horário de Saída",
+    "Escovar os Dentes",
 
 "routine.item8.text":
-    "As crianças voltam para casa felizes após um dia cheio de aprendizado e diversão.",
+    "As crianças praticam hábitos saudáveis de higiene após o almoço.",
 
+"routine.item9.title":
+    "Soneca e Momento de Descanso",
 
+"routine.item9.text":
+    "O descanso ajuda as crianças a recuperarem as energias para a tarde.",
+
+"routine.item10.title":
+    "Lanche da Tarde",
+
+"routine.item10.text":
+    "Um lanche saudável compartilhado antes das atividades da tarde.",
+
+"routine.item11.title":
+    "Música e Movimento",
+
+"routine.item11.text":
+    "Música, dança e atividades de movimento que estimulam confiança e coordenação.",
+
+"routine.item12.title":
+    "Despedida e Saída",
+
+"routine.item12.text":
+    "As crianças se preparam para ir para casa após um dia divertido e enriquecedor.",
+   
     /* ==========================================================
    MEALS
 ========================================================== */
@@ -1144,7 +1190,7 @@ const WEBSITE_TRANSLATIONS = {
     "Canciones, baile y actividades de movimiento que hacen que aprender sea divertido.",
 
 
-    /* ==========================================================
+   /* ==========================================================
    DAILY ROUTINE
 ========================================================== */
 
@@ -1155,57 +1201,79 @@ const WEBSITE_TRANSLATIONS = {
     "Un día equilibrado lleno de aprendizaje, juegos y cuidado.",
 
 "routine.description":
-    "Cada día sigue una rutina constante que ayuda a los niños a sentirse seguros, confiados y motivados para aprender.",
+    "Cada día sigue una rutina constante que ayuda a los niños a sentirse seguros, confiados y motivados para aprender mediante experiencias prácticas.",
 
 "routine.item1.title":
-    "Llegada y Bienvenida",
+    "Bienvenida y Llegada",
 
 "routine.item1.text":
-    "Los niños llegan, saludan a sus amigos y comienzan el día en un ambiente tranquilo y acogedor.",
+    "Los niños llegan, se acomodan y comienzan el día de forma tranquila.",
 
 "routine.item2.title":
-    "Merienda de la Mañana",
+    "Juego Libre",
 
 "routine.item2.text":
-    "Meriendas saludables preparadas para mantener a los pequeños llenos de energía.",
+    "Los niños exploran, socializan y eligen actividades apropiadas para su edad.",
 
 "routine.item3.title":
-    "Actividades de Aprendizaje",
+    "Merienda de la Mañana",
 
 "routine.item3.text":
-    "Lectura, letras, números, manualidades y experiencias educativas prácticas.",
+    "Lavado de manos seguido de una merienda saludable.",
 
 "routine.item4.title":
-    "Juego al Aire Libre",
+    "Hora del Círculo",
 
 "routine.item4.text":
-    "Aire fresco, movimiento y diversión en un entorno exterior seguro.",
+    "Canciones, cuentos, calendario, lenguaje y actividades grupales.",
 
 "routine.item5.title":
-    "Hora del Almuerzo",
+    "Actividades de Aprendizaje",
 
 "routine.item5.text":
-    "Comidas caseras y nutritivas compartidas en familia.",
+    "Actividades educativas prácticas con arte, manualidades, letras y números.",
 
 "routine.item6.title":
-    "Siesta y Tiempo de Descanso",
+    "Juegos al Aire Libre",
 
 "routine.item6.text":
-    "El descanso ayuda a los niños a recuperar energías para la tarde.",
+    "Actividades al aire libre que fomentan el movimiento, la exploración y el trabajo en equipo.",
 
 "routine.item7.title":
-    "Juego Creativo",
+    "Hora del Almuerzo",
 
 "routine.item7.text":
-    "Música, juegos, proyectos artísticos y mucha imaginación.",
+    "Lavado de manos seguido de un almuerzo casero y nutritivo.",
 
 "routine.item8.title":
-    "Hora de Salida",
+    "Cepillado de Dientes",
 
 "routine.item8.text":
-    "Los niños regresan a casa felices después de un día lleno de aprendizaje y diversión.",
+    "Los niños practican hábitos saludables de higiene después del almuerzo.",
 
+"routine.item9.title":
+    "Siesta y Tiempo de Descanso",
 
+"routine.item9.text":
+    "El descanso ayuda a los niños a recuperar energías para la tarde.",
+
+"routine.item10.title":
+    "Merienda de la Tarde",
+
+"routine.item10.text":
+    "Una merienda saludable compartida antes de las actividades de la tarde.",
+
+"routine.item11.title":
+    "Música y Movimiento",
+
+"routine.item11.text":
+    "Música, baile y actividades de movimiento que fortalecen la confianza y la coordinación.",
+
+"routine.item12.title":
+    "Despedida y Recogida",
+
+"routine.item12.text":
+    "Los niños se preparan para regresar a casa después de un día divertido y enriquecedor.",
 /* ==========================================================
    MEALS
 ========================================================== */
