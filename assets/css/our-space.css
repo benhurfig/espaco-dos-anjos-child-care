@@ -1,0 +1,379 @@
+/* ==========================================================
+   OUR SPACE
+========================================================== */
+
+.space{
+
+    position:relative;
+
+    padding:140px 0;
+
+    overflow:hidden;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            #ffffff 0%,
+
+            #fffef9 45%,
+
+            #f8fdff 100%
+
+        );
+
+}
+
+/* ==========================================================
+   BACKGROUND LIGHT
+========================================================== */
+
+.space::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-180px;
+
+    right:-120px;
+
+    width:520px;
+
+    height:520px;
+
+    border-radius:50%;
+
+    background:
+
+        rgba(73,168,216,.08);
+
+    filter:blur(120px);
+
+    pointer-events:none;
+
+}
+
+.space::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-180px;
+
+    left:-120px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:
+
+        rgba(245,196,81,.10);
+
+    filter:blur(120px);
+
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.space__header{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:760px;
+
+    margin:auto;
+
+    margin-bottom:80px;
+
+    text-align:center;
+
+}
+
+.space__eyebrow{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:var(--color-accent);
+
+    font-size:.82rem;
+
+    font-weight:800;
+
+    letter-spacing:.15em;
+
+    text-transform:uppercase;
+
+}
+
+.space__eyebrow::before{
+
+    content:"";
+
+    width:34px;
+
+    height:3px;
+
+    border-radius:20px;
+
+    background:var(--color-accent);
+
+}
+
+.space__header h2{
+
+    margin:24px 0;
+
+    color:var(--color-dark);
+
+    font-size:clamp(2.8rem,5vw,4.3rem);
+
+    line-height:1.08;
+
+}
+
+.space__header p{
+
+    color:#6d7b87;
+
+    font-size:1.08rem;
+
+    line-height:1.9;
+
+}
+
+
+/* ==========================================================
+   GRID
+========================================================== */
+
+.space__grid{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:32px;
+
+}
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.space__card{
+
+    overflow:hidden;
+
+    border-radius:26px;
+
+    background:#fff;
+
+    border:1px solid rgba(18,48,68,.05);
+
+    box-shadow:
+
+        0 18px 50px rgba(0,0,0,.06);
+
+    transition:.45s;
+
+}
+
+.space__card:hover{
+
+    transform:
+
+        translateY(-8px);
+
+    box-shadow:
+
+        0 35px 80px rgba(0,0,0,.10);
+
+}
+
+
+/* ==========================================================
+   IMAGE
+========================================================== */
+
+.space__card img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:1s;
+
+}
+
+.space__card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.space__card-content{
+
+    padding:28px;
+
+}
+
+.space__title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    margin-bottom:14px;
+
+}
+
+.space__title h3{
+
+    font-size:1.35rem;
+
+    color:var(--color-dark);
+
+}
+
+.space__card p{
+
+    color:#6f7d88;
+
+    line-height:1.75;
+
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.space__footer{
+
+    position:relative;
+
+    z-index:2;
+
+    margin-top:80px;
+
+    text-align:center;
+
+}
+
+.space__footer p{
+
+    margin-bottom:24px;
+
+    color:#6d7b87;
+
+    font-size:1.08rem;
+
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media(max-width:980px){
+
+.space{
+
+    padding:110px 0;
+
+}
+
+.space__grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:680px){
+
+.space{
+
+    padding:90px 0;
+
+}
+
+.space__header{
+
+    text-align:left;
+
+    margin-bottom:50px;
+
+}
+
+.space__header h2{
+
+    font-size:2.45rem;
+
+}
+
+.space__grid{
+
+    grid-template-columns:1fr;
+
+    gap:22px;
+
+}
+
+.space__card img{
+
+    height:240px;
+
+}
+
+.space__card-content{
+
+    padding:22px;
+
+}
+
+.space__footer{
+
+    margin-top:55px;
+
+}
+
+}

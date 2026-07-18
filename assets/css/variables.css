@@ -1,0 +1,109 @@
+/* ==========================================================
+   ESPAÇO DOS ANJOS CHILD CARE
+   DESIGN SYSTEM / GLOBAL VARIABLES
+========================================================== */
+
+:root {
+
+    /* ======================================================
+       BRAND COLORS
+    ====================================================== */
+
+    --color-primary: #28AFCB;
+    --color-primary-dark: #167A98;
+    --color-primary-light: #E9F9FC;
+
+    --color-secondary: #73C66B;
+    --color-secondary-light: #EEF9EC;
+
+    --color-accent: #F4C542;
+    --color-accent-light: #FFF8DE;
+
+    --color-pink: #F3A6B8;
+
+    /* ======================================================
+       NEUTRAL COLORS
+    ====================================================== */
+
+    --color-white: #FFFFFF;
+
+    --color-background: #F8FCFD;
+    --color-background-soft: #F1F9FA;
+
+    --color-surface: #FFFFFF;
+
+    --color-text: #173B48;
+    --color-text-soft: #607881;
+    --color-text-light: #84979D;
+
+    --color-border: #D9EBEF;
+    --color-border-light: #EAF3F5;
+
+    /* ======================================================
+       TYPOGRAPHY
+    ====================================================== */
+
+    --font-heading: "Nunito", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-md: 1.125rem;
+    --font-size-lg: 1.375rem;
+    --font-size-xl: 1.75rem;
+    --font-size-2xl: 2.25rem;
+    --font-size-3xl: 3rem;
+    --font-size-4xl: 4rem;
+
+    --line-height-tight: 1.15;
+    --line-height-normal: 1.6;
+
+    /* ======================================================
+       LAYOUT
+    ====================================================== */
+
+    --container-width: 1200px;
+    --container-padding: 24px;
+
+    --section-spacing: 100px;
+    --section-spacing-mobile: 72px;
+
+    /* ======================================================
+       BORDER RADIUS
+    ====================================================== */
+
+    --radius-sm: 10px;
+    --radius-md: 18px;
+    --radius-lg: 28px;
+    --radius-xl: 40px;
+    --radius-pill: 999px;
+
+    /* ======================================================
+       SHADOWS
+    ====================================================== */
+
+    --shadow-sm:
+        0 8px 24px rgba(23, 59, 72, 0.08);
+
+    --shadow-md:
+        0 18px 50px rgba(23, 59, 72, 0.12);
+
+    --shadow-lg:
+        0 28px 80px rgba(23, 59, 72, 0.16);
+
+    /* ======================================================
+       TRANSITIONS
+    ====================================================== */
+
+    --transition-fast: 180ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 700ms ease;
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    --header-height: 82px;
+
+}
