@@ -293,6 +293,44 @@ const WEBSITE_TRANSLATIONS = {
 "routine.item12.text":
     "Children prepare to go home after a fun and enriching day.",
 
+
+    /* ==========================================================
+   LEARNING PHILOSOPHY
+========================================================== */
+
+"learning.eyebrow":
+    "HOW CHILDREN LEARN",
+
+"learning.title":
+    "Real Learning. Real Play. Real Childhood.",
+
+"learning.description":
+    "We believe children learn best through hands-on activities, creativity, movement and meaningful interactions in a safe and nurturing environment.",
+
+"learning.item1.title":
+    "Hands-on Learning",
+
+"learning.item1.text":
+    "Art, crafts, sensory activities and educational games that inspire curiosity and creativity.",
+
+"learning.item2.title":
+    "Stories & Language",
+
+"learning.item2.text":
+    "Books, songs and conversations that build communication, vocabulary and early literacy skills.",
+
+"learning.item3.title":
+    "Outdoor Play",
+
+"learning.item3.text":
+    "Daily outdoor activities that encourage movement, exploration and teamwork.",
+
+"learning.item4.title":
+    "Screen-Free Learning",
+
+"learning.item4.text":
+    "Children spend their day learning through play, creativity and meaningful interactions instead of screen time.",
+
 /* ==========================================================
    MEALS
 ========================================================== */
@@ -777,6 +815,44 @@ const WEBSITE_TRANSLATIONS = {
 
 "routine.item12.text":
     "As crianças se preparam para ir para casa após um dia divertido e enriquecedor.",
+
+
+    /* ==========================================================
+   LEARNING PHILOSOPHY
+========================================================== */
+
+"learning.eyebrow":
+    "COMO AS CRIANÇAS APRENDEM",
+
+"learning.title":
+    "Aprendizado de Verdade. Brincadeiras de Verdade. Infância de Verdade.",
+
+"learning.description":
+    "Acreditamos que as crianças aprendem melhor por meio de atividades práticas, criatividade, movimento e interações significativas em um ambiente seguro e acolhedor.",
+
+"learning.item1.title":
+    "Aprendizado Prático",
+
+"learning.item1.text":
+    "Artes, trabalhos manuais, atividades sensoriais e jogos educativos que despertam a curiosidade e a criatividade.",
+
+"learning.item2.title":
+    "Histórias e Linguagem",
+
+"learning.item2.text":
+    "Livros, músicas e conversas que desenvolvem a comunicação, o vocabulário e os primeiros passos da alfabetização.",
+
+"learning.item3.title":
+    "Brincadeiras ao Ar Livre",
+
+"learning.item3.text":
+    "Atividades diárias ao ar livre que incentivam o movimento, a exploração e o trabalho em equipe.",
+
+"learning.item4.title":
+    "Aprendizado Sem Telas",
+
+"learning.item4.text":
+    "As crianças passam o dia aprendendo por meio de brincadeiras, criatividade e interação humana, em vez de tempo de tela.",
    
     /* ==========================================================
    MEALS
@@ -1274,6 +1350,44 @@ const WEBSITE_TRANSLATIONS = {
 
 "routine.item12.text":
     "Los niños se preparan para regresar a casa después de un día divertido y enriquecedor.",
+
+/* ==========================================================
+   LEARNING PHILOSOPHY
+========================================================== */
+
+"learning.eyebrow":
+    "CÓMO APRENDEN LOS NIÑOS",
+
+"learning.title":
+    "Aprendizaje Real. Juego Real. Infancia Real.",
+
+"learning.description":
+    "Creemos que los niños aprenden mejor mediante actividades prácticas, creatividad, movimiento e interacciones significativas en un entorno seguro y acogedor.",
+
+"learning.item1.title":
+    "Aprendizaje Práctico",
+
+"learning.item1.text":
+    "Arte, manualidades, actividades sensoriales y juegos educativos que despiertan la curiosidad y la creatividad.",
+
+"learning.item2.title":
+    "Historias y Lenguaje",
+
+"learning.item2.text":
+    "Libros, canciones y conversaciones que desarrollan la comunicación, el vocabulario y las primeras habilidades de lectura.",
+
+"learning.item3.title":
+    "Juego al Aire Libre",
+
+"learning.item3.text":
+    "Actividades diarias al aire libre que fomentan el movimiento, la exploración y el trabajo en equipo.",
+
+"learning.item4.title":
+    "Aprendizaje Sin Pantallas",
+
+"learning.item4.text":
+    "Los niños pasan el día aprendiendo mediante el juego, la creatividad y la interacción humana en lugar del tiempo frente a las pantallas.",
+
 /* ==========================================================
    MEALS
 ========================================================== */
