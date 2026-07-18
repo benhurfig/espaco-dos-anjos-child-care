@@ -162,7 +162,42 @@ const WEBSITE_TRANSLATIONS = {
             "Individual attention",
 
         "visualStory.featureFour":
-            "English and Portuguese exposure"
+            "English and Portuguese exposure",
+            /* ==========================================================
+   OUR PROGRAMS
+========================================================== */
+
+"programs.eyebrow": "OUR PROGRAMS",
+
+"programs.title":
+    "Learning through play, exploration and everyday experiences.",
+
+"programs.description":
+    "Our program encourages curiosity, creativity and confidence through age-appropriate activities in a safe, nurturing environment.",
+
+"programs.cardOneTitle":
+    "Infants & Toddlers",
+
+"programs.cardOneText":
+    "A loving environment focused on security, routines and early development.",
+
+"programs.cardTwoTitle":
+    "Preschool Learning",
+
+"programs.cardTwoText":
+    "Hands-on activities that build language, social skills and independence.",
+
+"programs.cardThreeTitle":
+    "Creative Play",
+
+"programs.cardThreeText":
+    "Art, music, storytelling and imaginative play every day.",
+
+"programs.cardFourTitle":
+    "Outdoor Activities",
+
+"programs.cardFourText":
+    "Fresh air, movement and exploration that support healthy growth.",
 
     },
 
@@ -310,7 +345,43 @@ const WEBSITE_TRANSLATIONS = {
             "Atenção individual",
 
         "visualStory.featureFour":
-            "Contato com inglês e português"
+            "Contato com inglês e português",
+
+            /* ==========================================================
+   OUR PROGRAMS
+========================================================== */
+
+"programs.eyebrow": "NOSSO PROGRAMA",
+
+"programs.title":
+    "Aprendizado por meio de brincadeiras, descobertas e experiências diárias.",
+
+"programs.description":
+    "Nosso programa incentiva a curiosidade, a criatividade e a confiança por meio de atividades apropriadas para cada idade em um ambiente seguro e acolhedor.",
+
+"programs.cardOneTitle":
+    "Bebês e Crianças Pequenas",
+
+"programs.cardOneText":
+    "Um ambiente acolhedor com foco em segurança, rotina e desenvolvimento infantil.",
+
+"programs.cardTwoTitle":
+    "Aprendizado Pré-Escolar",
+
+"programs.cardTwoText":
+    "Atividades práticas que desenvolvem linguagem, habilidades sociais e autonomia.",
+
+"programs.cardThreeTitle":
+    "Brincadeiras Criativas",
+
+"programs.cardThreeText":
+    "Arte, música, contação de histórias e muita imaginação todos os dias.",
+
+"programs.cardFourTitle":
+    "Atividades ao Ar Livre",
+
+"programs.cardFourText":
+    "Movimento, contato com a natureza e diversão para um crescimento saudável.",
 
     },
 
@@ -469,7 +540,43 @@ const WEBSITE_TRANSLATIONS = {
             "Atención individual",
 
         "visualStory.featureFour":
-            "Contacto con inglés y portugués"
+            "Contacto con inglés y portugués",
+
+            /* ==========================================================
+   OUR PROGRAMS
+========================================================== */
+
+"programs.eyebrow": "NUESTRO PROGRAMA",
+
+"programs.title":
+    "Aprendizaje mediante el juego, la exploración y las experiencias diarias.",
+
+"programs.description":
+    "Nuestro programa fomenta la curiosidad, la creatividad y la confianza mediante actividades apropiadas para cada edad en un ambiente seguro y acogedor.",
+
+"programs.cardOneTitle":
+    "Bebés y Niños Pequeños",
+
+"programs.cardOneText":
+    "Un ambiente lleno de cariño enfocado en la seguridad, las rutinas y el desarrollo temprano.",
+
+"programs.cardTwoTitle":
+    "Aprendizaje Preescolar",
+
+"programs.cardTwoText":
+    "Actividades prácticas que fortalecen el lenguaje, las habilidades sociales y la independencia.",
+
+"programs.cardThreeTitle":
+    "Juego Creativo",
+
+"programs.cardThreeText":
+    "Arte, música, cuentos y juegos imaginativos todos los días.",
+
+"programs.cardFourTitle":
+    "Actividades al Aire Libre",
+
+"programs.cardFourText":
+    "Movimiento, naturaleza y exploración para un crecimiento saludable.",
 
     }
 
