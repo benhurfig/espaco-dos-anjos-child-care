@@ -163,43 +163,322 @@ const WEBSITE_TRANSLATIONS = {
 
         "visualStory.featureFour":
             "English and Portuguese exposure",
+            
+
             /* ==========================================================
-   OUR PROGRAMS
+   PROGRAMS
 ========================================================== */
 
 "programs.eyebrow": "OUR PROGRAMS",
 
 "programs.title":
-    "Learning through play, exploration and everyday experiences.",
+    "Learning through play, creativity and discovery.",
 
 "programs.description":
-    "Our program encourages curiosity, creativity and confidence through age-appropriate activities in a safe, nurturing environment.",
+    "Every activity is thoughtfully designed to encourage confidence, curiosity and meaningful childhood development.",
 
-"programs.cardOneTitle":
-    "Infants & Toddlers",
+"programs.cardOneTitle": "Early Learning",
 
 "programs.cardOneText":
-    "A loving environment focused on security, routines and early development.",
+    "Letters, numbers and language introduced through fun, age-appropriate activities.",
 
-"programs.cardTwoTitle":
-    "Preschool Learning",
+"programs.cardTwoTitle": "Arts & Crafts",
 
 "programs.cardTwoText":
-    "Hands-on activities that build language, social skills and independence.",
+    "Daily creative projects that inspire imagination, expression and confidence.",
 
-"programs.cardThreeTitle":
-    "Creative Play",
+"programs.cardThreeTitle": "Problem Solving",
 
 "programs.cardThreeText":
-    "Art, music, storytelling and imaginative play every day.",
+    "Games and activities that strengthen memory, reasoning and critical thinking.",
 
-"programs.cardFourTitle":
-    "Outdoor Activities",
+"programs.cardFourTitle": "Outdoor Play",
 
 "programs.cardFourText":
-    "Fresh air, movement and exploration that support healthy growth.",
+    "Safe outdoor experiences that encourage movement, exploration and healthy development.",
 
-    },
+"programs.cardFiveTitle": "Social Skills",
+
+"programs.cardFiveText":
+    "Children learn kindness, sharing, teamwork and respect every day.",
+
+"programs.cardSixTitle": "Music & Movement",
+
+"programs.cardSixText":
+    "Songs, dancing and movement activities that make learning joyful.",
+        
+        /* ==========================================================
+   DAILY ROUTINE
+========================================================== */
+
+"routine.eyebrow": "DAILY ROUTINE",
+
+"routine.title":
+    "A balanced day filled with learning, play and care.",
+
+"routine.description":
+    "Every day follows a consistent routine that helps children feel safe, confident and excited to learn.",
+
+"routine.item1.title":
+    "Arrival & Welcome",
+
+"routine.item1.text":
+    "Children arrive, greet their friends and settle into a calm start to the day.",
+
+"routine.item2.title":
+    "Morning Snack",
+
+"routine.item2.text":
+    "Healthy snacks prepared to keep little learners energized.",
+
+"routine.item3.title":
+    "Learning Activities",
+
+"routine.item3.text":
+    "Reading, letters, numbers, crafts and hands-on educational experiences.",
+
+"routine.item4.title":
+    "Outdoor Play",
+
+"routine.item4.text":
+    "Fresh air, movement and fun in a safe outdoor environment.",
+
+"routine.item5.title":
+    "Lunch Time",
+
+"routine.item5.text":
+    "Nutritious homemade meals shared together.",
+
+"routine.item6.title":
+    "Nap & Quiet Time",
+
+"routine.item6.text":
+    "Rest helps children recharge for the afternoon.",
+
+"routine.item7.title":
+    "Creative Play",
+
+"routine.item7.text":
+    "Music, games, art projects and imagination.",
+
+"routine.item8.title":
+    "Pick-up Time",
+
+"routine.item8.text":
+    "Happy children head home after a full day of learning and fun.",
+
+
+
+/* ==========================================================
+   MEALS
+========================================================== */
+
+"meals.imageAlt":
+    "Healthy meals prepared for children",
+
+"meals.eyebrow":
+    "Healthy Nutrition",
+
+"meals.title":
+    "Fresh meals prepared with care every day.",
+
+"meals.description":
+    "Nutritious homemade meals and healthy snacks are part of our daily routine. Every menu is planned to support children's growth, energy and healthy habits in a safe, welcoming environment.",
+
+"meals.item1.title":
+    "Fresh Fruits Daily",
+
+"meals.item1.text":
+    "Seasonal fruits served every day.",
+
+"meals.item2.title":
+    "Homemade Meals",
+
+"meals.item2.text":
+    "Balanced lunches prepared with care.",
+
+"meals.item3.title":
+    "Healthy Snacks",
+
+"meals.item3.text":
+    "Nutritious options between activities.",
+
+"meals.item4.title":
+    "Hydration Throughout the Day",
+
+"meals.item4.text":
+    "Water is always available for children.",
+
+"meals.quote":
+    "Healthy eating supports healthy minds, active bodies and happy childhoods.",
+
+
+    /* ==========================================================
+   OUR SPACE
+========================================================== */
+
+"space.eyebrow":"OUR SPACE",
+"space.title":"A place designed for curiosity, creativity and happy childhoods.",
+"space.description":"Every room has been thoughtfully prepared to provide a safe, organized and inspiring environment where children feel comfortable learning and growing every day.",
+
+"space.card1.alt":"Reading Corner",
+"space.card1.title":"Reading Corner",
+"space.card1.text":"Cozy spaces that encourage imagination, language and early literacy.",
+
+"space.card2.alt":"Arts and Crafts",
+"space.card2.title":"Arts & Crafts",
+"space.card2.text":"Daily creative activities that inspire confidence and self-expression.",
+
+"space.card3.alt":"Learning Room",
+"space.card3.title":"Learning Room",
+"space.card3.text":"Bright, organized classrooms created for discovery and daily learning.",
+
+"space.card4.alt":"Outdoor Playground",
+"space.card4.title":"Outdoor Playground",
+"space.card4.text":"Safe outdoor areas where children explore, play and build friendships.",
+
+"space.card5.alt":"Meal Area",
+"space.card5.title":"Meal Area",
+"space.card5.text":"Clean dining spaces where healthy meals are shared together every day.",
+
+"space.card6.alt":"Rest Area",
+"space.card6.title":"Rest Area",
+"space.card6.text":"Peaceful environments designed for rest and quiet moments.",
+
+"space.footer.text":"Want to see more of our daily activities?",
+"space.footer.button":"📷 See More on Instagram",
+
+
+/* ==========================================================
+   EDUCATOR
+========================================================== */
+
+"educator.imageAlt":
+    "Luciene Ribeiro",
+
+"educator.eyebrow":
+    "Meet Your Child's Teacher",
+
+"educator.title":
+    "Caring for every child like family.",
+
+"educator.description":
+    "Hi! I'm Luciene, owner of Espaço dos Anjos Child Care. My mission is to create a safe, loving and educational environment where every child feels respected, supported and encouraged to learn through play.",
+
+"educator.feature1":
+    "Licensed Family Child Care",
+
+"educator.feature2":
+    "Pedagogy Degree",
+
+"educator.feature3":
+    "English & Portuguese",
+
+"educator.feature4":
+    "Small Group Learning",
+
+"educator.quote":
+    "Every child deserves a place where they feel safe, loved and excited to learn.",
+
+
+    /* ==========================================================
+   REVIEWS
+========================================================== */
+
+"reviews.eyebrow":"Trusted by Families",
+
+"reviews.title":"Parents Love Espaço dos Anjos",
+
+"reviews.description":"Choosing a daycare is one of the most important decisions a family makes. We're grateful for the trust our families place in us every day.",
+
+"reviews.featured.text":"Luciene truly cares about every child. My daughter feels safe, loved and excited to come every morning. We couldn't ask for a better place.",
+
+"reviews.featured.since":"Parent since 2023",
+
+"reviews.card1.text":"The environment is always clean, organized and welcoming. We feel completely confident leaving our son here.",
+
+"reviews.card1.since":"Parent since 2024",
+
+"reviews.card2.text":"The bilingual environment has helped our daughter learn naturally. She loves her teachers and her friends.",
+
+"reviews.card2.since":"Parent since 2022",
+
+"reviews.card3.text":"Every day we receive updates and know our child is happy, learning and well cared for.",
+
+"reviews.card3.since":"Parent since 2021",
+
+"reviews.footer.rating":"5.0 Average Rating",
+
+"reviews.footer.text":"Trusted by local families.",
+
+"reviews.footer.button":"View All Google Reviews →",
+
+
+/* ==========================================================
+   SCHEDULE A TOUR
+========================================================== */
+
+"tour.eyebrow":"Schedule a Tour",
+
+"tour.title":"Come Visit Espaço dos Anjos",
+
+"tour.description":"We'd love to meet your family and show you how we create a safe, loving and inspiring environment where children learn, play and grow every day.",
+
+"tour.item1":"Meet Luciene personally",
+"tour.item2":"Explore our learning spaces",
+"tour.item3":"See our daily routine",
+"tour.item4":"Learn about our educational approach",
+"tour.item5":"Ask any questions you may have",
+
+"tour.card.title":"Visit Our Daycare",
+"tour.card.subtitle":"We'd be happy to answer your questions and show you around.",
+
+"tour.phone":"Phone",
+"tour.email":"Email",
+"tour.location":"Location",
+"tour.locationValue":"Clinton, Massachusetts",
+
+"tour.hours":"Hours",
+"tour.days":"Monday – Friday",
+
+"tour.button":"Schedule a Tour",
+
+"tour.footer":"We'd love to welcome your family ❤️",
+        
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+"footer.description":"Providing a safe, loving and inspiring environment where children learn, play and grow every day.",
+
+"footer.instagram":"Instagram",
+
+"footer.navigation":"Navigation",
+"footer.home":"Home",
+"footer.about":"About",
+"footer.programs":"Programs",
+"footer.reviews":"Reviews",
+"footer.contact":"Contact",
+
+"footer.contactTitle":"Contact",
+
+"footer.phone":"Phone",
+"footer.email":"Email",
+"footer.address":"Address",
+"footer.hours":"Hours",
+"footer.days":"Monday –Friday",
+
+"footer.legal":"Legal",
+
+"footer.privacy":"Privacy Policy",
+"footer.terms":"Terms of Service",
+
+"footer.copyright":"© 2026 Espaço dos Anjos Child Care. All Rights Reserved.",
+
+"footer.designed":"Designed by",
+        
+        },
 
 
     /* ======================================================
@@ -347,43 +626,323 @@ const WEBSITE_TRANSLATIONS = {
         "visualStory.featureFour":
             "Contato com inglês e português",
 
-            /* ==========================================================
-   OUR PROGRAMS
+     /* ==========================================================
+   PROGRAMS
 ========================================================== */
 
-"programs.eyebrow": "NOSSO PROGRAMA",
+"programs.eyebrow": "NOSSOS PROGRAMAS",
 
 "programs.title":
-    "Aprendizado por meio de brincadeiras, descobertas e experiências diárias.",
+    "Aprendizado por meio de brincadeiras, criatividade e descobertas.",
 
 "programs.description":
-    "Nosso programa incentiva a curiosidade, a criatividade e a confiança por meio de atividades apropriadas para cada idade em um ambiente seguro e acolhedor.",
+    "Cada atividade é planejada com cuidado para incentivar a confiança, a curiosidade e um desenvolvimento infantil significativo.",
 
-"programs.cardOneTitle":
-    "Bebês e Crianças Pequenas",
+"programs.cardOneTitle": "Aprendizado Inicial",
 
 "programs.cardOneText":
-    "Um ambiente acolhedor com foco em segurança, rotina e desenvolvimento infantil.",
+    "Letras, números e linguagem apresentados de forma divertida e adequada para cada idade.",
 
-"programs.cardTwoTitle":
-    "Aprendizado Pré-Escolar",
+"programs.cardTwoTitle": "Artes e Trabalhos Manuais",
 
 "programs.cardTwoText":
-    "Atividades práticas que desenvolvem linguagem, habilidades sociais e autonomia.",
+    "Projetos criativos diários que estimulam a imaginação, a expressão e a confiança.",
 
-"programs.cardThreeTitle":
-    "Brincadeiras Criativas",
+"programs.cardThreeTitle": "Resolução de Problemas",
 
 "programs.cardThreeText":
-    "Arte, música, contação de histórias e muita imaginação todos os dias.",
+    "Jogos e atividades que fortalecem a memória, o raciocínio e o pensamento crítico.",
 
-"programs.cardFourTitle":
-    "Atividades ao Ar Livre",
+"programs.cardFourTitle": "Brincadeiras ao Ar Livre",
 
 "programs.cardFourText":
-    "Movimento, contato com a natureza e diversão para um crescimento saudável.",
+    "Experiências seguras ao ar livre que incentivam o movimento, a exploração e o desenvolvimento saudável.",
 
-    },
+"programs.cardFiveTitle": "Habilidades Sociais",
+
+"programs.cardFiveText":
+    "As crianças aprendem gentileza, compartilhamento, trabalho em equipe e respeito todos os dias.",
+
+"programs.cardSixTitle": "Música e Movimento",
+
+"programs.cardSixText":
+    "Músicas, danças e atividades de movimento que tornam o aprendizado mais alegre.",
+      
+      
+
+/* ==========================================================
+   DAILY ROUTINE
+========================================================== */
+
+"routine.eyebrow":
+    "ROTINA DIÁRIA",
+
+"routine.title":
+    "Um dia equilibrado, repleto de aprendizado, brincadeiras e cuidado.",
+
+"routine.description":
+    "Cada dia segue uma rotina consistente que ajuda as crianças a se sentirem seguras, confiantes e animadas para aprender.",
+
+"routine.item1.title":
+    "Chegada e Boas-vindas",
+
+"routine.item1.text":
+    "As crianças chegam, cumprimentam os amigos e começam o dia em um ambiente calmo e acolhedor.",
+
+"routine.item2.title":
+    "Lanche da Manhã",
+
+"routine.item2.text":
+    "Lanches saudáveis preparados para manter as crianças cheias de energia.",
+
+"routine.item3.title":
+    "Atividades de Aprendizagem",
+
+"routine.item3.text":
+    "Leitura, letras, números, artes e experiências educativas práticas.",
+
+"routine.item4.title":
+    "Brincadeiras ao Ar Livre",
+
+"routine.item4.text":
+    "Ar fresco, movimento e diversão em um ambiente externo seguro.",
+
+"routine.item5.title":
+    "Hora do Almoço",
+
+"routine.item5.text":
+    "Refeições caseiras e nutritivas compartilhadas em grupo.",
+
+"routine.item6.title":
+    "Soneca e Momento de Descanso",
+
+"routine.item6.text":
+    "O descanso ajuda as crianças a recuperarem as energias para a tarde.",
+
+"routine.item7.title":
+    "Brincadeiras Criativas",
+
+"routine.item7.text":
+    "Música, jogos, atividades artísticas e muita imaginação.",
+
+"routine.item8.title":
+    "Horário de Saída",
+
+"routine.item8.text":
+    "As crianças voltam para casa felizes após um dia cheio de aprendizado e diversão.",
+
+
+    /* ==========================================================
+   MEALS
+========================================================== */
+
+"meals.imageAlt":
+    "Refeições saudáveis preparadas para as crianças",
+
+"meals.eyebrow":
+    "Alimentação Saudável",
+
+"meals.title":
+    "Refeições frescas preparadas com carinho todos os dias.",
+
+"meals.description":
+    "Refeições caseiras nutritivas e lanches saudáveis fazem parte da nossa rotina diária. Cada cardápio é planejado para apoiar o crescimento, a energia e os hábitos saudáveis das crianças em um ambiente seguro e acolhedor.",
+
+"meals.item1.title":
+    "Frutas Frescas Todos os Dias",
+
+"meals.item1.text":
+    "Frutas da estação servidas diariamente.",
+
+"meals.item2.title":
+    "Refeições Caseiras",
+
+"meals.item2.text":
+    "Almoços equilibrados preparados com carinho.",
+
+"meals.item3.title":
+    "Lanches Saudáveis",
+
+"meals.item3.text":
+    "Opções nutritivas entre as atividades.",
+
+"meals.item4.title":
+    "Hidratação Durante Todo o Dia",
+
+"meals.item4.text":
+    "Água sempre disponível para as crianças.",
+
+"meals.quote":
+    "Uma alimentação saudável contribui para mentes saudáveis, corpos ativos e uma infância feliz.",
+
+
+    /* ==========================================================
+   OUR SPACE
+========================================================== */
+
+"space.eyebrow":"NOSSO ESPAÇO",
+"space.title":"Um espaço pensado para despertar a curiosidade, a criatividade e uma infância feliz.",
+"space.description":"Cada ambiente foi cuidadosamente preparado para oferecer um espaço seguro, organizado e inspirador, onde as crianças se sentem à vontade para aprender e crescer todos os dias.",
+
+"space.card1.alt":"Cantinho da Leitura",
+"space.card1.title":"Cantinho da Leitura",
+"space.card1.text":"Espaços aconchegantes que estimulam a imaginação, a linguagem e a alfabetização.",
+
+"space.card2.alt":"Artes e Trabalhos Manuais",
+"space.card2.title":"Artes e Trabalhos Manuais",
+"space.card2.text":"Atividades criativas diárias que desenvolvem a confiança e a expressão pessoal.",
+
+"space.card3.alt":"Sala de Aprendizagem",
+"space.card3.title":"Sala de Aprendizagem",
+"space.card3.text":"Salas organizadas e iluminadas para estimular descobertas e o aprendizado diário.",
+
+"space.card4.alt":"Parquinho Externo",
+"space.card4.title":"Parquinho Externo",
+"space.card4.text":"Áreas externas seguras onde as crianças exploram, brincam e constroem amizades.",
+
+"space.card5.alt":"Espaço das Refeições",
+"space.card5.title":"Espaço das Refeições",
+"space.card5.text":"Ambiente limpo e acolhedor onde refeições saudáveis são compartilhadas diariamente.",
+
+"space.card6.alt":"Espaço de Descanso",
+"space.card6.title":"Espaço de Descanso",
+"space.card6.text":"Ambientes tranquilos preparados para momentos de descanso e relaxamento.",
+
+"space.footer.text":"Quer conhecer mais da nossa rotina diária?",
+"space.footer.button":"📷 Veja mais no Instagram",
+
+
+
+/* ==========================================================
+   EDUCATOR
+========================================================== */
+
+"educator.imageAlt":
+    "Luciene Ribeiro",
+
+"educator.eyebrow":
+    "Conheça a Professora do Seu Filho",
+
+"educator.title":
+    "Cuidando de cada criança como se fosse da família.",
+
+"educator.description":
+    "Olá! Sou Luciene, proprietária do Espaço dos Anjos Child Care. Minha missão é oferecer um ambiente seguro, acolhedor e educativo, onde cada criança se sinta respeitada, apoiada e incentivada a aprender por meio das brincadeiras.",
+
+"educator.feature1":
+    "Family Child Care Licenciado",
+
+"educator.feature2":
+    "Formada em Pedagogia",
+
+"educator.feature3":
+    "Inglês e Português",
+
+"educator.feature4":
+    "Aprendizagem em Pequenos Grupos",
+
+"educator.quote":
+    "Toda criança merece um lugar onde se sinta segura, amada e feliz para aprender.",
+
+
+/* ==========================================================
+   REVIEWS
+========================================================== */
+
+"reviews.eyebrow":"Famílias que Confiam em Nós",
+
+"reviews.title":"Os Pais Adoram o Espaço dos Anjos",
+
+"reviews.description":"Escolher uma creche é uma das decisões mais importantes para uma família. Somos gratos pela confiança que nossas famílias depositam em nós todos os dias.",
+
+"reviews.featured.text":"Luciene realmente se dedica a cada criança. Minha filha se sente segura, amada e feliz em vir todas as manhãs. Não poderíamos ter escolhido um lugar melhor.",
+
+"reviews.featured.since":"Família desde 2023",
+
+"reviews.card1.text":"O ambiente é sempre limpo, organizado e acolhedor. Temos total confiança em deixar nosso filho aqui.",
+
+"reviews.card1.since":"Família desde 2024",
+
+"reviews.card2.text":"O ambiente bilíngue ajudou nossa filha a aprender naturalmente. Ela adora as professoras e os amigos.",
+
+"reviews.card2.since":"Família desde 2022",
+
+"reviews.card3.text":"Todos os dias recebemos atualizações e sabemos que nosso filho está feliz, aprendendo e sendo muito bem cuidado.",
+
+"reviews.card3.since":"Família desde 2021",
+
+"reviews.footer.rating":"Avaliação Média de 5.0",
+
+"reviews.footer.text":"A confiança das famílias da nossa comunidade.",
+
+"reviews.footer.button":"Ver todas as avaliações no Google →",
+
+
+/* ==========================================================
+   SCHEDULE A TOUR
+========================================================== */
+
+"tour.eyebrow":"Agende uma Visita",
+
+"tour.title":"Venha Conhecer o Espaço dos Anjos",
+
+"tour.description":"Será um prazer receber sua família e mostrar como criamos um ambiente seguro, acolhedor e inspirador, onde as crianças aprendem, brincam e se desenvolvem todos os dias.",
+
+"tour.item1":"Conheça a Luciene pessoalmente",
+"tour.item2":"Conheça nossos espaços de aprendizagem",
+"tour.item3":"Veja nossa rotina diária",
+"tour.item4":"Conheça nossa proposta pedagógica",
+"tour.item5":"Tire todas as suas dúvidas",
+
+"tour.card.title":"Visite Nossa Creche",
+
+"tour.card.subtitle":"Teremos prazer em responder suas perguntas e apresentar nosso espaço.",
+
+"tour.phone":"Telefone",
+"tour.email":"E-mail",
+"tour.location":"Localização",
+"tour.locationValue":"Clinton, Massachusetts",
+
+"tour.hours":"Horário",
+"tour.days":"Segunda a Sexta-feira",
+
+"tour.button":"Agendar uma Visita",
+
+"tour.footer":"Será um prazer receber sua família ❤️",
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+"footer.description":"Oferecendo um ambiente seguro, acolhedor e inspirador onde as crianças aprendem, brincam e crescem todos os dias.",
+
+"footer.instagram":"Instagram",
+
+"footer.navigation":"Navegação",
+"footer.home":"Início",
+"footer.about":"Sobre",
+"footer.programs":"Programas",
+"footer.reviews":"Avaliações",
+"footer.contact":"Contato",
+
+"footer.contactTitle":"Contato",
+
+"footer.phone":"Telefone",
+"footer.email":"E-mail",
+"footer.address":"Endereço",
+"footer.hours":"Horário",
+"footer.days":"Segunda a Sexta-feira",
+
+"footer.legal":"Legal",
+
+"footer.privacy":"Política de Privacidade",
+"footer.terms":"Termos de Serviço",
+
+"footer.copyright":"© 2026 Espaço dos Anjos Child Care. Todos os direitos reservados.",
+
+"footer.designed":"Desenvolvido por",
+
+        },
 
 
     /* ======================================================
@@ -542,41 +1101,319 @@ const WEBSITE_TRANSLATIONS = {
         "visualStory.featureFour":
             "Contacto con inglés y portugués",
 
-            /* ==========================================================
-   OUR PROGRAMS
+           /* ==========================================================
+   PROGRAMS
 ========================================================== */
 
-"programs.eyebrow": "NUESTRO PROGRAMA",
+"programs.eyebrow": "NUESTROS PROGRAMAS",
 
 "programs.title":
-    "Aprendizaje mediante el juego, la exploración y las experiencias diarias.",
+    "Aprendizaje mediante el juego, la creatividad y el descubrimiento.",
 
 "programs.description":
-    "Nuestro programa fomenta la curiosidad, la creatividad y la confianza mediante actividades apropiadas para cada edad en un ambiente seguro y acogedor.",
+    "Cada actividad está cuidadosamente diseñada para fomentar la confianza, la curiosidad y un desarrollo infantil significativo.",
 
-"programs.cardOneTitle":
-    "Bebés y Niños Pequeños",
+"programs.cardOneTitle": "Aprendizaje Inicial",
 
 "programs.cardOneText":
-    "Un ambiente lleno de cariño enfocado en la seguridad, las rutinas y el desarrollo temprano.",
+    "Letras, números y lenguaje presentados de forma divertida y apropiada para cada edad.",
 
-"programs.cardTwoTitle":
-    "Aprendizaje Preescolar",
+"programs.cardTwoTitle": "Arte y Manualidades",
 
 "programs.cardTwoText":
-    "Actividades prácticas que fortalecen el lenguaje, las habilidades sociales y la independencia.",
+    "Proyectos creativos diarios que inspiran la imaginación, la expresión y la confianza.",
 
-"programs.cardThreeTitle":
-    "Juego Creativo",
+"programs.cardThreeTitle": "Resolución de Problemas",
 
 "programs.cardThreeText":
-    "Arte, música, cuentos y juegos imaginativos todos los días.",
+    "Juegos y actividades que fortalecen la memoria, el razonamiento y el pensamiento crítico.",
 
-"programs.cardFourTitle":
-    "Actividades al Aire Libre",
+"programs.cardFourTitle": "Juego al Aire Libre",
 
 "programs.cardFourText":
-    "Movimiento, naturaleza y exploración para un crecimiento saludable.",
+    "Experiencias seguras al aire libre que fomentan el movimiento, la exploración y el desarrollo saludable.",
+
+"programs.cardFiveTitle": "Habilidades Sociales",
+
+"programs.cardFiveText":
+    "Los niños aprenden amabilidad, a compartir, trabajo en equipo y respeto todos los días.",
+
+"programs.cardSixTitle": "Música y Movimiento",
+
+"programs.cardSixText":
+    "Canciones, baile y actividades de movimiento que hacen que aprender sea divertido.",
+
+
+    /* ==========================================================
+   DAILY ROUTINE
+========================================================== */
+
+"routine.eyebrow":
+    "RUTINA DIARIA",
+
+"routine.title":
+    "Un día equilibrado lleno de aprendizaje, juegos y cuidado.",
+
+"routine.description":
+    "Cada día sigue una rutina constante que ayuda a los niños a sentirse seguros, confiados y motivados para aprender.",
+
+"routine.item1.title":
+    "Llegada y Bienvenida",
+
+"routine.item1.text":
+    "Los niños llegan, saludan a sus amigos y comienzan el día en un ambiente tranquilo y acogedor.",
+
+"routine.item2.title":
+    "Merienda de la Mañana",
+
+"routine.item2.text":
+    "Meriendas saludables preparadas para mantener a los pequeños llenos de energía.",
+
+"routine.item3.title":
+    "Actividades de Aprendizaje",
+
+"routine.item3.text":
+    "Lectura, letras, números, manualidades y experiencias educativas prácticas.",
+
+"routine.item4.title":
+    "Juego al Aire Libre",
+
+"routine.item4.text":
+    "Aire fresco, movimiento y diversión en un entorno exterior seguro.",
+
+"routine.item5.title":
+    "Hora del Almuerzo",
+
+"routine.item5.text":
+    "Comidas caseras y nutritivas compartidas en familia.",
+
+"routine.item6.title":
+    "Siesta y Tiempo de Descanso",
+
+"routine.item6.text":
+    "El descanso ayuda a los niños a recuperar energías para la tarde.",
+
+"routine.item7.title":
+    "Juego Creativo",
+
+"routine.item7.text":
+    "Música, juegos, proyectos artísticos y mucha imaginación.",
+
+"routine.item8.title":
+    "Hora de Salida",
+
+"routine.item8.text":
+    "Los niños regresan a casa felices después de un día lleno de aprendizaje y diversión.",
+
+
+/* ==========================================================
+   MEALS
+========================================================== */
+
+"meals.imageAlt":
+    "Comidas saludables preparadas para los niños",
+
+"meals.eyebrow":
+    "Alimentación Saludable",
+
+"meals.title":
+    "Comidas frescas preparadas con cariño todos los días.",
+
+"meals.description":
+    "Las comidas caseras nutritivas y los refrigerios saludables forman parte de nuestra rutina diaria. Cada menú está pensado para apoyar el crecimiento, la energía y los hábitos saludables de los niños en un ambiente seguro y acogedor.",
+
+"meals.item1.title":
+    "Frutas Frescas Todos los Días",
+
+"meals.item1.text":
+    "Frutas de temporada servidas diariamente.",
+
+"meals.item2.title":
+    "Comidas Caseras",
+
+"meals.item2.text":
+    "Almuerzos equilibrados preparados con cariño.",
+
+"meals.item3.title":
+    "Refrigerios Saludables",
+
+"meals.item3.text":
+    "Opciones nutritivas entre las actividades.",
+
+"meals.item4.title":
+    "Hidratación Durante Todo el Día",
+
+"meals.item4.text":
+    "Siempre hay agua disponible para los niños.",
+
+"meals.quote":
+    "Una alimentación saludable favorece mentes sanas, cuerpos activos e infancias felices.",
+
+
+/* ==========================================================
+   OUR SPACE
+========================================================== */
+
+"space.eyebrow":"NUESTRO ESPACIO",
+"space.title":"Un lugar diseñado para despertar la curiosidad, la creatividad y una infancia feliz.",
+"space.description":"Cada espacio ha sido preparado cuidadosamente para ofrecer un ambiente seguro, organizado e inspirador donde los niños puedan aprender y crecer cada día.",
+
+"space.card1.alt":"Rincón de Lectura",
+"space.card1.title":"Rincón de Lectura",
+"space.card1.text":"Espacios acogedores que fomentan la imaginación, el lenguaje y la lectura temprana.",
+
+"space.card2.alt":"Arte y Manualidades",
+"space.card2.title":"Arte y Manualidades",
+"space.card2.text":"Actividades creativas diarias que fortalecen la confianza y la expresión personal.",
+
+"space.card3.alt":"Sala de Aprendizaje",
+"space.card3.title":"Sala de Aprendizaje",
+"space.card3.text":"Aulas organizadas y luminosas diseñadas para descubrir y aprender cada día.",
+
+"space.card4.alt":"Área de Juegos al Aire Libre",
+"space.card4.title":"Área de Juegos al Aire Libre",
+"space.card4.text":"Espacios exteriores seguros donde los niños exploran, juegan y hacen amistades.",
+
+"space.card5.alt":"Área de Comidas",
+"space.card5.title":"Área de Comidas",
+"space.card5.text":"Espacios limpios donde se comparten comidas saludables todos los días.",
+
+"space.card6.alt":"Área de Descanso",
+"space.card6.title":"Área de Descanso",
+"space.card6.text":"Ambientes tranquilos diseñados para el descanso y los momentos de calma.",
+
+"space.footer.text":"¿Quieres ver más de nuestras actividades diarias?",
+"space.footer.button":"📷 Ver más en Instagram",
+
+
+
+/* ==========================================================
+   EDUCATOR
+========================================================== */
+
+"educator.imageAlt":
+    "Luciene Ribeiro",
+
+"educator.eyebrow":
+    "Conozca a la Maestra de su Hijo",
+
+"educator.title":
+    "Cuidando de cada niño como si fuera de la familia.",
+
+"educator.description":
+    "¡Hola! Soy Luciene, propietaria de Espaço dos Anjos Child Care. Mi misión es ofrecer un ambiente seguro, cariñoso y educativo donde cada niño se sienta respetado, apoyado y motivado para aprender a través del juego.",
+
+"educator.feature1":
+    "Guardería Familiar con Licencia",
+
+"educator.feature2":
+    "Licenciada en Pedagogía",
+
+"educator.feature3":
+    "Inglés y Portugués",
+
+"educator.feature4":
+    "Aprendizaje en Grupos Pequeños",
+
+"educator.quote":
+    "Cada niño merece un lugar donde se sienta seguro, amado y feliz de aprender.",
+
+
+/* ==========================================================
+   REVIEWS
+========================================================== */
+
+"reviews.eyebrow":"La Confianza de las Familias",
+
+"reviews.title":"Los Padres Aman Espaço dos Anjos",
+
+"reviews.description":"Elegir una guardería es una de las decisiones más importantes para una familia. Agradecemos la confianza que nuestras familias depositan en nosotros cada día.",
+
+"reviews.featured.text":"Luciene realmente se preocupa por cada niño. Mi hija se siente segura, querida y feliz de venir todas las mañanas. No podríamos haber elegido un lugar mejor.",
+
+"reviews.featured.since":"Familia desde 2023",
+
+"reviews.card1.text":"El ambiente siempre está limpio, organizado y es acogedor. Nos sentimos completamente tranquilos dejando aquí a nuestro hijo.",
+
+"reviews.card1.since":"Familia desde 2024",
+
+"reviews.card2.text":"El ambiente bilingüe ha ayudado a nuestra hija a aprender de forma natural. Quiere mucho a sus maestras y amigos.",
+
+"reviews.card2.since":"Familia desde 2022",
+
+"reviews.card3.text":"Todos los días recibimos actualizaciones y sabemos que nuestro hijo está feliz, aprendiendo y muy bien cuidado.",
+
+"reviews.card3.since":"Familia desde 2021",
+
+"reviews.footer.rating":"Calificación Promedio de 5.0",
+
+"reviews.footer.text":"La confianza de las familias de nuestra comunidad.",
+
+"reviews.footer.button":"Ver todas las reseñas de Google →",
+
+/* ==========================================================
+   SCHEDULE A TOUR
+========================================================== */
+
+"tour.eyebrow":"Agende una Visita",
+
+"tour.title":"Venga a Conocer Espaço dos Anjos",
+
+"tour.description":"Nos encantaría conocer a su familia y mostrarle cómo ofrecemos un ambiente seguro, cariñoso e inspirador donde los niños aprenden, juegan y crecen cada día.",
+
+"tour.item1":"Conozca personalmente a Luciene",
+"tour.item2":"Recorra nuestros espacios de aprendizaje",
+"tour.item3":"Conozca nuestra rutina diaria",
+"tour.item4":"Descubra nuestro enfoque educativo",
+"tour.item5":"Haga todas sus preguntas",
+
+"tour.card.title":"Visite Nuestra Guardería",
+
+"tour.card.subtitle":"Será un placer responder sus preguntas y mostrarle nuestras instalaciones.",
+
+"tour.phone":"Teléfono",
+"tour.email":"Correo Electrónico",
+"tour.location":"Ubicación",
+"tour.locationValue":"Clinton, Massachusetts",
+
+"tour.hours":"Horario",
+"tour.days":"Lunes a Viernes",
+
+"tour.button":"Agendar una Visita",
+
+"tour.footer":"Será un placer recibir a su familia ❤️",
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+"footer.description":"Ofrecemos un ambiente seguro, cariñoso e inspirador donde los niños aprenden, juegan y crecen cada día.",
+
+"footer.instagram":"Instagram",
+
+"footer.navigation":"Navegación",
+"footer.home":"Inicio",
+"footer.about":"Nosotros",
+"footer.programs":"Programas",
+"footer.reviews":"Reseñas",
+"footer.contact":"Contacto",
+
+"footer.contactTitle":"Contacto",
+
+"footer.phone":"Teléfono",
+"footer.email":"Correo Electrónico",
+"footer.address":"Dirección",
+"footer.hours":"Horario",
+"footer.days":"Lunes a Viernes",
+
+"footer.legal":"Legal",
+
+"footer.privacy":"Política de Privacidad",
+"footer.terms":"Términos del Servicio",
+
+"footer.copyright":"© 2026 Espaço dos Anjos Child Care. Todos los derechos reservados.",
+
+"footer.designed":"Desarrollado por",
 
     }
 
