@@ -74,43 +74,43 @@ const WEBSITE_TRANSLATIONS = {
 
         /* HERO */
 
-        "hero.eyebrow":
-            "Licensed Family Child Care in Clinton, MA",
+"hero.eyebrow":
+    "Licensed Family Child Care in Clinton, MA",
 
-        "hero.title":
-            "A loving place to learn, grow and feel at home.",
+"hero.title":
+    "A loving place to learn, grow and feel at home.",
 
-        "hero.description":
-            "A safe, nurturing and educational environment for children ages 0 to 5.",
+"hero.description":
+    "A safe, nurturing, and educational environment for children ages 6 months to 5 years.",
 
-        "hero.primaryButton":
-            "Schedule a Tour",
+"hero.primaryButton":
+    "Schedule a Tour",
 
-        "hero.secondaryButton":
-            "Discover Our Program",
+"hero.secondaryButton":
+    "Discover Our Program",
 
-        "hero.license":
-            "EEC Licensed",
+"hero.license":
+    "Small-Group Attention",
 
-        "hero.ages":
-            "Ages 0–5",
+"hero.ages":
+    "Meals Included",
 
-        "hero.hours":
-            "Open 7:30 AM–5:30 PM",
+"hero.hours":
+    "Early Learning Activities",
 
-        "hero.slideOne":
-            "A safe and welcoming space created for little discoveries.",
+"hero.slideOne":
+    "A safe and welcoming space created for little discoveries.",
 
-        "hero.slideTwo":
-            "Learning through play, creativity and daily experiences.",
+"hero.slideTwo":
+    "Learning through play, creativity, and daily experiences.",
 
-        "hero.slideThree":
-            "Meals and routines prepared with care and attention.",
+"hero.slideThree":
+    "Meals and routines prepared with care and attention.",
 
-        "hero.slideFour":
-            "A loving educator dedicated to every child’s development.",
-
-            /* ==========================================================
+"hero.slideFour":
+    "A loving educator dedicated to every child's development.",  
+    
+    /* ==========================================================
    TRUST STRIP
 ========================================================== */
 
@@ -126,7 +126,7 @@ const WEBSITE_TRANSLATIONS = {
 "trust.licenseText":
     "Licensed family child care",
 
-"trust.agesTitle": "Ages 0–5",
+"trust.agesTitle": "Ages 6 Months to 5 Years",
 
 "trust.agesText":
     "Care for infants and young children",
@@ -136,7 +136,7 @@ const WEBSITE_TRANSLATIONS = {
 "trust.daysText":
     "A dependable weekly routine",
 
-"trust.hoursTitle": "7:00 AM–5:30 PM",
+"trust.hoursTitle": "7:30 AM–5:30 PM",
 
 "trust.hoursText":
     "Hours designed for working families",
@@ -597,43 +597,43 @@ const WEBSITE_TRANSLATIONS = {
             "Fechar menu de navegação",
 
 
-        /* HERO */
+       /* HERO */
 
-        "hero.eyebrow":
-            "Creche Familiar Licenciada em Clinton, MA",
+"hero.eyebrow":
+    "Creche Familiar Licenciada em Clinton, MA",
 
-        "hero.title":
-            "Um lugar acolhedor para aprender, crescer e se sentir em casa.",
+"hero.title":
+    "Um lugar acolhedor para aprender, crescer e se sentir em casa.",
 
-        "hero.description":
-            "Um ambiente seguro, carinhoso e educativo para crianças de 0 a 5 anos.",
+"hero.description":
+    "Um ambiente seguro, acolhedor e educativo para crianças de 6 meses a 5 anos.",
 
-        "hero.primaryButton":
-            "Agendar uma visita",
+"hero.primaryButton":
+    "Agende uma Visita",
 
-        "hero.secondaryButton":
-            "Conheça nosso programa",
+"hero.secondaryButton":
+    "Conheça Nosso Programa",
 
-        "hero.license":
-            "Licenciada pela EEC",
+"hero.license":
+    "Atenção em Pequenos Grupos",
 
-        "hero.ages":
-            "Crianças de 0 a 5 anos",
+"hero.ages":
+    "Refeições Inclusas",
 
-        "hero.hours":
-            "Aberta das 7:30 AM às 5:30 PM",
+"hero.hours":
+    "Atividades de Aprendizagem Infantil",
 
-        "hero.slideOne":
-            "Um ambiente seguro e acolhedor preparado para pequenas descobertas.",
+"hero.slideOne":
+    "Um ambiente seguro e acolhedor criado para as primeiras descobertas.",
 
-        "hero.slideTwo":
-            "Aprendizado por meio de brincadeiras, criatividade e experiências diárias.",
+"hero.slideTwo":
+    "Aprendizado por meio de brincadeiras, criatividade e experiências diárias.",
 
-        "hero.slideThree":
-            "Refeições e rotinas preparadas com cuidado e atenção.",
+"hero.slideThree":
+    "Refeições e rotinas preparadas com carinho e atenção.",
 
-        "hero.slideFour":
-            "Uma educadora dedicada ao desenvolvimento de cada criança.",
+"hero.slideFour":
+    "Uma educadora dedicada ao desenvolvimento de cada criança.",
 
 /* ==========================================================
    TRUST STRIP
@@ -651,7 +651,7 @@ const WEBSITE_TRANSLATIONS = {
 "trust.licenseText":
     "Creche familiar licenciada",
 
-"trust.agesTitle": "Crianças de 0 a 5 anos",
+"trust.agesTitle": "Crianças de 6 meses a 5 anos",
 
 "trust.agesText":
     "Cuidado para bebês e crianças pequenas",
@@ -661,7 +661,7 @@ const WEBSITE_TRANSLATIONS = {
 "trust.daysText":
     "Uma rotina semanal segura e consistente",
 
-"trust.hoursTitle": "7:00 AM–5:30 PM",
+"trust.hoursTitle": "7:30 AM–5:30 PM",
 
 "trust.hoursText":
     "Horários pensados para famílias que trabalham",
@@ -1123,42 +1123,41 @@ const WEBSITE_TRANSLATIONS = {
 
         /* HERO */
 
-        "hero.eyebrow":
-            "Cuidado Infantil Familiar con Licencia en Clinton, MA",
+"hero.eyebrow":
+    "Guardería Familiar Autorizada en Clinton, MA",
 
-        "hero.title":
-            "Un lugar acogedor para aprender, crecer y sentirse como en casa.",
+"hero.title":
+    "Un lugar lleno de cariño para aprender, crecer y sentirse como en casa.",
 
-        "hero.description":
-            "Un ambiente seguro, cariñoso y educativo para niños de 0 a 5 años.",
+"hero.description":
+    "Un ambiente seguro, acogedor y educativo para niños de 6 meses a 5 años.",
 
-        "hero.primaryButton":
-            "Programar una visita",
+"hero.primaryButton":
+    "Programar una Visita",
 
-        "hero.secondaryButton":
-            "Conoce nuestro programa",
+"hero.secondaryButton":
+    "Conoce Nuestro Programa",
 
-        "hero.license":
-            "Licencia EEC",
+"hero.license":
+    "Atención en Grupos Pequeños",
 
-        "hero.ages":
-            "Niños de 0 a 5 años",
+"hero.ages":
+    "Comidas Incluidas",
 
-        "hero.hours":
-            "Abierto de 7:30 AM a 5:30 PM",
+"hero.hours":
+    "Actividades de Aprendizaje Temprano",
 
-        "hero.slideOne":
-            "Un ambiente seguro y acogedor creado para pequeños descubrimientos.",
+"hero.slideOne":
+    "Un espacio seguro y acogedor creado para los primeros descubrimientos.",
 
-        "hero.slideTwo":
-            "Aprendizaje mediante juegos, creatividad y experiencias diarias.",
+"hero.slideTwo":
+    "Aprendizaje a través del juego, la creatividad y las experiencias diarias.",
 
-        "hero.slideThree":
-            "Comidas y rutinas preparadas con cuidado y atención.",
+"hero.slideThree":
+    "Comidas y rutinas preparadas con cariño y dedicación.",
 
-        "hero.slideFour":
-            "Una educadora dedicada al desarrollo de cada niño.",
-
+"hero.slideFour":
+    "Una educadora dedicada al desarrollo de cada niño.",
 /* ==========================================================
    TRUST STRIP
 ========================================================== */
@@ -1179,7 +1178,7 @@ const WEBSITE_TRANSLATIONS = {
     "Cuidado infantil familiar autorizado",
 
 "trust.agesTitle":
-    "Niños de 0 a 5 años",
+    "Niños de 6 meses a 5 años",
 
 "trust.agesText":
     "Cuidado para bebés y niños pequeños",
@@ -1191,7 +1190,7 @@ const WEBSITE_TRANSLATIONS = {
     "Una rutina semanal segura y constante",
 
 "trust.hoursTitle":
-    "7:00 AM–5:30 PM",
+    "7:30 AM–5:30 PM",
 
 "trust.hoursText":
     "Horarios pensados para familias que trabajan",
