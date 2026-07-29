@@ -1,0 +1,330 @@
+.enrollment-section {
+  --enrollment-dark: #063443;
+  --enrollment-dark-secondary: #07556a;
+  --enrollment-cyan: #2bb7d0;
+  --enrollment-yellow: #f9bf3b;
+  --enrollment-white: #ffffff;
+  --enrollment-muted: rgba(255, 255, 255, 0.72);
+
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(88px, 10vw, 150px) 24px;
+  background:
+    linear-gradient(
+      135deg,
+      var(--enrollment-dark) 0%,
+      #064457 48%,
+      var(--enrollment-dark-secondary) 100%
+    );
+}
+
+.enrollment-section::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    );
+  background-size: 64px 64px;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 25%,
+    black 75%,
+    transparent
+  );
+}
+
+.enrollment-container {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 940px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.enrollment-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 12px 40px rgba(0, 0, 0, 0.12);
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.enrollment-status-dot {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  border-radius: 50%;
+  background: #6fd178;
+  box-shadow: 0 0 0 6px rgba(111, 209, 120, 0.12);
+}
+
+.enrollment-status-dot::after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 1px solid rgba(111, 209, 120, 0.35);
+  border-radius: inherit;
+  animation: enrollmentPulse 2.4s infinite;
+}
+
+.enrollment-eyebrow {
+  margin: 0 0 18px;
+  color: var(--enrollment-yellow);
+  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.enrollment-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  color: var(--enrollment-white);
+  font-family: inherit;
+  font-size: clamp(4rem, 10vw, 8.5rem);
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 0.82;
+  text-wrap: balance;
+}
+
+.enrollment-date span:last-child {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.27);
+  font-size: 0.42em;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+}
+
+.enrollment-divider {
+  width: 72px;
+  height: 4px;
+  margin: 40px auto;
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      90deg,
+      var(--enrollment-yellow),
+      var(--enrollment-cyan)
+    );
+  box-shadow: 0 0 30px rgba(43, 183, 208, 0.35);
+}
+
+.enrollment-description {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--enrollment-white);
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+.enrollment-description strong {
+  color: var(--enrollment-yellow);
+  font-weight: 800;
+}
+
+.enrollment-supporting-text {
+  max-width: 650px;
+  margin: 22px auto 0;
+  color: var(--enrollment-muted);
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.75;
+  text-wrap: balance;
+}
+
+.enrollment-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 60px;
+  margin-top: 38px;
+  padding: 0 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      135deg,
+      #27b4d0 0%,
+      #20a7c3 100%
+    );
+  box-shadow:
+    0 18px 45px rgba(15, 165, 194, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    background 220ms ease;
+}
+
+.enrollment-button:hover {
+  transform: translateY(-4px);
+  background:
+    linear-gradient(
+      135deg,
+      #31c0da 0%,
+      #23b0cd 100%
+    );
+  box-shadow:
+    0 24px 55px rgba(15, 165, 194, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.enrollment-button:active {
+  transform: translateY(-1px);
+}
+
+.enrollment-button:focus-visible {
+  outline: 3px solid var(--enrollment-yellow);
+  outline-offset: 5px;
+}
+
+.enrollment-button-icon {
+  width: 21px;
+  height: 21px;
+  transition: transform 220ms ease;
+}
+
+.enrollment-button:hover .enrollment-button-icon {
+  transform: translateX(4px);
+}
+
+.enrollment-update {
+  margin: 22px 0 0;
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.enrollment-glow {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+.enrollment-glow-one {
+  top: -210px;
+  right: -160px;
+  width: 520px;
+  height: 520px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(43, 183, 208, 0.24) 0%,
+      rgba(43, 183, 208, 0.05) 48%,
+      transparent 72%
+    );
+}
+
+.enrollment-glow-two {
+  bottom: -280px;
+  left: -200px;
+  width: 600px;
+  height: 600px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(249, 191, 59, 0.15) 0%,
+      rgba(249, 191, 59, 0.03) 50%,
+      transparent 74%
+    );
+}
+
+@keyframes enrollmentPulse {
+  0% {
+    transform: scale(0.65);
+    opacity: 0.9;
+  }
+
+  70%,
+  100% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .enrollment-section {
+    padding: 78px 20px;
+  }
+
+  .enrollment-status {
+    margin-bottom: 24px;
+    font-size: 0.7rem;
+    letter-spacing: 0.09em;
+  }
+
+  .enrollment-date {
+    font-size: clamp(3.8rem, 19vw, 5.8rem);
+    line-height: 0.88;
+  }
+
+  .enrollment-date span:last-child {
+    margin-top: 16px;
+  }
+
+  .enrollment-divider {
+    margin: 32px auto;
+  }
+
+  .enrollment-supporting-text {
+    line-height: 1.65;
+  }
+
+  .enrollment-button {
+    width: 100%;
+    max-width: 360px;
+    margin-top: 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enrollment-status-dot::after {
+    animation: none;
+  }
+
+  .enrollment-button,
+  .enrollment-button-icon {
+    transition: none;
+  }
+}
