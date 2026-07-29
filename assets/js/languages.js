@@ -141,6 +141,24 @@ const WEBSITE_TRANSLATIONS = {
 "trust.hoursText":
     "Hours designed for working families",
 
+
+    /* ENROLLMENT */
+
+"enrollment.status":
+    "Current Enrollment",
+
+"enrollment.title":
+    "Now Enrolling",
+
+"enrollment.description":
+    "Now accepting enrollments for children ages 2–5.",
+
+"enrollment.support":
+    "Schedule a private tour and discover a caring place where your child can learn, grow and feel at home.",
+
+"enrollment.button":
+    "Schedule Your Tour",
+
         /* VISUAL STORY */
 
         "visualStory.eyebrow":
@@ -665,6 +683,26 @@ const WEBSITE_TRANSLATIONS = {
 
 "trust.hoursText":
     "Horários pensados para famílias que trabalham",
+
+/* ENROLLMENT */
+
+"enrollment.status":
+    "Matrículas Abertas",
+
+"enrollment.title":
+    "Estamos Recebendo Matrículas",
+
+"enrollment.description":
+    "Estamos recebendo matrículas para crianças de 2 a 5 anos.",
+
+"enrollment.support":
+    "Agende uma visita e conheça um ambiente seguro, acolhedor e preparado para o desenvolvimento do seu filho.",
+
+"enrollment.button":
+    "Agendar uma Visita",
+
+
+
         /* VISUAL STORY */
 
         "visualStory.eyebrow":
@@ -1196,6 +1234,23 @@ const WEBSITE_TRANSLATIONS = {
     "Horarios pensados para familias que trabajan",
 
 
+
+    /* ENROLLMENT */
+
+"enrollment.status":
+    "Inscripciones Abiertas",
+
+"enrollment.title":
+    "Ahora Inscribiendo",
+
+"enrollment.description":
+    "Aceptamos inscripciones para niños de 2 a 5 años.",
+
+"enrollment.support":
+    "Agenda una visita y conoce un ambiente seguro, acogedor y preparado para el desarrollo de tu hijo.",
+
+"enrollment.button":
+    "Agendar una Visita",
 
 
 

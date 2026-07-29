@@ -1,50 +1,133 @@
-(function () {
+"use strict";
 
-    const monthElement = document.getElementById("current-month");
-    const yearElement = document.getElementById("current-year");
-
-    if (!monthElement || !yearElement) return;
-
-    const now = new Date();
-
-    /*
-        Idioma atual.
-
-        No futuro basta substituir:
-
-        window.currentLanguage
-
-        pela variável do sistema.
-    */
-
-    const language =
-        window.currentLanguage ||
-        document.documentElement.lang ||
-        "en";
-
+(() => {
     const localeMap = {
-
         en: "en-US",
         pt: "pt-BR",
         es: "es-ES"
-
     };
 
-    const locale =
-        localeMap[language] || "en-US";
+    function getCurrentLanguage() {
+        const htmlLanguage =
+            document.documentElement.lang
+                ?.trim()
+                .toLowerCase()
+                .split("-")[0];
 
-    const month =
-        new Intl.DateTimeFormat(locale, {
+        const selectedLanguage =
+            window.currentLanguage
+                ?.trim()
+                .toLowerCase()
+                .split("-")[0];
 
-            month: "long"
+        return selectedLanguage || htmlLanguage || "en";
+    }
 
-        }).format(now);
+    function updateEnrollmentDate() {
+        const monthElement =
+            document.getElementById("current-month");
 
-    monthElement.textContent =
-        month.charAt(0).toUpperCase() +
-        month.slice(1);
+        const yearElement =
+            document.getElementById("current-year");
 
-    yearElement.textContent =
-        now.getFullYear();
+        if (!monthElement || !yearElement) {
+            return;
+        }
 
+        const currentDate = new Date();
+        const language = getCurrentLanguage();
+        const locale = localeMap[language] || localeMap.en;
+
+        const formattedMonth =
+            new Intl.DateTimeFormat(locale, {
+                month: "long"
+            }).format(currentDate);
+
+        monthElement.textContent =
+            formattedMonth.charAt(0).toUpperCase() +
+            formattedMonth.slice(1);
+
+        yearElement.textContent =
+            String(currentDate.getFullYear());
+    }
+
+    function initializeEnrollmentScroll() {
+        const enrollmentButton =
+            document.querySelector("[data-scroll-to-tour]");
+
+        const tourSection =
+            document.getElementById("tour");
+
+        if (!enrollmentButton || !tourSection) {
+            return;
+        }
+
+        enrollmentButton.addEventListener("click", event => {
+            event.preventDefault();
+
+            tourSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            history.replaceState(null, "", "#tour");
+        });
+    }
+
+    function observeLanguageChanges() {
+        const languageButtons =
+            document.querySelectorAll(
+                ".language-selector__option[data-language]"
+            );
+
+        languageButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                /*
+                 * Aguarda languages.js alterar o idioma da página.
+                 */
+                window.requestAnimationFrame(() => {
+                    updateEnrollmentDate();
+                });
+            });
+        });
+
+        /*
+         * Atualiza também quando o atributo lang do HTML mudar.
+         */
+        const languageObserver = new MutationObserver(mutations => {
+            const languageChanged = mutations.some(
+                mutation =>
+                    mutation.type === "attributes" &&
+                    mutation.attributeName === "lang"
+            );
+
+            if (languageChanged) {
+                updateEnrollmentDate();
+            }
+        });
+
+        languageObserver.observe(
+            document.documentElement,
+            {
+                attributes: true,
+                attributeFilter: ["lang"]
+            }
+        );
+    }
+
+    function initializeEnrollment() {
+        updateEnrollmentDate();
+        initializeEnrollmentScroll();
+        observeLanguageChanges();
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener(
+            "DOMContentLoaded",
+            initializeEnrollment,
+            { once: true }
+        );
+    } else {
+        initializeEnrollment();
+    }
 })();
