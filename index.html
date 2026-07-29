@@ -247,7 +247,7 @@
        End - of Heade Section
     ====================================================== -->
 
-    <!-- =====================================================
+   <!-- =====================================================
      HEADER
 ====================================================== -->
 
@@ -255,9 +255,7 @@
     class="site-header"
     id="site-header"
 >
-
     <div class="container site-header__container">
-
 
         <!-- =============================================
              COMPANY LOGO
@@ -268,7 +266,6 @@
             href="#home"
             aria-label="Espaço dos Anjos Child Care - Home"
         >
-
             <img
                 class="site-header__logo-image"
                 src="/assets/images/logo/logo.png"
@@ -279,18 +276,22 @@
 
             <div class="site-header__logo-text">
 
-                <span class="site-header__business-name">
+                <span
+                    class="site-header__business-name"
+                    data-i18n="header.companyName"
+                >
                     Espaço dos Anjos
                 </span>
 
-                <span class="site-header__business-type">
+                <span
+                    class="site-header__business-type"
+                    data-i18n="header.businessType"
+                >
                     Child Care
                 </span>
 
             </div>
-
         </a>
-
 
         <!-- =============================================
              DESKTOP NAVIGATION
@@ -300,69 +301,51 @@
             class="site-navigation"
             id="site-navigation"
             aria-label="Main navigation"
+            data-i18n-aria-label="header.navigationLabel"
         >
-
             <ul class="site-navigation__list">
 
                 <li class="site-navigation__item">
-
                     <a
                         class="site-navigation__link is-active"
                         href="#home"
+                        data-i18n="header.home"
                     >
                         Home
                     </a>
-
                 </li>
 
                 <li class="site-navigation__item">
-
                     <a
                         class="site-navigation__link"
                         href="#about"
+                        data-i18n="header.about"
                     >
                         About
                     </a>
-
                 </li>
 
                 <li class="site-navigation__item">
-
                     <a
                         class="site-navigation__link"
                         href="#learning"
+                        data-i18n="header.program"
                     >
                         Our Program
                     </a>
-
                 </li>
 
                 <li class="site-navigation__item">
-
                     <a
                         class="site-navigation__link"
                         href="#space"
+                        data-i18n="header.space"
                     >
-                       Our Space
+                        Our Space
                     </a>
-
-                </li> 
-                
-                <li class="site-navigation__item">
-
-                    <a
-                        class="site-navigation__link"
-                        href="#reviews"
-                    >
-                        
-                    </a>
-
                 </li>
-         
-               
 
             </ul>
-
 
             <!-- =========================================
                  MOBILE CONTACT INFORMATION
@@ -373,25 +356,23 @@
                 <a
                     class="site-navigation__mobile-phone"
                     href="tel:+17742328156"
+                    data-i18n="header.call"
                 >
                     Call (774) 232-8156
                 </a>
 
-                <span>
+                <span data-i18n="header.city">
                     Clinton, Massachusetts
                 </span>
 
             </div>
-
         </nav>
-
 
         <!-- =============================================
              HEADER ACTIONS
         ============================================== -->
 
         <div class="site-header__actions">
-
 
             <!-- LANGUAGE SELECTOR -->
 
@@ -401,9 +382,9 @@
                     class="language-selector__button"
                     type="button"
                     aria-label="Select website language"
+                    data-i18n-aria-label="header.languageSelector"
                     aria-expanded="false"
                 >
-
                     <span class="language-selector__icon">
                         🌐
                     </span>
@@ -418,19 +399,17 @@
                     >
                         ▾
                     </span>
-
                 </button>
-
 
                 <div
                     class="language-selector__menu"
                     aria-hidden="true"
                 >
-
                     <button
                         class="language-selector__option is-active"
                         type="button"
                         data-language="en"
+                        data-i18n="header.languageEnglish"
                     >
                         English
                     </button>
@@ -439,6 +418,7 @@
                         class="language-selector__option"
                         type="button"
                         data-language="pt"
+                        data-i18n="header.languagePortuguese"
                     >
                         Português
                     </button>
@@ -447,24 +427,23 @@
                         class="language-selector__option"
                         type="button"
                         data-language="es"
+                        data-i18n="header.languageSpanish"
                     >
                         Español
                     </button>
-
                 </div>
 
             </div>
-
 
             <!-- MAIN CTA -->
 
             <a
                 class="button button--primary site-header__cta"
                 href="#tour"
+                data-i18n="header.cta"
             >
                 Schedule a Tour
             </a>
-
 
             <!-- MOBILE MENU BUTTON -->
 
@@ -473,24 +452,19 @@
                 id="mobile-menu-button"
                 type="button"
                 aria-label="Open navigation menu"
+                data-i18n-aria-label="header.openMenu"
                 aria-controls="site-navigation"
                 aria-expanded="false"
             >
-
                 <span class="mobile-menu-button__line"></span>
-
                 <span class="mobile-menu-button__line"></span>
-
                 <span class="mobile-menu-button__line"></span>
-
             </button>
 
         </div>
 
     </div>
-
 </header>
-
 
 <!-- =====================================================
      MOBILE MENU OVERLAY
@@ -502,10 +476,7 @@
     aria-hidden="true"
 ></div>
 
-
 <script src="/assets/js/header.js"></script>
-
-
 
 <!-- =================================================
      HERO SECTION
