@@ -162,7 +162,7 @@ const WEBSITE_TRANSLATIONS = {
     "Now Enrolling",
 
 "enrollment.description":
-    "Now accepting enrollments for children ages 2–5.",
+    "Now accepting children ages 2–5.",
 
 "enrollment.support":
     "Schedule a private tour and discover a caring place where your child can learn, grow and feel at home.",
@@ -708,13 +708,14 @@ const WEBSITE_TRANSLATIONS = {
 /* ENROLLMENT */
 
 "enrollment.status":
-    "Matrículas Abertas",
+    "Vagas Disponíveis",
 
-"enrollment.title":
-    "Estamos Recebendo Matrículas",
+    "enrollment.title":
+    "Vagas Disponíveis",
 
 "enrollment.description":
-    "Estamos recebendo matrículas para crianças de 2 a 5 anos.",
+    "Estamos com vagas disponíveis para crianças de 2 a 5 anos.",
+
 
 "enrollment.support":
     "Agende uma visita e conheça um ambiente seguro, acolhedor e preparado para o desenvolvimento do seu filho.",
@@ -1274,7 +1275,7 @@ const WEBSITE_TRANSLATIONS = {
     "Ahora Inscribiendo",
 
 "enrollment.description":
-    "Aceptamos inscripciones para niños de 2 a 5 años.",
+    "Tenemos cupos disponibles para niños de 2 a 5 años.",
 
 "enrollment.support":
     "Agenda una visita y conoce un ambiente seguro, acogedor y preparado para el desarrollo de tu hijo.",
