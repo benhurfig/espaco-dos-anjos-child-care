@@ -999,18 +999,32 @@
 ================================================== -->
 
 <!-- =================================================
-    Enrollment Section
+     ENROLLMENT SECTION
 ================================================== -->
-<section class="enrollment-section">
 
-    <div class="enrollment-glow enrollment-glow-one"></div>
-    <div class="enrollment-glow enrollment-glow-two"></div>
+<section
+    class="enrollment-section"
+    id="enrollment"
+    aria-labelledby="enrollment-heading"
+>
+    <div
+        class="enrollment-glow enrollment-glow-one"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="enrollment-glow enrollment-glow-two"
+        aria-hidden="true"
+    ></div>
 
     <div class="enrollment-container">
 
         <div class="enrollment-status">
 
-            <span class="enrollment-status-dot"></span>
+            <span
+                class="enrollment-status-dot"
+                aria-hidden="true"
+            ></span>
 
             <span data-i18n="enrollment.status">
                 Current Enrollment
@@ -1020,69 +1034,74 @@
 
         <p
             class="enrollment-eyebrow"
-            data-i18n="enrollment.title">
+            data-i18n="enrollment.title"
+        >
             Now Enrolling
         </p>
 
-        <h2 class="enrollment-date">
-
-            <span
-                id="current-month">
-                August
+        <h2
+            class="enrollment-date"
+            id="enrollment-heading"
+        >
+            <span id="current-month">
+                July
             </span>
 
-            <span
-                id="current-year">
+            <span id="current-year">
                 2026
             </span>
-
         </h2>
 
-        <div class="enrollment-divider"></div>
+        <div
+            class="enrollment-divider"
+            aria-hidden="true"
+        ></div>
 
         <p
             class="enrollment-description"
-            data-i18n="enrollment.description">
-
-            Enrollment is currently open for children ages 2–5.
-
+            data-i18n="enrollment.description"
+        >
+            Now accepting enrollments for children ages 2–5.
         </p>
 
         <p
             class="enrollment-supporting-text"
-            data-i18n="enrollment.support">
-
-            Schedule a private tour and discover a caring environment created for your child to learn, grow and feel at home.
-
+            data-i18n="enrollment.support"
+        >
+            Schedule a private tour and discover a caring place where your child can learn, grow and feel at home.
         </p>
 
         <a
-            href="tel:+17742328156"
-            class="enrollment-button">
-
+            href="#tour"
+            class="enrollment-button"
+            data-scroll-to-tour
+        >
             <span data-i18n="enrollment.button">
-
                 Schedule Your Tour
-
             </span>
 
+            <svg
+                class="enrollment-button-icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+            >
+                <path
+                    d="M5 12h14M13 6l6 6-6 6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                ></path>
+            </svg>
         </a>
 
-        <p
-            class="enrollment-update"
-            data-i18n="enrollment.footer">
-
-            Enrollment availability updated monthly.
-
-        </p>
-
     </div>
-
 </section>
 
-
 <!-- =================================================
-    End of Enrollment Section
+     END OF ENROLLMENT SECTION
 ================================================== -->
 
 
