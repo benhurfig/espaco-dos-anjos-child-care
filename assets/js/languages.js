@@ -708,8 +708,8 @@ const WEBSITE_TRANSLATIONS = {
 /* ENROLLMENT */
 
 "enrollment.status":
-    "Vagas Disponíveis",
-
+    "NOTÍCIA",
+ 
     "enrollment.title":
     "Vagas Disponíveis",
 
@@ -1272,7 +1272,7 @@ const WEBSITE_TRANSLATIONS = {
     "Inscripciones Abiertas",
 
 "enrollment.title":
-    "Ahora Inscribiendo",
+    "Cupos Disponibles",
 
 "enrollment.description":
     "Tenemos cupos disponibles para niños de 2 a 5 años.",
