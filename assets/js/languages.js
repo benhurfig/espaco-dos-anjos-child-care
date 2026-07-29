@@ -39,38 +39,49 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
 
-        /* HEADER */
+       /* HEADER */
 
-        "header.home":
-            "Home",
+"header.businessType":
+    "Child Care",
 
-        "header.about":
-            "About",
+"header.home":
+    "Home",
 
-        "header.program":
-            "Our Program",
+"header.about":
+    "About",
 
-        "header.gallery":
-            "Gallery",
+"header.program":
+    "Our Program",
 
-        "header.reviews":
-            "Reviews",
+"header.space":
+    "Our Space",
 
-        "header.contact":
-            "Contact",
+"header.call":
+    "Call (774) 232-8156",
 
-        "header.businessType":
-            "Child Care",
+"header.city":
+    "Clinton, Massachusetts",
+
+"header.cta":
+    "Schedule a Tour",
+
+"header.languageSelector":
+    "Select website language",
+
+"header.languageEnglish":
+    "English",
+
+"header.languagePortuguese":
+    "Portuguese",
+
+"header.languageSpanish":
+    "Spanish",
+
+"header.openMenu":
+    "Open navigation menu",
 
 
-        /* MOBILE MENU */
-
-        "menu.open":
-            "Open navigation menu",
-
-        "menu.close":
-            "Close navigation menu",
-
+       
 
         /* HERO */
 
@@ -582,38 +593,48 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
 
-        /* HEADER */
+       /* HEADER */
 
-        "header.home":
-            "Início",
+"header.businessType":
+    "Creche",
 
-        "header.about":
-            "Sobre",
+"header.home":
+    "Início",
 
-        "header.program":
-            "Nosso Programa",
+"header.about":
+    "Sobre",
 
-        "header.gallery":
-            "Galeria",
+"header.program":
+    "Nosso Programa",
 
-        "header.reviews":
-            "Avaliações",
+"header.space":
+    "Nosso Espaço",
 
-        "header.contact":
-            "Contato",
+"header.call":
+    "Ligar (774) 232-8156",
 
-        "header.businessType":
-            "Creche Familiar",
+"header.city":
+    "Clinton, Massachusetts",
 
+"header.cta":
+    "Agendar uma Visita",
 
-        /* MOBILE MENU */
+"header.languageSelector":
+    "Selecionar idioma do site",
 
-        "menu.open":
-            "Abrir menu de navegação",
+"header.languageEnglish":
+    "Inglês",
 
-        "menu.close":
-            "Fechar menu de navegação",
+"header.languagePortuguese":
+    "Português",
 
+"header.languageSpanish":
+    "Espanhol",
+
+"header.openMenu":
+    "Abrir menu de navegação",
+
+       
 
        /* HERO */
 
@@ -1126,38 +1147,47 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
 
-        /* HEADER */
+      /* HEADER */
 
-        "header.home":
-            "Inicio",
+"header.businessType":
+    "Guardería",
 
-        "header.about":
-            "Nosotros",
+"header.home":
+    "Inicio",
 
-        "header.program":
-            "Nuestro Programa",
+"header.about":
+    "Nosotros",
 
-        "header.gallery":
-            "Galería",
+"header.program":
+    "Nuestro Programa",
 
-        "header.reviews":
-            "Reseñas",
+"header.space":
+    "Nuestro Espacio",
 
-        "header.contact":
-            "Contacto",
+"header.call":
+    "Llamar (774) 232-8156",
 
-        "header.businessType":
-            "Cuidado Infantil",
+"header.city":
+    "Clinton, Massachusetts",
 
+"header.cta":
+    "Agendar una Visita",
 
-        /* MOBILE MENU */
+"header.languageSelector":
+    "Seleccionar idioma del sitio",
 
-        "menu.open":
-            "Abrir menú de navegación",
+"header.languageEnglish":
+    "Inglés",
 
-        "menu.close":
-            "Cerrar menú de navegación",
+"header.languagePortuguese":
+    "Portugués",
 
+"header.languageSpanish":
+    "Español",
+
+"header.openMenu":
+    "Abrir menú de navegación",
+    
 
         /* HERO */
 
