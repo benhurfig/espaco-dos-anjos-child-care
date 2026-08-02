@@ -141,34 +141,48 @@ const WEBSITE_TRANSLATIONS = {
 
 "trust.agesText":
     "Care for infants and young children",
+"trust.voucherTitle":
+    "We Accept Child Care Vouchers",
 
-"trust.daysTitle": "Monday–Friday",
+"trust.voucherText":
+    "Massachusetts child care assistance accepted",
 
-"trust.daysText":
-    "A dependable weekly routine",
+"trust.bookingTitle":
+    "Online Tour Booking",
 
-"trust.hoursTitle": "7:30 AM–5:30 PM",
+"trust.bookingText":
+    "Schedule your visit anytime online",
+/* MONTHLY BULLETIN */
 
-"trust.hoursText":
-    "Hours designed for working families",
+"bulletin.badge":
+    "Monthly Bulletin",
 
+"bulletin.eyebrow":
+    "Current News",
 
-    /* ENROLLMENT */
+"bulletin.item1.title":
+    "Openings for Children Ages 2–5",
 
-"enrollment.status":
-    "Current Enrollment",
+"bulletin.item1.text":
+    "We currently have limited availability for new children.",
 
-"enrollment.title":
-    "Now Enrolling",
+"bulletin.item2.title":
+    "Child Care Vouchers Accepted",
 
-"enrollment.description":
-    "Now accepting children ages 2–5.",
+"bulletin.item2.text":
+    "Eligible Massachusetts families may use approved child care assistance.",
 
-"enrollment.support":
-    "Schedule a private tour and discover a caring place where your child can learn, grow and feel at home.",
+"bulletin.item3.title":
+    "Online Tour Scheduling Available",
 
-"enrollment.button":
-    "Schedule Your Tour",
+"bulletin.item3.text":
+    "Choose a convenient date and time to visit our child care.",
+
+"bulletin.button":
+    "Schedule a Visit",
+
+"bulletin.note":
+    "Contact us to learn more about availability and child care vouchers.",
 
         /* VISUAL STORY */
 
@@ -505,37 +519,67 @@ const WEBSITE_TRANSLATIONS = {
 "reviews.footer.button":"View All Google Reviews →",
 
 
-/* ==========================================================
-   SCHEDULE A TOUR
-========================================================== */
+/* FINAL TOUR CTA */
 
-"tour.eyebrow":"Schedule a Tour",
+"tour.eyebrow":
+    "Schedule a Tour",
 
-"tour.title":"Come Visit Espaço dos Anjos",
+"tour.title":
+    "Come Visit Our Child Care",
 
-"tour.description":"We'd love to meet your family and show you how we create a safe, loving and inspiring environment where children learn, play and grow every day.",
+"tour.description":
+    "Choose the most convenient way to contact us. Call, send an email or schedule your visit online.",
 
-"tour.item1":"Meet Luciene personally",
-"tour.item2":"Explore our learning spaces",
-"tour.item3":"See our daily routine",
-"tour.item4":"Learn about our educational approach",
-"tour.item5":"Ask any questions you may have",
+"tour.item1":
+    "Meet Luciene personally",
 
-"tour.card.title":"Visit Our Daycare",
-"tour.card.subtitle":"We'd be happy to answer your questions and show you around.",
+"tour.item2":
+    "See our daily routine",
 
-"tour.phone":"Phone",
-"tour.email":"Email",
-"tour.location":"Location",
-"tour.locationValue":"Clinton, Massachusetts",
+"tour.item3":
+    "Ask all your questions",
 
-"tour.hours":"Hours",
-"tour.days":"Monday – Friday",
+"tour.card.badge":
+    "Book Online",
 
-"tour.button":"Schedule a Tour",
+"tour.card.title":
+    "Choose the Best Way to Contact Us",
 
-"tour.footer":"We'd love to welcome your family ❤️",
-        
+"tour.card.subtitle":
+    "Call us, send an email or schedule your visit online in just a few clicks.",
+
+"tour.phone":
+    "Phone",
+
+"tour.email":
+    "Email",
+
+"tour.location":
+    "Location",
+
+"tour.locationValue":
+    "Clinton, Massachusetts",
+
+"tour.hours":
+    "Hours",
+
+"tour.days":
+    "Monday – Friday",
+
+"tour.booking.label":
+    "Available 24/7",
+
+"tour.booking.title":
+    "Schedule Your Visit Online",
+
+"tour.booking.text":
+    "Choose the date and time that work best for you.",
+
+"tour.booking.button":
+    "Schedule My Visit",
+
+"tour.footer":
+    "We look forward to meeting you and your child.",
 
 /* ==========================================================
    FOOTER
@@ -694,35 +738,49 @@ const WEBSITE_TRANSLATIONS = {
 
 "trust.agesText":
     "Cuidado para bebês e crianças pequenas",
+"trust.voucherTitle":
+    "Aceitamos Voucher",
 
-"trust.daysTitle": "Segunda a sexta-feira",
+"trust.voucherText":
+    "Programa de assistência infantil de Massachusetts",
 
-"trust.daysText":
-    "Uma rotina semanal segura e consistente",
+"trust.bookingTitle":
+    "Agendamento Online",
 
-"trust.hoursTitle": "7:30 AM–5:30 PM",
+"trust.bookingText":
+    "Agende sua visita pelo site a qualquer momento",
 
-"trust.hoursText":
-    "Horários pensados para famílias que trabalham",
+/* BOLETIM DO MÊS */
 
-/* ENROLLMENT */
+"bulletin.badge":
+    "Boletim do Mês",
 
-"enrollment.status":
-    "NOTÍCIA",
- 
-    "enrollment.title":
-    "Vagas Disponíveis",
+"bulletin.eyebrow":
+    "Novidades Atuais",
 
-"enrollment.description":
-    "Estamos com vagas disponíveis para crianças de 2 a 5 anos.",
+"bulletin.item1.title":
+    "Vagas para Crianças de 2 a 5 Anos",
 
+"bulletin.item1.text":
+    "Estamos com vagas limitadas disponíveis para novas crianças.",
 
-"enrollment.support":
-    "Agende uma visita e conheça um ambiente seguro, acolhedor e preparado para o desenvolvimento do seu filho.",
+"bulletin.item2.title":
+    "Aceitamos Child Care Vouchers",
 
-"enrollment.button":
+"bulletin.item2.text":
+    "Famílias elegíveis de Massachusetts podem utilizar o benefício de assistência infantil.",
+
+"bulletin.item3.title":
+    "Agendamento de Visitas Online",
+
+"bulletin.item3.text":
+    "Escolha uma data e um horário convenientes para conhecer nosso espaço.",
+
+"bulletin.button":
     "Agendar uma Visita",
 
+"bulletin.note":
+    "Entre em contato para saber mais sobre as vagas e os Child Care Vouchers.",
 
 
         /* VISUAL STORY */
@@ -1059,38 +1117,67 @@ const WEBSITE_TRANSLATIONS = {
 
 "reviews.footer.button":"Ver todas as avaliações no Google →",
 
+/* CTA FINAL — AGENDAR VISITA */
 
-/* ==========================================================
-   SCHEDULE A TOUR
-========================================================== */
+"tour.eyebrow":
+    "Agende uma Visita",
 
-"tour.eyebrow":"Agende uma Visita",
+"tour.title":
+    "Venha Conhecer o Espaço dos Anjos",
 
-"tour.title":"Venha Conhecer o Espaço dos Anjos",
+"tour.description":
+    "Escolha a forma mais conveniente de falar conosco. Ligue, envie um e-mail ou agende sua visita online.",
 
-"tour.description":"Será um prazer receber sua família e mostrar como criamos um ambiente seguro, acolhedor e inspirador, onde as crianças aprendem, brincam e se desenvolvem todos os dias.",
+"tour.item1":
+    "Conheça a Luciene pessoalmente",
 
-"tour.item1":"Conheça a Luciene pessoalmente",
-"tour.item2":"Conheça nossos espaços de aprendizagem",
-"tour.item3":"Veja nossa rotina diária",
-"tour.item4":"Conheça nossa proposta pedagógica",
-"tour.item5":"Tire todas as suas dúvidas",
+"tour.item2":
+    "Veja nossa rotina diária",
 
-"tour.card.title":"Visite Nossa Creche",
+"tour.item3":
+    "Tire todas as suas dúvidas",
 
-"tour.card.subtitle":"Teremos prazer em responder suas perguntas e apresentar nosso espaço.",
+"tour.card.badge":
+    "Agendamento Online",
 
-"tour.phone":"Telefone",
-"tour.email":"E-mail",
-"tour.location":"Localização",
-"tour.locationValue":"Clinton, Massachusetts",
+"tour.card.title":
+    "Escolha Como Prefere Falar Conosco",
 
-"tour.hours":"Horário",
-"tour.days":"Segunda a Sexta-feira",
+"tour.card.subtitle":
+    "Ligue, envie um e-mail ou agende sua visita online em poucos cliques.",
 
-"tour.button":"Agendar uma Visita",
+"tour.phone":
+    "Telefone",
 
-"tour.footer":"Será um prazer receber sua família ❤️",
+"tour.email":
+    "E-mail",
+
+"tour.location":
+    "Localização",
+
+"tour.locationValue":
+    "Clinton, Massachusetts",
+
+"tour.hours":
+    "Horário",
+
+"tour.days":
+    "Segunda a sexta-feira",
+
+"tour.booking.label":
+    "Disponível 24 horas",
+
+"tour.booking.title":
+    "Agende sua Visita Online",
+
+"tour.booking.text":
+    "Escolha a data e o horário mais convenientes para você.",
+
+"tour.booking.button":
+    "Agendar Minha Visita",
+
+"tour.footer":
+    "Será um prazer conhecer você e seu filho.",
 
 /* ==========================================================
    FOOTER
@@ -1252,37 +1339,50 @@ const WEBSITE_TRANSLATIONS = {
 "trust.agesText":
     "Cuidado para bebés y niños pequeños",
 
-"trust.daysTitle":
-    "De lunes a viernes",
+"trust.voucherTitle":
+    "Aceptamos Vouchers",
 
-"trust.daysText":
-    "Una rutina semanal segura y constante",
+"trust.voucherText":
+    "Programa de asistencia infantil de Massachusetts",
 
-"trust.hoursTitle":
-    "7:30 AM–5:30 PM",
+"trust.bookingTitle":
+    "Reserva de Visitas Online",
 
-"trust.hoursText":
-    "Horarios pensados para familias que trabajan",
+"trust.bookingText":
+    "Agenda tu visita en línea en cualquier momento",
 
 
+/* BOLETÍN DEL MES */
 
-    /* ENROLLMENT */
+"bulletin.badge":
+    "Boletín del Mes",
 
-"enrollment.status":
-    "Inscripciones Abiertas",
+"bulletin.eyebrow":
+    "Novedades Actuales",
 
-"enrollment.title":
-    "Cupos Disponibles",
+"bulletin.item1.title":
+    "Cupos para Niños de 2 a 5 Años",
 
-"enrollment.description":
-    "Tenemos cupos disponibles para niños de 2 a 5 años.",
+"bulletin.item1.text":
+    "Actualmente tenemos cupos limitados para nuevos niños.",
 
-"enrollment.support":
-    "Agenda una visita y conoce un ambiente seguro, acogedor y preparado para el desarrollo de tu hijo.",
+"bulletin.item2.title":
+    "Aceptamos Child Care Vouchers",
 
-"enrollment.button":
+"bulletin.item2.text":
+    "Las familias elegibles de Massachusetts pueden utilizar la asistencia para el cuidado infantil.",
+
+"bulletin.item3.title":
+    "Agenda de Visitas en Línea",
+
+"bulletin.item3.text":
+    "Elige una fecha y un horario convenientes para conocer nuestro espacio.",
+
+"bulletin.button":
     "Agendar una Visita",
 
+"bulletin.note":
+    "Contáctanos para obtener más información sobre los cupos y los Child Care Vouchers.",
 
 
         /* VISUAL STORY */
@@ -1618,37 +1718,67 @@ const WEBSITE_TRANSLATIONS = {
 
 "reviews.footer.button":"Ver todas las reseñas de Google →",
 
-/* ==========================================================
-   SCHEDULE A TOUR
-========================================================== */
+/* CTA FINAL — AGENDAR VISITA */
 
-"tour.eyebrow":"Agende una Visita",
+"tour.eyebrow":
+    "Agenda una Visita",
 
-"tour.title":"Venga a Conocer Espaço dos Anjos",
+"tour.title":
+    "Ven a Conocer Espaço dos Anjos",
 
-"tour.description":"Nos encantaría conocer a su familia y mostrarle cómo ofrecemos un ambiente seguro, cariñoso e inspirador donde los niños aprenden, juegan y crecen cada día.",
+"tour.description":
+    "Elige la forma más conveniente de comunicarte con nosotros. Llámanos, envía un correo o agenda tu visita en línea.",
 
-"tour.item1":"Conozca personalmente a Luciene",
-"tour.item2":"Recorra nuestros espacios de aprendizaje",
-"tour.item3":"Conozca nuestra rutina diaria",
-"tour.item4":"Descubra nuestro enfoque educativo",
-"tour.item5":"Haga todas sus preguntas",
+"tour.item1":
+    "Conoce personalmente a Luciene",
 
-"tour.card.title":"Visite Nuestra Guardería",
+"tour.item2":
+    "Conoce nuestra rutina diaria",
 
-"tour.card.subtitle":"Será un placer responder sus preguntas y mostrarle nuestras instalaciones.",
+"tour.item3":
+    "Resuelve todas tus dudas",
 
-"tour.phone":"Teléfono",
-"tour.email":"Correo Electrónico",
-"tour.location":"Ubicación",
-"tour.locationValue":"Clinton, Massachusetts",
+"tour.card.badge":
+    "Reserva en Línea",
 
-"tour.hours":"Horario",
-"tour.days":"Lunes a Viernes",
+"tour.card.title":
+    "Elige Cómo Prefieres Contactarnos",
 
-"tour.button":"Agendar una Visita",
+"tour.card.subtitle":
+    "Llámanos, envía un correo o agenda tu visita en línea en pocos clics.",
 
-"tour.footer":"Será un placer recibir a su familia ❤️",
+"tour.phone":
+    "Teléfono",
+
+"tour.email":
+    "Correo electrónico",
+
+"tour.location":
+    "Ubicación",
+
+"tour.locationValue":
+    "Clinton, Massachusetts",
+
+"tour.hours":
+    "Horario",
+
+"tour.days":
+    "Lunes a viernes",
+
+"tour.booking.label":
+    "Disponible las 24 horas",
+
+"tour.booking.title":
+    "Agenda tu Visita en Línea",
+
+"tour.booking.text":
+    "Elige la fecha y el horario que más te convengan.",
+
+"tour.booking.button":
+    "Agendar Mi Visita",
+
+"tour.footer":
+    "Será un placer conocerte a ti y a tu hijo.",
 
 /* ==========================================================
    FOOTER

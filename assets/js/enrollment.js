@@ -8,19 +8,50 @@
     };
 
     function getCurrentLanguage() {
+        const windowLanguage =
+            window.currentLanguage
+                ?.trim()
+                .toLowerCase()
+                .split("-")[0];
+
         const htmlLanguage =
             document.documentElement.lang
                 ?.trim()
                 .toLowerCase()
                 .split("-")[0];
 
-        const selectedLanguage =
-            window.currentLanguage
-                ?.trim()
-                .toLowerCase()
-                .split("-")[0];
+        return windowLanguage || htmlLanguage || "en";
+    }
 
-        return selectedLanguage || htmlLanguage || "en";
+    function capitalizeFirstLetter(text) {
+        if (!text) {
+            return "";
+        }
+
+        return (
+            text.charAt(0).toUpperCase() +
+            text.slice(1)
+        );
+    }
+
+    function getCurrentDateInformation() {
+        const currentDate = new Date();
+
+        const language = getCurrentLanguage();
+
+        const locale =
+            localeMap[language] ||
+            localeMap.en;
+
+        const month =
+            new Intl.DateTimeFormat(locale, {
+                month: "long"
+            }).format(currentDate);
+
+        return {
+            month: capitalizeFirstLetter(month),
+            year: String(currentDate.getFullYear())
+        };
     }
 
     function updateEnrollmentDate() {
@@ -34,26 +65,51 @@
             return;
         }
 
-        const currentDate = new Date();
-        const language = getCurrentLanguage();
-        const locale = localeMap[language] || localeMap.en;
-
-        const formattedMonth =
-            new Intl.DateTimeFormat(locale, {
-                month: "long"
-            }).format(currentDate);
+        const dateInformation =
+            getCurrentDateInformation();
 
         monthElement.textContent =
-            formattedMonth.charAt(0).toUpperCase() +
-            formattedMonth.slice(1);
+            dateInformation.month;
 
         yearElement.textContent =
-            String(currentDate.getFullYear());
+            dateInformation.year;
+    }
+
+    function updateBulletinDate() {
+        const monthElement =
+            document.getElementById(
+                "bulletin-current-month"
+            );
+
+        const yearElement =
+            document.getElementById(
+                "bulletin-current-year"
+            );
+
+        if (!monthElement || !yearElement) {
+            return;
+        }
+
+        const dateInformation =
+            getCurrentDateInformation();
+
+        monthElement.textContent =
+            dateInformation.month;
+
+        yearElement.textContent =
+            dateInformation.year;
+    }
+
+    function updateAllDynamicDates() {
+        updateEnrollmentDate();
+        updateBulletinDate();
     }
 
     function initializeEnrollmentScroll() {
         const enrollmentButton =
-            document.querySelector("[data-scroll-to-tour]");
+            document.querySelector(
+                "[data-scroll-to-tour]"
+            );
 
         const tourSection =
             document.getElementById("tour");
@@ -62,16 +118,23 @@
             return;
         }
 
-        enrollmentButton.addEventListener("click", event => {
-            event.preventDefault();
+        enrollmentButton.addEventListener(
+            "click",
+            event => {
+                event.preventDefault();
 
-            tourSection.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
+                tourSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
 
-            history.replaceState(null, "", "#tour");
-        });
+                history.replaceState(
+                    null,
+                    "",
+                    "#tour"
+                );
+            }
+        );
     }
 
     function observeLanguageChanges() {
@@ -81,30 +144,31 @@
             );
 
         languageButtons.forEach(button => {
-            button.addEventListener("click", () => {
-                /*
-                 * Aguarda languages.js alterar o idioma da página.
-                 */
-                window.requestAnimationFrame(() => {
-                    updateEnrollmentDate();
-                });
-            });
-        });
-
-        /*
-         * Atualiza também quando o atributo lang do HTML mudar.
-         */
-        const languageObserver = new MutationObserver(mutations => {
-            const languageChanged = mutations.some(
-                mutation =>
-                    mutation.type === "attributes" &&
-                    mutation.attributeName === "lang"
+            button.addEventListener(
+                "click",
+                () => {
+                    window.setTimeout(() => {
+                        updateAllDynamicDates();
+                    }, 50);
+                }
             );
-
-            if (languageChanged) {
-                updateEnrollmentDate();
-            }
         });
+
+        const languageObserver =
+            new MutationObserver(mutations => {
+                const languageChanged =
+                    mutations.some(
+                        mutation =>
+                            mutation.type ===
+                                "attributes" &&
+                            mutation.attributeName ===
+                                "lang"
+                    );
+
+                if (languageChanged) {
+                    updateAllDynamicDates();
+                }
+            });
 
         languageObserver.observe(
             document.documentElement,
@@ -115,8 +179,8 @@
         );
     }
 
-    function initializeEnrollment() {
-        updateEnrollmentDate();
+    function initializeDynamicContent() {
+        updateAllDynamicDates();
         initializeEnrollmentScroll();
         observeLanguageChanges();
     }
@@ -124,10 +188,10 @@
     if (document.readyState === "loading") {
         document.addEventListener(
             "DOMContentLoaded",
-            initializeEnrollment,
+            initializeDynamicContent,
             { once: true }
         );
     } else {
-        initializeEnrollment();
+        initializeDynamicContent();
     }
 })();

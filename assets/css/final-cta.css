@@ -1,0 +1,564 @@
+/* ==================================================
+   FINAL TOUR CTA — MOBILE FIRST
+================================================== */
+
+.final-tour {
+    position: relative;
+    overflow: hidden;
+
+    padding: 72px 0;
+
+    background:
+        radial-gradient(
+            circle at 88% 10%,
+            rgba(40, 175, 203, 0.13),
+            transparent 34%
+        ),
+        linear-gradient(
+            135deg,
+            #f7fcff 0%,
+            #eaf7fd 100%
+        );
+}
+
+
+/* ==================================================
+   MAIN LAYOUT
+================================================== */
+
+.final-tour__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+
+/* ==================================================
+   LEFT CONTENT
+================================================== */
+
+.final-tour__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* EYEBROW */
+
+.final-tour__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    width: fit-content;
+
+    margin-bottom: 18px;
+
+    color: var(--color-accent);
+
+    font-family: var(--font-heading);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    line-height: 1.4;
+
+    text-transform: uppercase;
+}
+
+.final-tour__eyebrow::before {
+    width: 32px;
+    height: 3px;
+
+    flex: 0 0 32px;
+
+    border-radius: 999px;
+
+    background: var(--color-accent);
+
+    content: "";
+}
+
+
+/* TITLE */
+
+.final-tour__title {
+    max-width: 680px;
+
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(2.4rem, 11vw, 3.65rem);
+    line-height: 1.06;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+}
+
+
+/* DESCRIPTION */
+
+.final-tour__description {
+    max-width: 620px;
+
+    margin: 24px 0 0;
+
+    color: var(--color-text-soft);
+
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+
+/* ==================================================
+   BENEFITS — HIDDEN ON MOBILE
+================================================== */
+
+.final-tour__list {
+    display: none;
+
+    margin: 34px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.final-tour__list li {
+    position: relative;
+
+    min-height: 30px;
+    padding-left: 44px;
+
+    color: var(--color-text-soft);
+
+    font-size: 1rem;
+    line-height: 1.55;
+}
+
+.final-tour__list li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: grid;
+    place-items: center;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+    background: var(--color-accent);
+
+    font-size: 0.75rem;
+    font-weight: 800;
+
+    box-shadow:
+        0 0 0 7px rgba(244, 197, 66, 0.14);
+
+    content: "✓";
+}
+
+
+/* ==================================================
+   CONTACT CARD
+================================================== */
+
+.final-tour__card {
+    overflow: hidden;
+
+    width: 100%;
+
+    padding: 26px 20px;
+
+    border: 1px solid rgba(40, 175, 203, 0.16);
+    border-radius: 26px;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    box-shadow:
+        0 28px 70px rgba(18, 73, 92, 0.14);
+}
+
+
+/* ==================================================
+   CARD HEADER
+================================================== */
+
+.final-tour__card-header {
+    margin-bottom: 22px;
+}
+
+.final-tour__card-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    width: fit-content;
+
+    margin-bottom: 14px;
+    padding: 8px 12px;
+
+    border-radius: 999px;
+
+    color: #08748b;
+    background: rgba(40, 175, 203, 0.12);
+
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.final-tour__card-badge::before {
+    width: 8px;
+    height: 8px;
+
+    flex: 0 0 8px;
+
+    border-radius: 50%;
+
+    background: #6ecb72;
+
+    box-shadow:
+        0 0 0 5px rgba(110, 203, 114, 0.14);
+
+    content: "";
+}
+
+.final-tour__card-header h3 {
+    margin: 0 0 10px;
+
+    color: var(--color-text);
+
+    font-size: 1.45rem;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+}
+
+.final-tour__card-header p {
+    margin: 0;
+
+    color: var(--color-text-soft);
+
+    font-size: 0.94rem;
+    line-height: 1.65;
+}
+
+
+/* ==================================================
+   CONTACT ITEMS
+================================================== */
+
+.final-tour__contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    width: 100%;
+
+    padding: 17px 0;
+
+    border-bottom: 1px solid rgba(18, 73, 92, 0.08);
+
+    color: inherit;
+    text-decoration: none;
+
+    transition:
+        transform 180ms ease,
+        opacity 180ms ease;
+}
+
+a.final-tour__contact-item:hover {
+    transform: translateX(4px);
+}
+
+a.final-tour__contact-item:focus-visible {
+    outline: 3px solid rgba(40, 175, 203, 0.35);
+    outline-offset: 4px;
+    border-radius: 10px;
+}
+
+
+/* ICONS */
+
+.final-tour__contact-icon {
+    display: grid;
+    place-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    flex: 0 0 40px;
+
+    border-radius: 50%;
+
+    font-size: 0.95rem;
+}
+
+.final-tour__contact-icon--blue {
+    color: #249fc0;
+    background: rgba(73, 168, 216, 0.15);
+}
+
+.final-tour__contact-icon--green {
+    color: #53ae58;
+    background: rgba(119, 195, 122, 0.16);
+}
+
+.final-tour__contact-icon--yellow {
+    color: #d99b00;
+    background: rgba(245, 196, 81, 0.18);
+}
+
+.final-tour__contact-icon--pink {
+    color: #e46791;
+    background: rgba(241, 129, 167, 0.16);
+}
+
+
+/* CONTACT CONTENT */
+
+.final-tour__contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    min-width: 0;
+}
+
+.final-tour__contact-content strong {
+    color: var(--color-text);
+
+    font-size: 0.95rem;
+    line-height: 1.35;
+}
+
+.final-tour__contact-content span {
+    overflow-wrap: anywhere;
+
+    color: var(--color-text-soft);
+
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+
+/* ==================================================
+   ONLINE BOOKING
+================================================== */
+
+.final-tour__booking {
+    margin-top: 24px;
+    padding: 20px;
+
+    border: 1px solid rgba(40, 175, 203, 0.18);
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(244, 197, 66, 0.15),
+            rgba(40, 175, 203, 0.15)
+        );
+}
+
+.final-tour__booking-label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #1689a3;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.final-tour__booking-text strong {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: var(--color-text);
+
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.final-tour__booking-text p {
+    margin: 0;
+
+    color: var(--color-text-soft);
+
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+
+
+/* BOOKING BUTTON */
+
+.final-tour__booking-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 100%;
+    min-height: 54px;
+
+    margin-top: 18px;
+    padding: 14px 20px;
+
+    border-radius: 999px;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--color-accent),
+            var(--color-primary)
+        );
+
+    box-shadow:
+        0 16px 35px rgba(40, 175, 203, 0.25);
+
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+
+    transition:
+        transform 200ms ease,
+        box-shadow 200ms ease;
+}
+
+.final-tour__booking-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 22px 42px rgba(40, 175, 203, 0.34);
+}
+
+.final-tour__booking-button:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+.final-tour__booking-button i {
+    flex: 0 0 auto;
+
+    transition: transform 200ms ease;
+}
+
+.final-tour__booking-button:hover i {
+    transform: translateX(4px);
+}
+
+
+/* ==================================================
+   CARD FOOTER
+================================================== */
+
+.final-tour__footer {
+    display: block;
+
+    margin-top: 18px;
+
+    color: var(--color-text-soft);
+
+    font-size: 0.76rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* ==================================================
+   TABLET
+================================================== */
+
+@media (min-width: 700px) {
+
+    .final-tour {
+        padding: 90px 0;
+    }
+
+    .final-tour__wrapper {
+        gap: 42px;
+    }
+
+    .final-tour__card {
+        padding: 34px;
+    }
+
+}
+
+
+/* ==================================================
+   DESKTOP
+================================================== */
+
+@media (min-width: 980px) {
+
+    .final-tour {
+        padding: 110px 0;
+    }
+
+    .final-tour__wrapper {
+        display: grid;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(390px, 0.78fr);
+
+        column-gap: clamp(60px, 8vw, 120px);
+
+        align-items: center;
+    }
+
+    .final-tour__content {
+        max-width: 680px;
+    }
+
+    .final-tour__title {
+        font-size: clamp(3.4rem, 5vw, 5rem);
+    }
+
+    .final-tour__description {
+        margin-top: 28px;
+
+        font-size: 1.06rem;
+    }
+
+    .final-tour__list {
+        display: grid;
+        gap: 18px;
+    }
+
+    .final-tour__card {
+        padding: 36px;
+    }
+
+}
+
+
+/* ==================================================
+   REDUCED MOTION
+================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .final-tour__contact-item,
+    .final-tour__booking-button,
+    .final-tour__booking-button i {
+        transition: none;
+    }
+
+}
