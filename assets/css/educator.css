@@ -161,7 +161,9 @@
 .blue{background:#49A8D8;}
 .turquoise{background:#45C4C9;}
 
-/* MOBILE */
+/* ==================================================
+   MOBILE
+================================================== */
 
 @media (max-width:768px){
 
@@ -171,28 +173,115 @@
 
     }
 
+    /* ORDEM:
+       EYEBROW
+       TITLE
+       FOTO
+       DESCRIPTION
+       LIST
+       QUOTE
+    */
+
     .educator__wrapper{
 
+        display:grid;
+
         grid-template-columns:1fr;
-        gap:40px;
+
+        grid-template-areas:
+            "eyebrow"
+            "title"
+            "photo"
+            "description"
+            "list"
+            "quote";
+
+        gap:0;
 
     }
 
-    .educator__photo{
 
-        height:420px;
+    /* libera os elementos internos */
+
+    .educator__content{
+
+        display:contents;
 
     }
+
+
+    /* EYEBROW */
+
+    .educator__eyebrow{
+
+        grid-area:eyebrow;
+
+        margin-bottom:20px;
+
+    }
+
+
+    /* TITLE */
 
     .educator__title{
+
+        grid-area:title;
+
+        margin:0 0 30px;
 
         font-size:2.35rem;
 
     }
 
+
+    /* PHOTO */
+
+    .educator__photo{
+
+        grid-area:photo;
+
+        height:420px;
+
+        margin:0 0 34px;
+
+        border-radius:22px;
+
+    }
+
+
+    /* DESCRIPTION */
+
     .educator__description{
 
+        grid-area:description;
+
+        margin:0 0 34px;
+
         font-size:1rem;
+
+    }
+
+
+    /* LIST */
+
+    .educator__list{
+
+        grid-area:list;
+
+        margin:0;
+
+        gap:16px;
+
+    }
+
+
+    /* QUOTE */
+
+    .educator__quote{
+
+        grid-area:quote;
+
+        margin:34px 0 0;
 
     }
 
