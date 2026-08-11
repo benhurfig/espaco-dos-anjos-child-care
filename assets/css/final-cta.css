@@ -247,6 +247,54 @@
     line-height: 1.65;
 }
 
+.final-tour__primary-actions {
+    display: grid;
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.final-tour__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 60px;
+    padding: 15px 22px;
+
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 999px;
+
+    font-family: var(--font-heading);
+    font-size: 0.98rem;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.final-tour__action--schedule {
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
+    box-shadow: 0 14px 30px rgba(40, 175, 203, 0.24);
+}
+
+.final-tour__action--text {
+    color: var(--color-primary-dark);
+    background: #ffffff;
+}
+
+.final-tour__action:hover {
+    transform: translateY(-2px);
+}
+
+.final-tour__action:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
 
 /* ==================================================
    CONTACT ITEMS
@@ -498,6 +546,10 @@ a.final-tour__contact-item:focus-visible {
         padding: 34px;
     }
 
+    .final-tour__primary-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
 }
 
 
@@ -516,9 +568,9 @@ a.final-tour__contact-item:focus-visible {
 
         grid-template-columns:
             minmax(0, 1fr)
-            minmax(390px, 0.78fr);
+            minmax(500px, 0.95fr);
 
-        column-gap: clamp(60px, 8vw, 120px);
+        column-gap: clamp(46px, 6vw, 90px);
 
         align-items: center;
     }
@@ -543,7 +595,7 @@ a.final-tour__contact-item:focus-visible {
     }
 
     .final-tour__card {
-        padding: 36px;
+        padding: 40px;
     }
 
 }
@@ -556,6 +608,7 @@ a.final-tour__contact-item:focus-visible {
 @media (prefers-reduced-motion: reduce) {
 
     .final-tour__contact-item,
+    .final-tour__action,
     .final-tour__booking-button,
     .final-tour__booking-button i {
         transition: none;

@@ -452,6 +452,11 @@
     line-height: 1.6;
 }
 
+.monthly-bulletin__visit-hours {
+    display: grid;
+    gap: 3px;
+}
+
 
 /* ==================================================
    ACTIONS

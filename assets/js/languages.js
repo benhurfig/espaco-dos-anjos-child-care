@@ -38,6 +38,33 @@ const WEBSITE_TRANSLATIONS = {
         "general.location":
             "Clinton, Massachusetts",
 
+        "visit.schedule":
+            "Schedule a Visit",
+
+        "visit.hoursTitle":
+            "Visit Hours",
+
+        "visit.hoursWeekdays":
+            "Monday–Friday: 5:30 PM–8:00 PM",
+
+        "visit.hoursWeekend":
+            "Saturday–Sunday: 9:00 AM–5:00 PM",
+
+        "visit.advance":
+            "Please schedule at least 2 days in advance.",
+
+        "visit.attention":
+            "Visits are scheduled in advance so we can give your family our full attention.",
+
+        "contact.text":
+            "Text Us",
+
+        "contact.call":
+            "Call Us",
+
+        "contact.scheduleOnline":
+            "Schedule Online",
+
 
        /* HEADER */
 
@@ -543,10 +570,10 @@ const WEBSITE_TRANSLATIONS = {
     "Book Online",
 
 "tour.card.title":
-    "Choose the Best Way to Contact Us",
+    "Schedule Your Family Visit",
 
 "tour.card.subtitle":
-    "Call us, send an email or schedule your visit online in just a few clicks.",
+    "Schedule your visit online, or text us if you have a question before booking.",
 
 "tour.phone":
     "Phone",
@@ -635,6 +662,33 @@ const WEBSITE_TRANSLATIONS = {
 
         "general.location":
             "Clinton, Massachusetts",
+
+        "visit.schedule":
+            "Agendar uma Visita",
+
+        "visit.hoursTitle":
+            "Horários para Visitas",
+
+        "visit.hoursWeekdays":
+            "Segunda a sexta: 5:30 PM–8:00 PM",
+
+        "visit.hoursWeekend":
+            "Sábado e domingo: 9:00 AM–5:00 PM",
+
+        "visit.advance":
+            "Agende com pelo menos 2 dias de antecedência.",
+
+        "visit.attention":
+            "As visitas são agendadas com antecedência para que possamos dar toda a atenção à sua família.",
+
+        "contact.text":
+            "Enviar Mensagem",
+
+        "contact.call":
+            "Ligar",
+
+        "contact.scheduleOnline":
+            "Agendar Online",
 
 
        /* HEADER */
@@ -1141,10 +1195,10 @@ const WEBSITE_TRANSLATIONS = {
     "Agendamento Online",
 
 "tour.card.title":
-    "Escolha Como Prefere Falar Conosco",
+    "Agende a Visita da Sua Família",
 
 "tour.card.subtitle":
-    "Ligue, envie um e-mail ou agende sua visita online em poucos cliques.",
+    "Agende sua visita online ou envie uma mensagem se tiver alguma dúvida antes de agendar.",
 
 "tour.phone":
     "Telefone",
@@ -1233,6 +1287,33 @@ const WEBSITE_TRANSLATIONS = {
 
         "general.location":
             "Clinton, Massachusetts",
+
+        "visit.schedule":
+            "Agendar una Visita",
+
+        "visit.hoursTitle":
+            "Horarios para Visitas",
+
+        "visit.hoursWeekdays":
+            "Lunes a viernes: 5:30 PM–8:00 PM",
+
+        "visit.hoursWeekend":
+            "Sábado y domingo: 9:00 AM–5:00 PM",
+
+        "visit.advance":
+            "Agenda con al menos 2 días de anticipación.",
+
+        "visit.attention":
+            "Las visitas se programan con anticipación para que podamos brindar toda nuestra atención a tu familia.",
+
+        "contact.text":
+            "Enviar Mensaje",
+
+        "contact.call":
+            "Llamar",
+
+        "contact.scheduleOnline":
+            "Agendar en Línea",
 
 
       /* HEADER */
@@ -1742,10 +1823,10 @@ const WEBSITE_TRANSLATIONS = {
     "Reserva en Línea",
 
 "tour.card.title":
-    "Elige Cómo Prefieres Contactarnos",
+    "Agenda la Visita de Tu Familia",
 
 "tour.card.subtitle":
-    "Llámanos, envía un correo o agenda tu visita en línea en pocos clics.",
+    "Agenda tu visita en línea o envíanos un mensaje si tienes alguna pregunta antes de reservar.",
 
 "tour.phone":
     "Teléfono",

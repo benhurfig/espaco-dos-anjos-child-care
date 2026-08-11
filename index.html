@@ -448,10 +448,12 @@
 
             <a
                 class="button button--primary site-header__cta"
-                href="#tour"
-                data-i18n="header.cta"
+                href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="visit.schedule"
             >
-                Schedule a Tour
+                Schedule a Visit
             </a>
 
             <!-- MOBILE MENU BUTTON -->
@@ -646,10 +648,12 @@
 
                 <a
     class="button button--primary"
-    href="#tour"
-    data-i18n="hero.primaryButton"
+    href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-i18n="visit.schedule"
 >
-    Schedule a Tour
+    Schedule a Visit
 </a>
 
                 <a
@@ -1150,12 +1154,14 @@
 
                         <div class="monthly-bulletin__news-content">
 
-                            <h3 data-i18n="bulletin.item3.title">
-                                Online Visits Available
+                            <h3 data-i18n="visit.hoursTitle">
+                                Visit Hours
                             </h3>
 
-                            <p data-i18n="bulletin.item3.text">
-                                Choose a convenient date and time to visit our child care.
+                            <p class="monthly-bulletin__visit-hours">
+                                <span data-i18n="visit.hoursWeekdays">Monday–Friday: 5:30 PM–8:00 PM</span>
+                                <span data-i18n="visit.hoursWeekend">Saturday–Sunday: 9:00 AM–5:00 PM</span>
+                                <span data-i18n="visit.advance">Please schedule at least 2 days in advance.</span>
                             </p>
 
                         </div>
@@ -1171,23 +1177,25 @@
 
                     <a
                         class="monthly-bulletin__button"
-                        href="#tour"
+                        href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <span data-i18n="bulletin.button">
                             Schedule a Visit
                         </span>
 
                         <i
-                            class="fa-solid fa-arrow-down"
+                            class="fa-solid fa-arrow-right"
                             aria-hidden="true"
                         ></i>
                     </a>
 
                     <p
                         class="monthly-bulletin__note"
-                        data-i18n="bulletin.note"
+                        data-i18n="visit.attention"
                     >
-                        Contact us to learn more about availability and vouchers.
+                        Visits are scheduled in advance so we can give your family our full attention.
                     </p>
 
                 </div>
@@ -2635,10 +2643,9 @@
 
                 <p
                     class="final-tour__description"
-                    data-i18n="tour.description"
+                    data-i18n="visit.attention"
                 >
-                    Choose the most convenient way to contact us.
-                    Call, send an email or schedule your visit online.
+                    Visits are scheduled in advance so we can give your family our full attention.
                 </p>
 
                 <!-- DESKTOP ONLY -->
@@ -2686,6 +2693,26 @@
                         in just a few clicks.
                     </p>
 
+                </div>
+
+                <div class="final-tour__primary-actions">
+                    <a
+                        class="final-tour__action final-tour__action--schedule"
+                        href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                        <span data-i18n="tour.booking.button">Schedule My Visit</span>
+                    </a>
+
+                    <a
+                        class="final-tour__action final-tour__action--text"
+                        href="sms:+17742328156"
+                    >
+                        <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+                        <span data-i18n="contact.text">Text Us</span>
+                    </a>
                 </div>
 
 
@@ -2781,61 +2808,19 @@
 
                     <span class="final-tour__contact-content">
 
-                        <strong data-i18n="tour.hours">
-                            Hours
+                        <strong data-i18n="visit.hoursTitle">
+                            Visit Hours
                         </strong>
 
-                        <span data-i18n="tour.days">
-                            Monday – Friday
+                        <span data-i18n="visit.hoursWeekdays">
+                            Monday–Friday: 5:30 PM–8:00 PM
                         </span>
 
-                        <span>
-                            7:30 AM – 5:30 PM
+                        <span data-i18n="visit.hoursWeekend">
+                            Saturday–Sunday: 9:00 AM–5:00 PM
                         </span>
 
                     </span>
-                </div>
-
-
-                <!-- ONLINE BOOKING -->
-
-                <div class="final-tour__booking">
-
-                    <div class="final-tour__booking-text">
-
-                        <span
-                            class="final-tour__booking-label"
-                            data-i18n="tour.booking.label"
-                        >
-                            Available 24/7
-                        </span>
-
-                        <strong data-i18n="tour.booking.title">
-                            Schedule Your Visit Online
-                        </strong>
-
-                        <p data-i18n="tour.booking.text">
-                            Choose the date and time that work best for you.
-                        </p>
-
-                    </div>
-
-                    <a
-                        class="final-tour__booking-button"
-                        href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <span data-i18n="tour.booking.button">
-                            Schedule My Visit
-                        </span>
-
-                        <i
-                            class="fa-solid fa-arrow-right"
-                            aria-hidden="true"
-                        ></i>
-                    </a>
-
                 </div>
 
 
@@ -2857,6 +2842,42 @@
 <!-- ==================================================
      END FINAL CTA
 ================================================== -->
+
+<div class="floating-booking" data-floating-booking>
+    <div
+        class="floating-booking__menu"
+        id="floating-booking-menu"
+        aria-hidden="true"
+    >
+        <a
+            class="floating-booking__option floating-booking__option--schedule"
+            href="https://www.smartimateapp.com/smart-booking/?company=eda-booking"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+            <span data-i18n="contact.scheduleOnline">Schedule Online</span>
+        </a>
+
+        <a class="floating-booking__option" href="sms:+17742328156">
+            <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+            <span data-i18n="contact.text">Text Us</span>
+        </a>
+
+    </div>
+
+    <button
+        class="floating-booking__toggle"
+        type="button"
+        aria-controls="floating-booking-menu"
+        aria-expanded="false"
+        data-i18n-aria-label="visit.schedule"
+    >
+        <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+        <span data-i18n="visit.schedule">Schedule a Visit</span>
+        <i class="fa-solid fa-chevron-up floating-booking__chevron" aria-hidden="true"></i>
+    </button>
+</div>
 
 <!-- ==================================================
 Footer Section
@@ -3084,6 +3105,8 @@ Footer Section
     <!-- Menu and global functionality -->
 
     <script src="/assets/js/main.js"></script>
+
+    <script src="/assets/js/floating-booking.js"></script>
 
 
     <!-- Translation system -->

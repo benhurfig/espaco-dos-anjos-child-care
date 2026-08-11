@@ -54,6 +54,11 @@
             return;
         }
 
+        if (href.startsWith("sms:")) {
+            sendEvent("text_click", { cta_text: label });
+            return;
+        }
+
         if (href.startsWith("mailto:")) {
             sendEvent("email_click", { cta_text: label });
             return;
