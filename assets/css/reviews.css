@@ -169,3 +169,140 @@
         white-space: normal;
     }
 }
+
+/* ==================================================
+   NEARBY COMMUNITIES
+================================================== */
+
+.local-area {
+    padding: 104px 0;
+    background: #ffffff;
+}
+
+.local-area__layout {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(420px, 1.1fr);
+    align-items: center;
+    gap: 84px;
+}
+
+.local-area__content {
+    max-width: 640px;
+}
+
+.local-area__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-accent);
+    font-size: .82rem;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+}
+
+.local-area__eyebrow::before {
+    content: "";
+    width: 34px;
+    height: 3px;
+    border-radius: 20px;
+    background: #f6be3c;
+}
+
+.local-area h2 {
+    margin: 18px 0 22px;
+    color: var(--color-dark);
+    font-size: clamp(2.5rem, 4.2vw, 4rem);
+    line-height: 1.08;
+}
+
+.local-area__content p {
+    margin: 0;
+    color: #667085;
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.local-area__communities {
+    padding: 38px;
+    border: 1px solid rgba(18, 48, 68, .08);
+    border-radius: 28px;
+    background: #f3fbfd;
+}
+
+.local-area__communities h3 {
+    margin: 0 0 24px;
+    color: var(--color-dark);
+    font-size: 1.25rem;
+}
+
+.local-area__communities ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.local-area__communities li {
+    position: relative;
+    padding: 13px 16px 13px 38px;
+    border-radius: 14px;
+    background: #ffffff;
+    color: #395363;
+    font-weight: 700;
+}
+
+.local-area__communities li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #f6be3c;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 980px) {
+    .local-area__layout {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .local-area {
+        padding: 72px 0;
+    }
+
+    .local-area__layout {
+        gap: 36px;
+    }
+
+    .local-area h2 {
+        font-size: clamp(2.25rem, 11vw, 3rem);
+    }
+
+    .local-area__communities {
+        padding: 24px 18px;
+        border-radius: 22px;
+    }
+
+    .local-area__communities ul {
+        gap: 9px;
+    }
+
+    .local-area__communities li {
+        padding: 11px 10px 11px 29px;
+        font-size: .9rem;
+    }
+
+    .local-area__communities li::before {
+        left: 12px;
+        width: 7px;
+        height: 7px;
+    }
+}

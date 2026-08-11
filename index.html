@@ -172,14 +172,19 @@
     "closes":"17:30"
   },
 
-  "areaServed":{
-    "@type":"City",
-    "name":"Clinton",
-    "containedInPlace":{
-      "@type":"State",
-      "name":"Massachusetts"
-    }
-  },
+  "areaServed":[
+    {"@type":"City","name":"Clinton, Massachusetts"},
+    {"@type":"City","name":"Lancaster, Massachusetts"},
+    {"@type":"City","name":"Berlin, Massachusetts"},
+    {"@type":"City","name":"Sterling, Massachusetts"},
+    {"@type":"City","name":"Bolton, Massachusetts"},
+    {"@type":"City","name":"Boylston, Massachusetts"},
+    {"@type":"City","name":"West Boylston, Massachusetts"},
+    {"@type":"City","name":"Hudson, Massachusetts"},
+    {"@type":"City","name":"Northborough, Massachusetts"},
+    {"@type":"City","name":"Harvard, Massachusetts"},
+    {"@type":"City","name":"Leominster, Massachusetts"}
+  ],
 
   "hasMap":"https://share.google/5inNF6rZnVAmLlbf2",
 
@@ -2535,6 +2540,61 @@
 <!-- =================================================
      END GOOGLE BUSINESS PROFILE
 ================================================== -->
+
+<!-- =================================================
+     NEARBY COMMUNITIES
+================================================== -->
+
+<section
+    class="local-area"
+    id="nearby-communities"
+    aria-labelledby="local-area-title"
+>
+    <div class="container">
+        <div class="local-area__layout">
+            <div class="local-area__content">
+                <span
+                    class="local-area__eyebrow"
+                    data-i18n="localArea.eyebrow"
+                >
+                    Near Clinton
+                </span>
+
+                <h2
+                    id="local-area-title"
+                    data-i18n="localArea.title"
+                >
+                    A convenient child care option for nearby families.
+                </h2>
+
+                <p data-i18n="localArea.description">
+                    Located in Clinton, Espaço dos Anjos welcomes families from surrounding communities within approximately 10 miles.
+                </p>
+            </div>
+
+            <div class="local-area__communities">
+                <h3 data-i18n="localArea.listTitle">Nearby communities</h3>
+                <ul aria-label="Nearby communities within approximately 10 miles of Clinton">
+                    <li>Lancaster</li>
+                    <li>Berlin</li>
+                    <li>Sterling</li>
+                    <li>Bolton</li>
+                    <li>Boylston</li>
+                    <li>West Boylston</li>
+                    <li>Hudson</li>
+                    <li>Northborough</li>
+                    <li>Harvard</li>
+                    <li>Leominster</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =================================================
+     END NEARBY COMMUNITIES
+================================================== -->
+
     <!-- ==================================================
      FINAL CTA — SCHEDULE A TOUR
 ================================================== -->

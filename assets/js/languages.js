@@ -536,6 +536,14 @@ const WEBSITE_TRANSLATIONS = {
 
 "googleProfile.button":"View Our Google Profile →",
 
+"localArea.eyebrow":"Near Clinton",
+
+"localArea.title":"A convenient child care option for nearby families.",
+
+"localArea.description":"Located in Clinton, Espaço dos Anjos welcomes families from surrounding communities within approximately 10 miles.",
+
+"localArea.listTitle":"Nearby communities",
+
 
 /* FINAL TOUR CTA */
 
@@ -1152,6 +1160,14 @@ const WEBSITE_TRANSLATIONS = {
 "googleProfile.location":"Clinton, Massachusetts",
 
 "googleProfile.button":"Ver Nosso Perfil no Google →",
+
+"localArea.eyebrow":"Perto de Clinton",
+
+"localArea.title":"Uma opção de creche conveniente para famílias da região.",
+
+"localArea.description":"Localizado em Clinton, o Espaço dos Anjos recebe famílias de comunidades próximas em um raio aproximado de 10 milhas.",
+
+"localArea.listTitle":"Comunidades próximas",
 
 /* CTA FINAL — AGENDAR VISITA */
 
@@ -1771,6 +1787,14 @@ const WEBSITE_TRANSLATIONS = {
 "googleProfile.location":"Clinton, Massachusetts",
 
 "googleProfile.button":"Ver Nuestro Perfil de Google →",
+
+"localArea.eyebrow":"Cerca de Clinton",
+
+"localArea.title":"Una opción de cuidado infantil conveniente para familias cercanas.",
+
+"localArea.description":"Ubicado en Clinton, Espaço dos Anjos recibe a familias de comunidades cercanas en un radio aproximado de 10 millas.",
+
+"localArea.listTitle":"Comunidades cercanas",
 
 /* CTA FINAL — AGENDAR VISITA */
 
