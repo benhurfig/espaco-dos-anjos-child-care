@@ -73,6 +73,19 @@ document.addEventListener("DOMContentLoaded", () => {
        MOBILE MENU
     ====================================================== */
 
+    const getMobileMenuLabel = (key, fallback) => {
+
+        if (
+            typeof WEBSITE_TRANSLATIONS !== "undefined" &&
+            WEBSITE_TRANSLATIONS[document.documentElement.lang]?.[key]
+        ) {
+            return WEBSITE_TRANSLATIONS[document.documentElement.lang][key];
+        }
+
+        return fallback;
+
+    };
+
     const openMobileMenu = () => {
 
         if (
@@ -96,7 +109,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         mobileMenuButton.setAttribute(
             "aria-label",
-            "Close navigation menu"
+            getMobileMenuLabel(
+                "header.closeMenu",
+                "Close navigation menu"
+            )
         );
 
         mobileMenuOverlay.setAttribute(
@@ -132,7 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         mobileMenuButton.setAttribute(
             "aria-label",
-            "Open navigation menu"
+            getMobileMenuLabel(
+                "header.openMenu",
+                "Open navigation menu"
+            )
         );
 
         mobileMenuOverlay.setAttribute(

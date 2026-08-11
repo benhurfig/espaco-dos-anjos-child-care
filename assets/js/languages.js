@@ -68,6 +68,12 @@ const WEBSITE_TRANSLATIONS = {
 
        /* HEADER */
 
+"header.companyName":
+    "Espaço dos Anjos",
+
+"header.navigationLabel":
+    "Main navigation",
+
 "header.businessType":
     "Child Care",
 
@@ -90,7 +96,7 @@ const WEBSITE_TRANSLATIONS = {
     "Clinton, Massachusetts",
 
 "header.cta":
-    "Schedule a Tour",
+    "Schedule a Visit",
 
 "header.languageSelector":
     "Select website language",
@@ -106,6 +112,9 @@ const WEBSITE_TRANSLATIONS = {
 
 "header.openMenu":
     "Open navigation menu",
+
+"header.closeMenu":
+    "Close navigation menu",
 
 
        
@@ -517,33 +526,15 @@ const WEBSITE_TRANSLATIONS = {
    REVIEWS
 ========================================================== */
 
-"reviews.eyebrow":"Trusted by Families",
+"googleProfile.eyebrow":"Our Google Profile",
 
-"reviews.title":"Parents Love Espaço dos Anjos",
+"googleProfile.title":"Find Espaço dos Anjos on Google.",
 
-"reviews.description":"Choosing a daycare is one of the most important decisions a family makes. We're grateful for the trust our families place in us every day.",
+"googleProfile.description":"View our location, contact details and business information directly on Google.",
 
-"reviews.featured.text":"Luciene truly cares about every child. My daughter feels safe, loved and excited to come every morning. We couldn't ask for a better place.",
+"googleProfile.location":"Clinton, Massachusetts",
 
-"reviews.featured.since":"Parent since 2023",
-
-"reviews.card1.text":"The environment is always clean, organized and welcoming. We feel completely confident leaving our son here.",
-
-"reviews.card1.since":"Parent since 2024",
-
-"reviews.card2.text":"The bilingual environment has helped our daughter learn naturally. She loves her teachers and her friends.",
-
-"reviews.card2.since":"Parent since 2022",
-
-"reviews.card3.text":"Every day we receive updates and know our child is happy, learning and well cared for.",
-
-"reviews.card3.since":"Parent since 2021",
-
-"reviews.footer.rating":"5.0 Average Rating",
-
-"reviews.footer.text":"Trusted by local families.",
-
-"reviews.footer.button":"View All Google Reviews →",
+"googleProfile.button":"View Our Google Profile →",
 
 
 /* FINAL TOUR CTA */
@@ -620,7 +611,7 @@ const WEBSITE_TRANSLATIONS = {
 "footer.home":"Home",
 "footer.about":"About",
 "footer.programs":"Programs",
-"footer.reviews":"Reviews",
+"footer.reviews":"Google Profile",
 "footer.contact":"Contact",
 
 "footer.contactTitle":"Contact",
@@ -693,6 +684,12 @@ const WEBSITE_TRANSLATIONS = {
 
        /* HEADER */
 
+"header.companyName":
+    "Espaço dos Anjos",
+
+"header.navigationLabel":
+    "Navegação principal",
+
 "header.businessType":
     "Creche",
 
@@ -731,6 +728,9 @@ const WEBSITE_TRANSLATIONS = {
 
 "header.openMenu":
     "Abrir menu de navegação",
+
+"header.closeMenu":
+    "Fechar menu de navegação",
 
        
 
@@ -1143,33 +1143,15 @@ const WEBSITE_TRANSLATIONS = {
    REVIEWS
 ========================================================== */
 
-"reviews.eyebrow":"Famílias que Confiam em Nós",
+"googleProfile.eyebrow":"Nosso Perfil no Google",
 
-"reviews.title":"Os Pais Adoram o Espaço dos Anjos",
+"googleProfile.title":"Encontre o Espaço dos Anjos no Google.",
 
-"reviews.description":"Escolher uma creche é uma das decisões mais importantes para uma família. Somos gratos pela confiança que nossas famílias depositam em nós todos os dias.",
+"googleProfile.description":"Veja nossa localização, formas de contato e informações da empresa diretamente no Google.",
 
-"reviews.featured.text":"Luciene realmente se dedica a cada criança. Minha filha se sente segura, amada e feliz em vir todas as manhãs. Não poderíamos ter escolhido um lugar melhor.",
+"googleProfile.location":"Clinton, Massachusetts",
 
-"reviews.featured.since":"Família desde 2023",
-
-"reviews.card1.text":"O ambiente é sempre limpo, organizado e acolhedor. Temos total confiança em deixar nosso filho aqui.",
-
-"reviews.card1.since":"Família desde 2024",
-
-"reviews.card2.text":"O ambiente bilíngue ajudou nossa filha a aprender naturalmente. Ela adora as professoras e os amigos.",
-
-"reviews.card2.since":"Família desde 2022",
-
-"reviews.card3.text":"Todos os dias recebemos atualizações e sabemos que nosso filho está feliz, aprendendo e sendo muito bem cuidado.",
-
-"reviews.card3.since":"Família desde 2021",
-
-"reviews.footer.rating":"Avaliação Média de 5.0",
-
-"reviews.footer.text":"A confiança das famílias da nossa comunidade.",
-
-"reviews.footer.button":"Ver todas as avaliações no Google →",
+"googleProfile.button":"Ver Nosso Perfil no Google →",
 
 /* CTA FINAL — AGENDAR VISITA */
 
@@ -1245,7 +1227,7 @@ const WEBSITE_TRANSLATIONS = {
 "footer.home":"Início",
 "footer.about":"Sobre",
 "footer.programs":"Programas",
-"footer.reviews":"Avaliações",
+"footer.reviews":"Perfil no Google",
 "footer.contact":"Contato",
 
 "footer.contactTitle":"Contato",
@@ -1318,6 +1300,12 @@ const WEBSITE_TRANSLATIONS = {
 
       /* HEADER */
 
+"header.companyName":
+    "Espaço dos Anjos",
+
+"header.navigationLabel":
+    "Navegación principal",
+
 "header.businessType":
     "Guardería",
 
@@ -1356,6 +1344,9 @@ const WEBSITE_TRANSLATIONS = {
 
 "header.openMenu":
     "Abrir menú de navegación",
+
+"header.closeMenu":
+    "Cerrar menú de navegación",
     
 
         /* HERO */
@@ -1771,33 +1762,15 @@ const WEBSITE_TRANSLATIONS = {
    REVIEWS
 ========================================================== */
 
-"reviews.eyebrow":"La Confianza de las Familias",
+"googleProfile.eyebrow":"Nuestro Perfil de Google",
 
-"reviews.title":"Los Padres Aman Espaço dos Anjos",
+"googleProfile.title":"Encuentra Espaço dos Anjos en Google.",
 
-"reviews.description":"Elegir una guardería es una de las decisiones más importantes para una familia. Agradecemos la confianza que nuestras familias depositan en nosotros cada día.",
+"googleProfile.description":"Consulta nuestra ubicación, datos de contacto e información del negocio directamente en Google.",
 
-"reviews.featured.text":"Luciene realmente se preocupa por cada niño. Mi hija se siente segura, querida y feliz de venir todas las mañanas. No podríamos haber elegido un lugar mejor.",
+"googleProfile.location":"Clinton, Massachusetts",
 
-"reviews.featured.since":"Familia desde 2023",
-
-"reviews.card1.text":"El ambiente siempre está limpio, organizado y es acogedor. Nos sentimos completamente tranquilos dejando aquí a nuestro hijo.",
-
-"reviews.card1.since":"Familia desde 2024",
-
-"reviews.card2.text":"El ambiente bilingüe ha ayudado a nuestra hija a aprender de forma natural. Quiere mucho a sus maestras y amigos.",
-
-"reviews.card2.since":"Familia desde 2022",
-
-"reviews.card3.text":"Todos los días recibimos actualizaciones y sabemos que nuestro hijo está feliz, aprendiendo y muy bien cuidado.",
-
-"reviews.card3.since":"Familia desde 2021",
-
-"reviews.footer.rating":"Calificación Promedio de 5.0",
-
-"reviews.footer.text":"La confianza de las familias de nuestra comunidad.",
-
-"reviews.footer.button":"Ver todas las reseñas de Google →",
+"googleProfile.button":"Ver Nuestro Perfil de Google →",
 
 /* CTA FINAL — AGENDAR VISITA */
 
@@ -1873,7 +1846,7 @@ const WEBSITE_TRANSLATIONS = {
 "footer.home":"Inicio",
 "footer.about":"Nosotros",
 "footer.programs":"Programas",
-"footer.reviews":"Reseñas",
+"footer.reviews":"Perfil de Google",
 "footer.contact":"Contacto",
 
 "footer.contactTitle":"Contacto",
@@ -2027,6 +2000,19 @@ function translateWebsite(language) {
             }
 
         });
+
+    const translatedMobileMenuButton =
+        document.getElementById("mobile-menu-button");
+
+    if (
+        translatedMobileMenuButton?.getAttribute("aria-expanded") === "true" &&
+        translations["header.closeMenu"]
+    ) {
+        translatedMobileMenuButton.setAttribute(
+            "aria-label",
+            translations["header.closeMenu"]
+        );
+    }
 
 
     /* PLACEHOLDERS */

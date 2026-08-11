@@ -70,7 +70,7 @@
         }
 
         if (href.includes("share.google/")) {
-            sendEvent("google_reviews_click", { cta_text: label });
+            sendEvent("google_profile_click", { cta_text: label });
         }
     });
 

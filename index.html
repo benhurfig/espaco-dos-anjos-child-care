@@ -11,7 +11,7 @@
       gtag('js', new Date());
       gtag('config', 'G-LD62J5RD1Z');
     </script>
-    <script src="/assets/js/analytics-events.js" defer></script>
+    <script src="/assets/js/analytics-events.js?v=20260811-2" defer></script>
 
     <!-- =====================================================
          BASIC DOCUMENT SETTINGS
@@ -43,7 +43,7 @@
 
     <meta
         name="description"
-        content="Licensed Family Child Care in Clinton, MA for children ages 0–5. Safe, nurturing environment, bilingual learning, healthy meals and play-based education. Schedule a tour today."
+        content="Licensed Family Child Care in Clinton, MA for ages 6 months–5 years, offering bilingual learning, healthy meals and play-based education. Schedule a visit."
     >
 
     <meta
@@ -96,7 +96,7 @@
 
     <meta
         property="og:description"
-        content="Licensed Family Child Care in Clinton, MA for children ages 0–5. Safe, nurturing environment, bilingual learning and healthy meals."
+        content="Licensed Family Child Care in Clinton, MA for children ages 6 months to 5 years. Safe, nurturing environment, bilingual learning and healthy meals."
     >
 
     <meta
@@ -141,9 +141,12 @@
 {
   "@context":"https://schema.org",
   "@type":"ChildCare",
+  "@id":"https://www.espacodosanjoschildcare.com/#childcare",
   "name":"Espaço dos Anjos Child Care",
   "url":"https://www.espacodosanjoschildcare.com/",
+  "description":"Licensed family child care in Clinton, Massachusetts for children ages 6 months to 5 years, with bilingual learning, healthy meals and play-based education.",
   "image":"https://www.espacodosanjoschildcare.com/assets/images/social/social-preview.jpg",
+  "logo":"https://www.espacodosanjoschildcare.com/assets/images/logo/logo.webp",
   "telephone":"+1-774-232-8156",
   "email":"espacodosanjos.chilcare@gmail.com",
 
@@ -156,12 +159,33 @@
     "addressCountry":"US"
   },
 
-  "openingHours":[
-    "Mo-Fr 07:30-17:30"
-  ],
+  "openingHoursSpecification":{
+    "@type":"OpeningHoursSpecification",
+    "dayOfWeek":[
+      "https://schema.org/Monday",
+      "https://schema.org/Tuesday",
+      "https://schema.org/Wednesday",
+      "https://schema.org/Thursday",
+      "https://schema.org/Friday"
+    ],
+    "opens":"07:30",
+    "closes":"17:30"
+  },
+
+  "areaServed":{
+    "@type":"City",
+    "name":"Clinton",
+    "containedInPlace":{
+      "@type":"State",
+      "name":"Massachusetts"
+    }
+  },
+
+  "hasMap":"https://share.google/5inNF6rZnVAmLlbf2",
 
   "sameAs":[
-    "https://www.instagram.com/espacodosanjoschildcare"
+    "https://www.instagram.com/espacodosanjoschildcare",
+    "https://share.google/5inNF6rZnVAmLlbf2"
   ]
 }
     </script>
@@ -197,7 +221,7 @@
     <link
         rel="preload"
         as="image"
-        href="/assets/images/hero/hero.webp"
+        href="/assets/images/slide/hero-01.webp"
     >
 
     <!-- =====================================================
@@ -207,7 +231,7 @@
     <link
         rel="icon"
         type="image/png"
-        href="/assets/images/logo/logo.png"
+        href="/assets/images/logo/logo.webp"
     >
 
     <!-- =====================================================
@@ -225,7 +249,7 @@
 
     <link
         rel="stylesheet"
-        href="/assets/css/style.css"
+        href="/assets/css/style.css?v=20260811-2"
     >
 
 </head>
@@ -277,7 +301,7 @@
         >
             <img
                 class="site-header__logo-image"
-                src="/assets/images/logo/logo.png"
+                src="/assets/images/logo/logo.webp"
                 alt="Espaço dos Anjos Child Care"
                 width="74"
                 height="74"
@@ -337,7 +361,7 @@
                 <li class="site-navigation__item">
                     <a
                         class="site-navigation__link"
-                        href="#learning"
+                        href="#programs"
                         data-i18n="header.program"
                     >
                         Our Program
@@ -487,8 +511,6 @@
     aria-hidden="true"
 ></div>
 
-<script src="/assets/js/header.js"></script>
-
 <!-- =================================================
      HERO SECTION
      
@@ -516,10 +538,10 @@
 
             <img
                 class="hero__slide-image"
-                src="/assets/images/slide/hero-01.jpg"
+                src="/assets/images/slide/hero-01.webp"
                 alt=""
-                width="1920"
-                height="1200"
+                width="1600"
+                height="901"
                 fetchpriority="high"
             >
 
@@ -533,9 +555,9 @@
 
             <img
                 class="hero__slide-image"
-                src="/assets/images/slide/hero-02.jpg"
+                src="/assets/images/slide/hero-02.webp"
                 alt=""
-                width="1920"
+                width="675"
                 height="1200" 
                 loading="lazy"
             >
@@ -550,9 +572,9 @@
 
             <img
                 class="hero__slide-image"
-                src="/assets/images/slide/hero-03.jpg"
+                src="/assets/images/slide/hero-03.webp"
                 alt=""
-                width="1920"
+                width="900"
                 height="1200"
                 loading="lazy"
             >
@@ -569,10 +591,10 @@
 
             <img
                 class="hero__slide-image"
-                src="/assets/images/slide/hero-04.jpg"
+                src="/assets/images/slide/hero-04.webp"
                 alt=""
-                width="1920"
-                height="1200"
+                width="1600"
+                height="900"
                 loading="lazy"
             >
 
@@ -658,7 +680,7 @@
 
                 <a
                     class="button button--hero-outline"
-                    href="#learning"
+                    href="#programs"
                     data-i18n="hero.secondaryButton"
                 >
                     Discover Our Program
@@ -1233,10 +1255,10 @@
 
     <img
         class="visual-story__image"
-        src="/assets/images/visual-story.jpg"
+        src="/assets/images/visual-story.webp"
         alt="A learning activity at Espaço dos Anjos Child Care"
-        width="1920"
-        height="1200"
+        width="562"
+        height="1000"
         loading="lazy"
     >
 
@@ -1376,7 +1398,7 @@
 
  <!-- =================================================
              End - of VISUAL STORY
- <-- =================================================
+ ================================================== -->
 
 <!-- ==================================================
      PROGRAMS
@@ -1384,7 +1406,7 @@
 
 <section
     class="programs"
-    id="learning"
+    id="programs"
 >
 
     <div class="container">
@@ -1941,9 +1963,12 @@
         <div class="meals__photo">
 
             <img
-                src="/assets/images/meals/meals.jpg"
+                src="/assets/images/meals/meals.webp"
                 alt="Healthy meals prepared for children"
                 data-i18n-alt="meals.imageAlt"
+                width="1400"
+                height="788"
+                loading="lazy"
             >
 
         </div>
@@ -2126,9 +2151,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/learning-area.jpg"
+                    src="/assets/images/space/learning-area.webp"
                     alt="learning area"
                     data-i18n-alt="space.card1.alt"
+                    width="1200"
+                    height="1200"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2158,9 +2186,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/arts.jpg"
+                    src="/assets/images/space/arts.webp"
                     alt="Arts and Crafts"
                     data-i18n-alt="space.card2.alt"
+                    width="900"
+                    height="1200"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2190,9 +2221,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/classroom.jpg"
+                    src="/assets/images/space/classroom.webp"
                     alt="Learning Room"
                     data-i18n-alt="space.card3.alt"
+                    width="1400"
+                    height="934"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2222,9 +2256,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/playground.jpg"
+                    src="/assets/images/space/playground.webp"
                     alt="Outdoor Playground"
                     data-i18n-alt="space.card4.alt"
+                    width="1400"
+                    height="933"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2254,9 +2291,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/meals.jpg"
+                    src="/assets/images/space/meals.webp"
                     alt="Meal Area"
                     data-i18n-alt="space.card5.alt"
+                    width="1400"
+                    height="788"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2286,9 +2326,12 @@
             <article class="space__card">
 
                 <img
-                    src="/assets/images/space/rest.jpg"
+                    src="/assets/images/space/rest.webp"
                     alt="Rest Area"
                     data-i18n-alt="space.card6.alt"
+                    width="1400"
+                    height="788"
+                    loading="lazy"
                 >
 
                 <div class="space__card-content">
@@ -2355,9 +2398,11 @@
             <div class="educator__photo">
 
                 <img
-                    src="/assets/images/educator/luciene.jpg"
+                    src="/assets/images/educator/luciene.webp"
                     alt="Luciene Ribeiro"
                     data-i18n-alt="educator.imageAlt"
+                    width="562"
+                    height="1000"
                     loading="lazy">
 
             </div>
@@ -2437,175 +2482,58 @@
 
 
 <!-- =================================================
-     REVIEWS
-==================================================
+     GOOGLE BUSINESS PROFILE
+================================================== -->
 
-<!--
-
-
-
-
-
-<section class="reviews" id="reviews">
-
+<section
+    class="google-profile"
+    id="google-profile"
+    aria-labelledby="google-profile-title"
+>
     <div class="container">
-
-        <div class="reviews__header">
-
-            <span
-                class="reviews__eyebrow"
-                data-i18n="reviews.eyebrow"
-            >
-                Trusted by Families
-            </span>
-
-            <h2 data-i18n="reviews.title">
-                Parents Love Espaço dos Anjos
-            </h2>
-
-            <p data-i18n="reviews.description">
-                Choosing a daycare is one of the most important decisions a family makes.
-                We're grateful for the trust our families place in us every day.
-            </p>
-
-        </div>
-
-
-
-
-        <div class="reviews__featured">
-
-            <div class="reviews__quote">
-
-                <span class="reviews__stars">
-                    ★★★★★
+        <div class="google-profile__card">
+            <div class="google-profile__content">
+                <span
+                    class="google-profile__eyebrow"
+                    data-i18n="googleProfile.eyebrow"
+                >
+                    Our Google Profile
                 </span>
 
-                <p data-i18n="reviews.featured.text">
-                    "Luciene truly cares about every child. My daughter feels safe,
-                    loved and excited to come every morning. We couldn't ask for a
-                    better place."
+                <h2
+                    id="google-profile-title"
+                    data-i18n="googleProfile.title"
+                >
+                    Find Espaço dos Anjos on Google.
+                </h2>
+
+                <p data-i18n="googleProfile.description">
+                    View our location, contact details and business information directly on Google.
                 </p>
 
-                <strong>
-                    — Amanda P.
-                </strong>
-
-                <small data-i18n="reviews.featured.since">
-                    Parent since 2023
-                </small>
-
-            </div>
-
-        </div>
-
-
-
-
-        <div class="reviews__grid">
-
-            <article class="review-card">
-
-                <span class="review-card__stars">
-                    ★★★★★
-                </span>
-
-                <p data-i18n="reviews.card1.text">
-                    "The environment is always clean, organized and welcoming.
-                    We feel completely confident leaving our son here."
-                </p>
-
-                <strong>Sarah M.</strong>
-
-                <small data-i18n="reviews.card1.since">
-                    Parent since 2024
-                </small>
-
-            </article>
-
-
-            <article class="review-card">
-
-                <span class="review-card__stars">
-                    ★★★★★
-                </span>
-
-                <p data-i18n="reviews.card2.text">
-                    "The bilingual environment has helped our daughter learn naturally.
-                    She loves her teachers and her friends."
-                </p>
-
-                <strong>Fernanda R.</strong>
-
-                <small data-i18n="reviews.card2.since">
-                    Parent since 2022
-                </small>
-
-            </article>
-
-
-            <article class="review-card">
-
-                <span class="review-card__stars">
-                    ★★★★★
-                </span>
-
-                <p data-i18n="reviews.card3.text">
-                    "Every day we receive updates and know our child is happy,
-                    learning and well cared for."
-                </p>
-
-                <strong>Jessica L.</strong>
-
-                <small data-i18n="reviews.card3.since">
-                    Parent since 2021
-                </small>
-
-            </article>
-
-        </div>
-
-
-
-
-        <div class="reviews__footer">
-
-            <div>
-
-                <span class="reviews__stars-large">
-                    ★★★★★
-                </span>
-
-                <h3 data-i18n="reviews.footer.rating">
-                    5.0 Average Rating
-                </h3>
-
-                <p data-i18n="reviews.footer.text">
-                    Trusted by local families.
-                </p>
-
+                <div class="google-profile__location">
+                    <span class="google-profile__pin" aria-hidden="true">⌖</span>
+                    <span data-i18n="googleProfile.location">
+                        Clinton, Massachusetts
+                    </span>
+                </div>
             </div>
 
             <a
-                href="https://share.google/Js7cPgB7GLpsBkU3u"
-                data-i18n="reviews.footer.button"
+                class="google-profile__button"
+                href="https://share.google/5inNF6rZnVAmLlbf2"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="googleProfile.button"
             >
-                View All Google Reviews →
+                View Our Google Profile →
             </a>
-
         </div>
-
     </div>
-
 </section>
 
-
-
-
-
-
 <!-- =================================================
-     END OF REVIEWS
+     END GOOGLE BUSINESS PROFILE
 ================================================== -->
     <!-- ==================================================
      FINAL CTA — SCHEDULE A TOUR
@@ -2910,6 +2838,7 @@ Footer Section
 
                     <a href="https://www.instagram.com/espacodosanjoschildcare"
                        target="_blank"
+                       rel="noopener noreferrer"
                        aria-label="Instagram">
 
                         <i class="fab fa-instagram"></i>
@@ -2937,13 +2866,13 @@ Footer Section
 
                 <ul>
 
-                    <li><a href="#hero" data-i18n="footer.home">Home</a></li>
+                    <li><a href="#home" data-i18n="footer.home">Home</a></li>
 
                     <li><a href="#about" data-i18n="footer.about">About</a></li>
 
                     <li><a href="#programs" data-i18n="footer.programs">Programs</a></li>
 
-                    <li><a href="#reviews" data-i18n="footer.reviews">Reviews</a></li>
+                    <li><a href="https://share.google/5inNF6rZnVAmLlbf2" target="_blank" rel="noopener noreferrer" data-i18n="footer.reviews">Google Profile</a></li>
 
                     <li><a href="#tour" data-i18n="footer.contact">Contact</a></li>
 
@@ -3031,7 +2960,7 @@ Footer Section
                     <li>
 
                         <a
-                            href="/privacy.html"
+                            href="/privacy-policy.html"
                             data-i18n="footer.privacy"
                         >
                             Privacy Policy
@@ -3042,7 +2971,7 @@ Footer Section
                     <li>
 
                         <a
-                            href="/terms.html"
+                            href="/terms-of-service.html"
                             data-i18n="footer.terms"
                         >
                             Terms of Service
@@ -3077,6 +3006,7 @@ Footer Section
                 <a
                     href="https://www.instagram.com/mategrowth.us"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
 
                     MateGrowth
@@ -3104,14 +3034,14 @@ Footer Section
 
     <!-- Menu and global functionality -->
 
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js?v=20260811-2"></script>
 
     <script src="/assets/js/floating-booking.js"></script>
 
 
     <!-- Translation system -->
 
-    <script src="/assets/js/languages.js"></script>
+    <script src="/assets/js/languages.js?v=20260811-2"></script>
 
 
     <!-- Hero image slider -->
