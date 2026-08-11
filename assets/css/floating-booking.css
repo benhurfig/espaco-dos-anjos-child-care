@@ -92,20 +92,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-
-    min-height: 56px;
-    padding: 14px 18px;
+    width: 54px;
+    height: 54px;
+    padding: 0;
 
     border: 0;
-    border-radius: 999px;
+    border-radius: 50%;
     color: #ffffff;
     background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
-    box-shadow: 0 16px 38px rgba(22, 122, 152, 0.32);
+    box-shadow: 0 12px 28px rgba(22, 122, 152, 0.3);
 
-    font-family: var(--font-heading);
-    font-size: 0.88rem;
-    font-weight: 900;
+    font-size: 1.08rem;
     line-height: 1;
     cursor: pointer;
 
@@ -114,16 +111,7 @@
 
 .floating-booking__toggle:hover {
     transform: translateY(-2px);
-    box-shadow: 0 20px 44px rgba(22, 122, 152, 0.4);
-}
-
-.floating-booking__chevron {
-    font-size: 0.72rem;
-    transition: transform 180ms ease;
-}
-
-.floating-booking.is-open .floating-booking__chevron {
-    transform: rotate(180deg);
+    box-shadow: 0 16px 34px rgba(22, 122, 152, 0.38);
 }
 
 @media (max-width: 480px) {
@@ -133,17 +121,16 @@
     }
 
     .floating-booking__toggle {
-        min-height: 52px;
-        padding: 12px 15px;
-        font-size: 0.8rem;
+        width: 48px;
+        height: 48px;
+        font-size: 0.96rem;
     }
 }
 
 @media (prefers-reduced-motion: reduce) {
     .floating-booking__menu,
     .floating-booking__option,
-    .floating-booking__toggle,
-    .floating-booking__chevron {
+    .floating-booking__toggle {
         transition: none;
     }
 }
