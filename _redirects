@@ -1,3 +1,15 @@
+https://espacodosanjoschildcare.com/* https://www.espacodosanjoschildcare.com/:splat 301!
+
+# Localized canonical URLs
+/pt /pt/ 301
+/pt/index.html /pt/ 301
+/es /es/ 301
+/es/index.html /es/ 301
+
 # Legacy legal URLs
 /terms.html /terms-of-service 301
 /privacy.html /privacy-policy 301
+/terms-of-service.html /terms-of-service 301
+/privacy-policy.html /privacy-policy 301
+/terms-of-service /terms-of-service.html 200
+/privacy-policy /privacy-policy.html 200

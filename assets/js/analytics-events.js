@@ -2,7 +2,10 @@
 
 (() => {
     function sendEvent(name, parameters = {}) {
-        if (typeof window.gtag !== "function") {
+        if (
+            !window.analyticsConsentGranted ||
+            typeof window.gtag !== "function"
+        ) {
             return;
         }
 

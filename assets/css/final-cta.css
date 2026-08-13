@@ -500,13 +500,13 @@ a.final-tour__contact-item:focus-visible {
     outline-offset: 4px;
 }
 
-.final-tour__booking-button i {
+.final-tour__booking-button .icon {
     flex: 0 0 auto;
 
     transition: transform 200ms ease;
 }
 
-.final-tour__booking-button:hover i {
+.final-tour__booking-button:hover .icon {
     transform: translateX(4px);
 }
 
@@ -610,7 +610,7 @@ a.final-tour__contact-item:focus-visible {
     .final-tour__contact-item,
     .final-tour__action,
     .final-tour__booking-button,
-    .final-tour__booking-button i {
+    .final-tour__booking-button .icon {
         transition: none;
     }
 

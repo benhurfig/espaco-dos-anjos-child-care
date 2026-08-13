@@ -526,11 +526,11 @@
     outline-offset: 5px;
 }
 
-.monthly-bulletin__button i {
+.monthly-bulletin__button .icon {
     transition: transform 200ms ease;
 }
 
-.monthly-bulletin__button:hover i {
+.monthly-bulletin__button:hover .icon {
     transform: translateY(4px);
 }
 
@@ -747,7 +747,7 @@
 
     .monthly-bulletin__news-item,
     .monthly-bulletin__button,
-    .monthly-bulletin__button i {
+    .monthly-bulletin__button .icon {
         transition: none;
     }
 

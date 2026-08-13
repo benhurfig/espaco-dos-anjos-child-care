@@ -1920,6 +1920,30 @@ const LANGUAGE_SETTINGS = {
 
 function getInitialLanguage() {
 
+    const pathLanguage =
+        window.location.pathname
+            .split("/")
+            .filter(Boolean)[0];
+
+    if (
+        LANGUAGE_SETTINGS.supportedLanguages.includes(
+            pathLanguage
+        )
+    ) {
+
+        return pathLanguage;
+
+    }
+
+    if (
+        window.location.pathname === "/" ||
+        window.location.pathname === "/index.html"
+    ) {
+
+        return "en";
+
+    }
+
     const savedLanguage =
         localStorage.getItem(
             LANGUAGE_SETTINGS.storageKey
@@ -2065,10 +2089,42 @@ function translateWebsite(language) {
         });
 
 
+    /* IMAGE ALTERNATIVE TEXT */
+
+    document
+        .querySelectorAll(
+            "[data-i18n-alt]"
+        )
+        .forEach((element) => {
+
+            const translationKey =
+                element.dataset.i18nAlt;
+
+            const translatedText =
+                translations[translationKey];
+
+            if (translatedText !== undefined) {
+
+                element.setAttribute(
+                    "alt",
+                    translatedText
+                );
+
+            }
+
+        });
+
+
     /* UPDATE HTML LANGUAGE */
 
+    const htmlLanguage = {
+        en: "en",
+        pt: "pt-BR",
+        es: "es"
+    }[language] || language;
+
     document.documentElement.lang =
-        language;
+        htmlLanguage;
 
 
     /* SAVE LANGUAGE */
@@ -2162,6 +2218,39 @@ document.addEventListener(
                                     selectedLanguage
                                 )
                         ) {
+
+                            const localizedHomePaths = [
+                                "/",
+                                "/index.html",
+                                "/pt/",
+                                "/pt/index.html",
+                                "/es/",
+                                "/es/index.html"
+                            ];
+
+                            if (
+                                localizedHomePaths.includes(
+                                    window.location.pathname
+                                )
+                            ) {
+
+                                localStorage.setItem(
+                                    LANGUAGE_SETTINGS.storageKey,
+                                    selectedLanguage
+                                );
+
+                                const localizedUrl =
+                                    selectedLanguage === "en"
+                                        ? "/"
+                                        : `/${selectedLanguage}/`;
+
+                                window.location.assign(
+                                    localizedUrl
+                                );
+
+                                return;
+
+                            }
 
                             translateWebsite(
                                 selectedLanguage

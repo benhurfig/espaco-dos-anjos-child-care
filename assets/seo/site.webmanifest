@@ -1,0 +1,19 @@
+{
+  "name": "Espaço dos Anjos Child Care",
+  "short_name": "Espaço dos Anjos",
+  "description": "Licensed family child care in Clinton, Massachusetts.",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8FCFD",
+  "theme_color": "#28AFCB",
+  "icons": [
+    {
+      "src": "/assets/images/logo/logo.webp",
+      "sizes": "320x320",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

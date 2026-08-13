@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const slideInterval = 4500;
 
+    const reduceMotion =
+        window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+        );
+
     let currentSlideIndex = 0;
 
     let sliderTimer = null;
@@ -167,6 +172,12 @@ const updateStoryCard = (slide) => {
 
         stopSlider();
 
+        if (reduceMotion.matches) {
+
+            return;
+
+        }
+
         sliderTimer =
             window.setInterval(
                 showNextSlide,
@@ -220,6 +231,28 @@ const updateStoryCard = (slide) => {
         );
 
     });
+
+
+    /* ======================================================
+       RESPECT MOTION PREFERENCE CHANGES
+    ====================================================== */
+
+    reduceMotion.addEventListener(
+        "change",
+        () => {
+
+            if (reduceMotion.matches) {
+
+                stopSlider();
+
+            } else {
+
+                startSlider();
+
+            }
+
+        }
+    );
 
 
     /* ======================================================

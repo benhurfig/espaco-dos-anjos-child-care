@@ -3,14 +3,39 @@
 
 <head>
     <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LD62J5RD1Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-LD62J5RD1Z');
+      window.gtag = function(){dataLayer.push(arguments);};
+      let analyticsConsent = 'denied';
+      try {
+        analyticsConsent = localStorage.getItem('edaCookieConsent') === 'accepted'
+          ? 'granted'
+          : 'denied';
+      } catch (error) {}
+      window.analyticsConsentGranted = analyticsConsent === 'granted';
+      window.gtag('consent', 'default', {
+        analytics_storage: analyticsConsent,
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted',
+        wait_for_update: 500
+      });
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-LD62J5RD1Z');
+      window.loadGoogleAnalytics = function(){
+        if (document.querySelector('[data-google-analytics]')) return;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LD62J5RD1Z';
+        script.setAttribute('data-google-analytics', '');
+        document.head.appendChild(script);
+      };
+      if (window.analyticsConsentGranted) window.loadGoogleAnalytics();
     </script>
-    <script src="/assets/js/analytics-events.js?v=20260811-2" defer></script>
+    <script src="/assets/js/cookie-consent.js?v=20260813-1" defer></script>
+    <script src="/assets/js/analytics-events.js?v=20260813-1" defer></script>
 
     <!-- =====================================================
          BASIC DOCUMENT SETTINGS
@@ -77,6 +102,9 @@
         content="website"
     >
 
+    <meta property="og:site_name" content="Espaço dos Anjos Child Care">
+    <meta property="og:locale" content="en_US">
+
     <meta
         property="og:title"
         content="Privacy Policy | Espaço dos Anjos Child Care"
@@ -92,15 +120,27 @@
         content="https://www.espacodosanjoschildcare.com/assets/images/social/social-preview.jpg"
     >
 
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Espaço dos Anjos Child Care in Clinton, Massachusetts">
+
     <meta
         property="og:url"
         content="https://www.espacodosanjoschildcare.com/privacy-policy"
     >
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy | Espaço dos Anjos Child Care">
+    <meta name="twitter:description" content="Privacy information for families visiting the Espaço dos Anjos Child Care website.">
+    <meta name="twitter:image" content="https://www.espacodosanjoschildcare.com/assets/images/social/social-preview.jpg">
+    <meta name="twitter:image:alt" content="Espaço dos Anjos Child Care in Clinton, Massachusetts">
+
     <link
         rel="canonical"
         href="https://www.espacodosanjoschildcare.com/privacy-policy"
     >
+
+    <link rel="manifest" href="/assets/seo/site.webmanifest">
 
 
     <!-- =====================================================
@@ -117,6 +157,8 @@
         href="https://fonts.gstatic.com"
         crossorigin
     >
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
 
 
     <!-- =====================================================
@@ -137,7 +179,7 @@
 
     <link
         rel="icon"
-        type="image/png"
+        type="image/webp"
         href="/assets/images/logo/logo.webp"
     >
 
@@ -149,7 +191,7 @@
 
 <link
     rel="stylesheet"
-    href="/assets/css/style.css?v=20260811-2"
+    href="/assets/css/site.bundle.css?v=20260813-2"
 >
 
 </head>
@@ -170,12 +212,6 @@
     >
         Skip to main content
     </a>
-
-    <!-- =====================================================
-         MAIN WEBSITE CONTENT
-    ====================================================== -->
-
-    <main id="main-content">
 
          <!-- =====================================================
        End - of Header Section
@@ -338,69 +374,6 @@
         <div class="site-header__actions">
 
 
-            <!-- LANGUAGE SELECTOR -->
-
-            <div class="language-selector">
-
-                <button
-                    class="language-selector__button"
-                    type="button"
-                    aria-label="Select website language"
-                    aria-expanded="false"
-                >
-
-                    <span class="language-selector__icon">
-                        🌐
-                    </span>
-
-                    <span class="language-selector__current">
-                        EN
-                    </span>
-
-                    <span
-                        class="language-selector__arrow"
-                        aria-hidden="true"
-                    >
-                        ▾
-                    </span>
-
-                </button>
-
-
-                <div
-                    class="language-selector__menu"
-                    aria-hidden="true"
-                >
-
-                    <button
-                        class="language-selector__option is-active"
-                        type="button"
-                        data-language="en"
-                    >
-                        English
-                    </button>
-
-                    <button
-                        class="language-selector__option"
-                        type="button"
-                        data-language="pt"
-                    >
-                        Português
-                    </button>
-
-                    <button
-                        class="language-selector__option"
-                        type="button"
-                        data-language="es"
-                    >
-                        Español
-                    </button>
-
-                </div>
-
-            </div>
-
-
             <!-- MAIN CTA -->
 
             <a
@@ -447,8 +420,7 @@
     aria-hidden="true"
 ></div>
 
-
-<script src="/assets/js/header.js"></script>
+<main id="main-content">
 
 
 
@@ -470,7 +442,7 @@ PRIVACY POLICY
         </h1>
 
         <p class="legal-updated">
-            Last Updated: July 18, 2026
+                Last Updated: August 13, 2026
         </p>
 
         <div class="legal-content">
@@ -524,10 +496,13 @@ PRIVACY POLICY
 
             <p>
 
-                Our website may use cookies and analytics tools to understand
-                how visitors interact with our website, improve performance,
-                and provide a better browsing experience. These technologies
-                do not collect sensitive personal information without your consent.
+                Our website uses essential browser storage to remember settings
+                such as your language and cookie preference. We also use Google
+                Analytics 4 to understand website visits and improve the experience.
+                Analytics storage is optional and remains disabled unless you
+                select “Accept analytics” in our cookie notice. You may decline
+                analytics without affecting the website and may change your choice
+                at any time using the Cookie settings button.
 
             </p>
 
@@ -619,3 +594,11 @@ PRIVACY POLICY
 <!-- ==========================================================
 END PRIVACY POLICY
 ========================================================== -->
+
+</main>
+
+<script src="/assets/js/main.js?v=20260813-2"></script>
+
+</body>
+
+</html>

@@ -78,13 +78,13 @@
     outline-offset: 3px;
 }
 
-.floating-booking__option i {
+.floating-booking__option .icon {
     width: 20px;
     color: var(--color-primary-dark);
     text-align: center;
 }
 
-.floating-booking__option--schedule i {
+.floating-booking__option--schedule .icon {
     color: #ffffff;
 }
 

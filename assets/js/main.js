@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentLanguage =
         document.querySelector(".language-selector__current");
 
+    let mobileMenuReturnFocus = null;
+
 
     /* ======================================================
        HEADER SCROLL EFFECT
@@ -75,11 +77,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const getMobileMenuLabel = (key, fallback) => {
 
+        const activeLanguage =
+            document.documentElement.lang
+                ?.toLowerCase()
+                .split("-")[0];
+
         if (
             typeof WEBSITE_TRANSLATIONS !== "undefined" &&
-            WEBSITE_TRANSLATIONS[document.documentElement.lang]?.[key]
+            WEBSITE_TRANSLATIONS[activeLanguage]?.[key]
         ) {
-            return WEBSITE_TRANSLATIONS[document.documentElement.lang][key];
+            return WEBSITE_TRANSLATIONS[activeLanguage][key];
         }
 
         return fallback;
@@ -95,6 +102,9 @@ document.addEventListener("DOMContentLoaded", () => {
         ) {
             return;
         }
+
+        mobileMenuReturnFocus =
+            document.activeElement;
 
         navigation.classList.add("is-open");
 
@@ -122,10 +132,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         body.classList.add("no-scroll");
 
+        navigationLinks[0]?.focus();
+
     };
 
 
-    const closeMobileMenu = () => {
+    const closeMobileMenu = ({ restoreFocus = true } = {}) => {
 
         if (
             !navigation ||
@@ -134,6 +146,9 @@ document.addEventListener("DOMContentLoaded", () => {
         ) {
             return;
         }
+
+        const menuWasOpen =
+            navigation.classList.contains("is-open");
 
         navigation.classList.remove("is-open");
 
@@ -160,6 +175,18 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
         body.classList.remove("no-scroll");
+
+        if (
+            menuWasOpen &&
+            restoreFocus &&
+            mobileMenuReturnFocus instanceof HTMLElement
+        ) {
+
+            mobileMenuReturnFocus.focus();
+
+        }
+
+        mobileMenuReturnFocus = null;
 
     };
 
@@ -211,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             link.classList.add("is-active");
 
-            closeMobileMenu();
+            closeMobileMenu({ restoreFocus: false });
 
         });
 
@@ -228,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             closeMobileMenu();
 
-            closeLanguageMenu();
+            closeLanguageMenu({ restoreFocus: true });
 
         }
 
@@ -243,7 +270,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (window.innerWidth > 860) {
 
-            closeMobileMenu();
+            closeMobileMenu({ restoreFocus: false });
 
         }
 
@@ -277,10 +304,17 @@ document.addEventListener("DOMContentLoaded", () => {
             "false"
         );
 
+        const activeOption =
+            languageMenu.querySelector(
+                ".language-selector__option.is-active"
+            );
+
+        activeOption?.focus();
+
     };
 
 
-    function closeLanguageMenu() {
+    function closeLanguageMenu({ restoreFocus = false } = {}) {
 
         if (
             !languageSelector ||
@@ -301,6 +335,12 @@ document.addEventListener("DOMContentLoaded", () => {
             "aria-hidden",
             "true"
         );
+
+        if (restoreFocus) {
+
+            languageButton.focus();
+
+        }
 
     }
 
@@ -323,6 +363,53 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
 
                     openLanguageMenu();
+
+                }
+
+            }
+        );
+
+    }
+
+
+    if (languageMenu) {
+
+        languageMenu.addEventListener(
+            "keydown",
+            (event) => {
+
+                const options =
+                    Array.from(languageOptions);
+
+                const currentIndex =
+                    options.indexOf(document.activeElement);
+
+                let nextIndex = null;
+
+                if (event.key === "ArrowDown") {
+
+                    nextIndex =
+                        (currentIndex + 1) % options.length;
+
+                } else if (event.key === "ArrowUp") {
+
+                    nextIndex =
+                        (currentIndex - 1 + options.length) % options.length;
+
+                } else if (event.key === "Home") {
+
+                    nextIndex = 0;
+
+                } else if (event.key === "End") {
+
+                    nextIndex = options.length - 1;
+
+                }
+
+                if (nextIndex !== null) {
+
+                    event.preventDefault();
+                    options[nextIndex]?.focus();
 
                 }
 

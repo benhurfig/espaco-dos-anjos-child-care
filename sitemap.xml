@@ -1,54 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset
-xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-
-        <loc>
-
-            https://www.espacodosanjoschildcare.com/
-
-        </loc>
-
-        <lastmod>2026-08-11</lastmod>
-
-        <changefreq>monthly</changefreq>
-
-        <priority>1.0</priority>
-
-    </url>
-
-    <url>
-
-        <loc>
-
-            https://www.espacodosanjoschildcare.com/privacy-policy
-
-        </loc>
-
-        <lastmod>2026-08-11</lastmod>
-
-        <changefreq>yearly</changefreq>
-
-        <priority>0.3</priority>
-
-    </url>
-
-    <url>
-
-        <loc>
-
-            https://www.espacodosanjoschildcare.com/terms-of-service
-
-        </loc>
-
-        <lastmod>2026-08-11</lastmod>
-
-        <changefreq>yearly</changefreq>
-
-        <priority>0.3</priority>
-
-    </url>
-
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <url>
+    <loc>https://www.espacodosanjoschildcare.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.espacodosanjoschildcare.com/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.espacodosanjoschildcare.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.espacodosanjoschildcare.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.espacodosanjoschildcare.com/" />
+    <lastmod>2026-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.espacodosanjoschildcare.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.espacodosanjoschildcare.com/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.espacodosanjoschildcare.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.espacodosanjoschildcare.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.espacodosanjoschildcare.com/" />
+    <lastmod>2026-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.espacodosanjoschildcare.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.espacodosanjoschildcare.com/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.espacodosanjoschildcare.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.espacodosanjoschildcare.com/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.espacodosanjoschildcare.com/" />
+    <lastmod>2026-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.espacodosanjoschildcare.com/privacy-policy</loc>
+    <lastmod>2026-08-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.espacodosanjoschildcare.com/terms-of-service</loc>
+    <lastmod>2026-08-13</lastmod>
+  </url>
 </urlset>
