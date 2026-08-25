@@ -30,7 +30,7 @@ const WEBSITE_TRANSLATIONS = {
             "Skip to main content",
 
         "general.scheduleTour":
-            "Schedule a Tour",
+            "Start Here",
 
         "general.call":
             "Call",
@@ -39,7 +39,7 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
         "visit.schedule":
-            "Schedule a Visit",
+            "Start Here",
 
         "visit.hoursTitle":
             "Visit Hours",
@@ -51,10 +51,10 @@ const WEBSITE_TRANSLATIONS = {
             "Saturday–Sunday: 9:00 AM–5:00 PM",
 
         "visit.advance":
-            "Please schedule at least 2 days in advance.",
+            "Tell us what schedule and care your family needs.",
 
         "visit.attention":
-            "Visits are scheduled in advance so we can give your family our full attention.",
+            "We'll review your information and contact you about availability and next steps.",
 
         "contact.text":
             "Text Us",
@@ -63,7 +63,7 @@ const WEBSITE_TRANSLATIONS = {
             "Call Us",
 
         "contact.scheduleOnline":
-            "Schedule Online",
+            "Start Here",
 
 
        /* HEADER */
@@ -96,7 +96,7 @@ const WEBSITE_TRANSLATIONS = {
     "Clinton, Massachusetts",
 
 "header.cta":
-    "Schedule a Visit",
+    "Start Here",
 
 "header.languageSelector":
     "Select website language",
@@ -131,7 +131,7 @@ const WEBSITE_TRANSLATIONS = {
     "A safe, nurturing, and educational environment for children ages 6 months to 5 years.",
 
 "hero.primaryButton":
-    "Schedule a Tour",
+    "I'm Interested in Child Care",
 
 "hero.secondaryButton":
     "Discover Our Program",
@@ -184,10 +184,10 @@ const WEBSITE_TRANSLATIONS = {
     "Massachusetts child care assistance accepted",
 
 "trust.bookingTitle":
-    "Online Tour Booking",
+    "Simple First Step",
 
 "trust.bookingText":
-    "Schedule your visit anytime online",
+    "Tell us what your family needs",
 /* MONTHLY BULLETIN */
 
 "bulletin.badge":
@@ -209,13 +209,13 @@ const WEBSITE_TRANSLATIONS = {
     "Eligible Massachusetts families may use approved child care assistance.",
 
 "bulletin.item3.title":
-    "Online Tour Scheduling Available",
+    "Family Requests Available Online",
 
 "bulletin.item3.text":
-    "Choose a convenient date and time to visit our child care.",
+    "Share your child's schedule and care needs with us.",
 
 "bulletin.button":
-    "Schedule a Visit",
+    "Start Here",
 
 "bulletin.note":
     "Contact us to learn more about availability and child care vouchers.",
@@ -548,31 +548,31 @@ const WEBSITE_TRANSLATIONS = {
 /* FINAL TOUR CTA */
 
 "tour.eyebrow":
-    "Schedule a Tour",
+    "Interested in Child Care?",
 
 "tour.title":
-    "Come Visit Our Child Care",
+    "Tell Us About Your Family",
 
 "tour.description":
-    "Choose the most convenient way to contact us. Call, send an email or schedule your visit online.",
+    "Looking for child care? Start by telling us a little about your child, schedule and care needs. It only takes a few minutes.",
 
 "tour.item1":
-    "Meet Luciene personally",
+    "Tell us about your child",
 
 "tour.item2":
-    "See our daily routine",
+    "Share your schedule and care needs",
 
 "tour.item3":
-    "Ask all your questions",
+    "Send your contact information",
 
 "tour.card.badge":
-    "Book Online",
+    "Quick First Step",
 
 "tour.card.title":
-    "Schedule Your Family Visit",
+    "Start Your Family Request",
 
 "tour.card.subtitle":
-    "Schedule your visit online, or text us if you have a question before booking.",
+    "We'll review your information and contact you about availability and next steps.",
 
 "tour.phone":
     "Phone",
@@ -596,16 +596,16 @@ const WEBSITE_TRANSLATIONS = {
     "Available 24/7",
 
 "tour.booking.title":
-    "Schedule Your Visit Online",
+    "Start Your Family Request",
 
 "tour.booking.text":
-    "Choose the date and time that work best for you.",
+    "Answer a few quick questions about your family's care needs.",
 
 "tour.booking.button":
-    "Schedule My Visit",
+    "Start My Family Request",
 
 "tour.footer":
-    "We look forward to meeting you and your child.",
+    "Submitting a request does not guarantee enrollment or availability.",
 
 /* ==========================================================
    FOOTER
@@ -654,7 +654,7 @@ const WEBSITE_TRANSLATIONS = {
             "Ir para o conteúdo principal",
 
         "general.scheduleTour":
-            "Agendar uma visita",
+            "Comece Aqui",
 
         "general.call":
             "Ligar",
@@ -663,7 +663,7 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
         "visit.schedule":
-            "Agendar uma Visita",
+            "Comece Aqui",
 
         "visit.hoursTitle":
             "Horários para Visitas",
@@ -675,10 +675,10 @@ const WEBSITE_TRANSLATIONS = {
             "Sábado e domingo: 9:00 AM–5:00 PM",
 
         "visit.advance":
-            "Agende com pelo menos 2 dias de antecedência.",
+            "Conte qual horário e tipo de cuidado sua família precisa.",
 
         "visit.attention":
-            "As visitas são agendadas com antecedência para que possamos dar toda a atenção à sua família.",
+            "Vamos analisar suas informações e entrar em contato sobre disponibilidade e próximos passos.",
 
         "contact.text":
             "Enviar Mensagem",
@@ -687,7 +687,7 @@ const WEBSITE_TRANSLATIONS = {
             "Ligar",
 
         "contact.scheduleOnline":
-            "Agendar Online",
+            "Comece Aqui",
 
 
        /* HEADER */
@@ -720,7 +720,7 @@ const WEBSITE_TRANSLATIONS = {
     "Clinton, Massachusetts",
 
 "header.cta":
-    "Agendar uma Visita",
+    "Comece Aqui",
 
 "header.languageSelector":
     "Selecionar idioma do site",
@@ -754,7 +754,7 @@ const WEBSITE_TRANSLATIONS = {
     "Um ambiente seguro, acolhedor e educativo para crianças de 6 meses a 5 anos.",
 
 "hero.primaryButton":
-    "Agende uma Visita",
+    "Tenho Interesse em uma Vaga",
 
 "hero.secondaryButton":
     "Conheça Nosso Programa",
@@ -807,10 +807,10 @@ const WEBSITE_TRANSLATIONS = {
     "Programa de assistência infantil de Massachusetts",
 
 "trust.bookingTitle":
-    "Agendamento Online",
+    "Primeiro Passo Simples",
 
 "trust.bookingText":
-    "Agende sua visita pelo site a qualquer momento",
+    "Conte para nós o que sua família precisa",
 
 /* BOLETIM DO MÊS */
 
@@ -833,13 +833,13 @@ const WEBSITE_TRANSLATIONS = {
     "Famílias elegíveis de Massachusetts podem utilizar o benefício de assistência infantil.",
 
 "bulletin.item3.title":
-    "Agendamento de Visitas Online",
+    "Pedido de Interesse Online",
 
 "bulletin.item3.text":
-    "Escolha uma data e um horário convenientes para conhecer nosso espaço.",
+    "Conte sobre a criança, o horário e o cuidado que sua família precisa.",
 
 "bulletin.button":
-    "Agendar uma Visita",
+    "Comece Aqui",
 
 "bulletin.note":
     "Entre em contato para saber mais sobre as vagas e os Child Care Vouchers.",
@@ -1172,31 +1172,31 @@ const WEBSITE_TRANSLATIONS = {
 /* CTA FINAL — AGENDAR VISITA */
 
 "tour.eyebrow":
-    "Agende uma Visita",
+    "Procurando Child Care?",
 
 "tour.title":
-    "Venha Conhecer o Espaço dos Anjos",
+    "Conte um pouco sobre sua família",
 
 "tour.description":
-    "Escolha a forma mais conveniente de falar conosco. Ligue, envie um e-mail ou agende sua visita online.",
+    "Se você está procurando cuidado para seu filho, comece respondendo algumas perguntas rápidas sobre a criança, horário e o que sua família precisa.",
 
 "tour.item1":
-    "Conheça a Luciene pessoalmente",
+    "Conte um pouco sobre a criança",
 
 "tour.item2":
-    "Veja nossa rotina diária",
+    "Informe o horário e o cuidado necessário",
 
 "tour.item3":
-    "Tire todas as suas dúvidas",
+    "Envie suas informações de contato",
 
 "tour.card.badge":
-    "Agendamento Online",
+    "Primeiro Passo",
 
 "tour.card.title":
-    "Agende a Visita da Sua Família",
+    "Envie seu pedido de interesse",
 
 "tour.card.subtitle":
-    "Agende sua visita online ou envie uma mensagem se tiver alguma dúvida antes de agendar.",
+    "Vamos receber suas informações e entrar em contato sobre disponibilidade e próximos passos.",
 
 "tour.phone":
     "Telefone",
@@ -1220,16 +1220,16 @@ const WEBSITE_TRANSLATIONS = {
     "Disponível 24 horas",
 
 "tour.booking.title":
-    "Agende sua Visita Online",
+    "Comece seu pedido",
 
 "tour.booking.text":
-    "Escolha a data e o horário mais convenientes para você.",
+    "Responda algumas perguntas rápidas sobre o cuidado que sua família precisa.",
 
 "tour.booking.button":
-    "Agendar Minha Visita",
+    "Começar meu pedido",
 
 "tour.footer":
-    "Será um prazer conhecer você e seu filho.",
+    "O envio do pedido não garante matrícula nem disponibilidade de vaga.",
 
 /* ==========================================================
    FOOTER
@@ -1278,7 +1278,7 @@ const WEBSITE_TRANSLATIONS = {
             "Ir al contenido principal",
 
         "general.scheduleTour":
-            "Programar una visita",
+            "Comience Aquí",
 
         "general.call":
             "Llamar",
@@ -1287,7 +1287,7 @@ const WEBSITE_TRANSLATIONS = {
             "Clinton, Massachusetts",
 
         "visit.schedule":
-            "Agendar una Visita",
+            "Comience Aquí",
 
         "visit.hoursTitle":
             "Horarios para Visitas",
@@ -1299,10 +1299,10 @@ const WEBSITE_TRANSLATIONS = {
             "Sábado y domingo: 9:00 AM–5:00 PM",
 
         "visit.advance":
-            "Agenda con al menos 2 días de anticipación.",
+            "Cuéntanos qué horario y cuidado necesita tu familia.",
 
         "visit.attention":
-            "Las visitas se programan con anticipación para que podamos brindar toda nuestra atención a tu familia.",
+            "Revisaremos tu información y nos comunicaremos sobre disponibilidad y próximos pasos.",
 
         "contact.text":
             "Enviar Mensaje",
@@ -1311,7 +1311,7 @@ const WEBSITE_TRANSLATIONS = {
             "Llamar",
 
         "contact.scheduleOnline":
-            "Agendar en Línea",
+            "Comience Aquí",
 
 
       /* HEADER */
@@ -1344,7 +1344,7 @@ const WEBSITE_TRANSLATIONS = {
     "Clinton, Massachusetts",
 
 "header.cta":
-    "Agendar una Visita",
+    "Comience Aquí",
 
 "header.languageSelector":
     "Seleccionar idioma del sitio",
@@ -1377,7 +1377,7 @@ const WEBSITE_TRANSLATIONS = {
     "Un ambiente seguro, acogedor y educativo para niños de 6 meses a 5 años.",
 
 "hero.primaryButton":
-    "Programar una Visita",
+    "Me Interesa el Cuidado Infantil",
 
 "hero.secondaryButton":
     "Conoce Nuestro Programa",
@@ -1434,10 +1434,10 @@ const WEBSITE_TRANSLATIONS = {
     "Programa de asistencia infantil de Massachusetts",
 
 "trust.bookingTitle":
-    "Reserva de Visitas Online",
+    "Un Primer Paso Sencillo",
 
 "trust.bookingText":
-    "Agenda tu visita en línea en cualquier momento",
+    "Cuéntanos qué necesita tu familia",
 
 
 /* BOLETÍN DEL MES */
@@ -1461,13 +1461,13 @@ const WEBSITE_TRANSLATIONS = {
     "Las familias elegibles de Massachusetts pueden utilizar la asistencia para el cuidado infantil.",
 
 "bulletin.item3.title":
-    "Agenda de Visitas en Línea",
+    "Solicitudes de Interés en Línea",
 
 "bulletin.item3.text":
-    "Elige una fecha y un horario convenientes para conocer nuestro espacio.",
+    "Cuéntenos sobre su hijo, el horario y el cuidado que necesita su familia.",
 
 "bulletin.button":
-    "Agendar una Visita",
+    "Comience Aquí",
 
 "bulletin.note":
     "Contáctanos para obtener más información sobre los cupos y los Child Care Vouchers.",
@@ -1799,31 +1799,31 @@ const WEBSITE_TRANSLATIONS = {
 /* CTA FINAL — AGENDAR VISITA */
 
 "tour.eyebrow":
-    "Agenda una Visita",
+    "¿Busca Cuidado Infantil?",
 
 "tour.title":
-    "Ven a Conocer Espaço dos Anjos",
+    "Cuéntenos Sobre Su Familia",
 
 "tour.description":
-    "Elige la forma más conveniente de comunicarte con nosotros. Llámanos, envía un correo o agenda tu visita en línea.",
+    "Si busca cuidado infantil, comience respondiendo algunas preguntas breves sobre su hijo, el horario y las necesidades de su familia.",
 
 "tour.item1":
-    "Conoce personalmente a Luciene",
+    "Cuéntenos sobre su hijo",
 
 "tour.item2":
-    "Conoce nuestra rutina diaria",
+    "Comparta su horario y necesidades de cuidado",
 
 "tour.item3":
-    "Resuelve todas tus dudas",
+    "Envíe su información de contacto",
 
 "tour.card.badge":
-    "Reserva en Línea",
+    "Primer Paso",
 
 "tour.card.title":
-    "Agenda la Visita de Tu Familia",
+    "Envíe Su Solicitud de Interés",
 
 "tour.card.subtitle":
-    "Agenda tu visita en línea o envíanos un mensaje si tienes alguna pregunta antes de reservar.",
+    "Revisaremos su información y nos comunicaremos sobre disponibilidad y próximos pasos.",
 
 "tour.phone":
     "Teléfono",
@@ -1847,16 +1847,16 @@ const WEBSITE_TRANSLATIONS = {
     "Disponible las 24 horas",
 
 "tour.booking.title":
-    "Agenda tu Visita en Línea",
+    "Comience su solicitud",
 
 "tour.booking.text":
-    "Elige la fecha y el horario que más te convengan.",
+    "Responda algunas preguntas breves sobre las necesidades de cuidado de su familia.",
 
 "tour.booking.button":
-    "Agendar Mi Visita",
+    "Comenzar mi solicitud",
 
 "tour.footer":
-    "Será un placer conocerte a ti y a tu hijo.",
+    "Enviar la solicitud no garantiza la inscripción ni la disponibilidad de cupo.",
 
 /* ==========================================================
    FOOTER

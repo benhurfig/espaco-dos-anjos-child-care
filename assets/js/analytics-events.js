@@ -44,10 +44,10 @@
             return;
         }
 
-        if (href.includes("smartimateapp.com/smart-booking")) {
-            sendEvent("booking_click", {
+        if (href.includes("smartimateapp.com/childcare-smartmate/")) {
+            sendEvent("family_request_click", {
                 cta_text: label,
-                booking_provider: "Smartimate"
+                request_provider: "Smartimate"
             });
             return;
         }
