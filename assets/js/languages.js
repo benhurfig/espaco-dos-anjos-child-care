@@ -602,7 +602,7 @@ const WEBSITE_TRANSLATIONS = {
     "Answer a few quick questions about your family's care needs.",
 
 "tour.booking.button":
-    "Start My Family Request",
+    "Start My Request",
 
 "tour.footer":
     "Submitting a request does not guarantee enrollment or availability.",
@@ -1226,7 +1226,7 @@ const WEBSITE_TRANSLATIONS = {
     "Responda algumas perguntas rápidas sobre o cuidado que sua família precisa.",
 
 "tour.booking.button":
-    "Começar meu pedido",
+    "Começar pedido",
 
 "tour.footer":
     "O envio do pedido não garante matrícula nem disponibilidade de vaga.",
@@ -1853,7 +1853,7 @@ const WEBSITE_TRANSLATIONS = {
     "Responda algunas preguntas breves sobre las necesidades de cuidado de su familia.",
 
 "tour.booking.button":
-    "Comenzar mi solicitud",
+    "Enviar solicitud",
 
 "tour.footer":
     "Enviar la solicitud no garantiza la inscripción ni la disponibilidad de cupo.",
