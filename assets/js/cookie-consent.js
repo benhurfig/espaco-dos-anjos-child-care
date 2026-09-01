@@ -115,7 +115,13 @@
         settingsButton.setAttribute("data-cookie-settings", "");
         settingsButton.hidden = true;
 
-        document.body.append(component, settingsButton);
+        const settingsHost =
+            document.querySelector(".footer__bottom") ||
+            document.querySelector(".footer") ||
+            document.body;
+
+        document.body.append(component);
+        settingsHost.append(settingsButton);
 
         const acceptButton = component.querySelector("[data-cookie-accept]");
         const rejectButton = component.querySelector("[data-cookie-reject]");

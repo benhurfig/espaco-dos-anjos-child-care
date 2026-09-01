@@ -79,17 +79,28 @@
 }
 
 .cookie-settings-button {
-    position: fixed;
-    bottom: 12px;
-    left: 12px;
-    z-index: 9999;
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-height: 38px;
     padding: 7px 12px;
     color: var(--color-text-soft);
     background: rgba(255, 255, 255, .96);
     border-color: var(--color-border);
     font-size: .78rem;
-    box-shadow: var(--shadow-sm);
+    box-shadow: none;
+}
+
+.footer .cookie-settings-button {
+    color: rgba(255, 255, 255, .78);
+    background: transparent;
+    border-color: rgba(255, 255, 255, .28);
+}
+
+.footer .cookie-settings-button:hover {
+    color: var(--color-white);
+    border-color: rgba(255, 255, 255, .7);
 }
 
 .cookie-consent__button:hover,
