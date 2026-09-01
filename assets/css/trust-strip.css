@@ -237,6 +237,28 @@
 
 }
 
+.trust-strip__item-link {
+
+    display: inline-block;
+
+    margin-top: 7px;
+
+    color: var(--color-primary-dark);
+
+    font-size: 0.78rem;
+    font-weight: 800;
+
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+}
+
+.trust-strip__item-link:hover {
+
+    color: var(--color-primary);
+
+}
+
 
 /* ==========================================================
    TABLET
