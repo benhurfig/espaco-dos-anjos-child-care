@@ -45,7 +45,7 @@
         }
 
         if (href.includes("smartimateapp.com/family-request/")) {
-            sendEvent("family_request_click", {
+            sendEvent("final_cta_request", {
                 cta_text: label,
                 request_provider: "Smartimate"
             });
