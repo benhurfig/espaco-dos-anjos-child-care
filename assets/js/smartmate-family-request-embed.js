@@ -36,6 +36,8 @@
     frames.forEach(frame => sendAnalyticsConsent(frame, decision));
   }
 
+  window.syncSmartMateAnalyticsConsent = syncAnalyticsConsent;
+
   function applyFrameHeight(frame, nextHeight) {
     const currentHeight = Number.parseFloat(frame.style.height) || frame.getBoundingClientRect().height;
 

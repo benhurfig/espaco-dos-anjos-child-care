@@ -66,6 +66,10 @@
         document.dispatchEvent(new CustomEvent(smartMateConsentEvent, {
             detail: { analytics: granted ? "granted" : "denied" }
         }));
+
+        if (typeof window.syncSmartMateAnalyticsConsent === "function") {
+            window.syncSmartMateAnalyticsConsent(granted ? "granted" : "denied");
+        }
     }
 
     function storeChoice(value) {
