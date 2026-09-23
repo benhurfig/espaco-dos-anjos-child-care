@@ -1,0 +1,58 @@
+{
+  "base_zip": "Espaco-dos-Anjos-Nova-Versao-Base-V1.zip",
+  "html_pages": 47,
+  "faq_questions_per_language": {
+    "en": 23,
+    "pt": 23,
+    "es": 23
+  },
+  "faq_sections_consolidated": {
+    "about/index.html": 1,
+    "daycare-accepting-vouchers-clinton-ma/index.html": 1,
+    "es/comidas/index.html": 1,
+    "es/guarderia-cerca-de-hudson-ma/index.html": 1,
+    "es/guarderia-cerca-de-lancaster-ma/index.html": 1,
+    "es/guarderia-cerca-de-marlborough-ma/index.html": 1,
+    "es/guarderia-multilingue-clinton-ma/index.html": 1,
+    "es/guarderia-para-bebes-clinton-ma/index.html": 1,
+    "es/guarderia-para-ninos-clinton-ma/index.html": 1,
+    "es/guarderia-que-acepta-voucher-clinton-ma/index.html": 1,
+    "es/nosotros/index.html": 1,
+    "es/nuestro-espacio/index.html": 1,
+    "es/programa/index.html": 1,
+    "family-child-care-near-hudson-ma/index.html": 1,
+    "family-child-care-near-lancaster-ma/index.html": 1,
+    "family-child-care-near-marlborough-ma/index.html": 1,
+    "infant-daycare-clinton-ma/index.html": 1,
+    "meals/index.html": 1,
+    "multilingual-child-care-clinton-ma/index.html": 1,
+    "our-space/index.html": 1,
+    "program/index.html": 1,
+    "pt/creche-multilingue-clinton-ma/index.html": 1,
+    "pt/creche-para-bebes-clinton-ma/index.html": 1,
+    "pt/creche-perto-de-hudson-ma/index.html": 1,
+    "pt/creche-perto-de-lancaster-ma/index.html": 1,
+    "pt/creche-perto-de-marlborough-ma/index.html": 1,
+    "pt/creche-que-aceita-voucher-clinton-ma/index.html": 1,
+    "pt/daycare-para-criancas-clinton-ma/index.html": 1,
+    "pt/nosso-espaco/index.html": 1,
+    "pt/programa/index.html": 1,
+    "pt/refeicoes/index.html": 1,
+    "pt/sobre/index.html": 1,
+    "toddler-daycare-clinton-ma/index.html": 1
+  },
+  "new_routes": {
+    "en": {
+      "clinton": "/family-child-care-clinton-ma/",
+      "faq": "/faq/"
+    },
+    "pt": {
+      "clinton": "/pt/creche-em-clinton-ma/",
+      "faq": "/pt/perguntas-frequentes/"
+    },
+    "es": {
+      "clinton": "/es/guarderia-en-clinton-ma/",
+      "faq": "/es/preguntas-frecuentes/"
+    }
+  }
+}

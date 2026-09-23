@@ -1,0 +1,594 @@
+{
+  "passed": 147,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Trusted numeric resize",
+      "pass": true
+    },
+    {
+      "test": "Numeric-string compatibility",
+      "pass": true
+    },
+    {
+      "test": "Safe lower bound",
+      "pass": true
+    },
+    {
+      "test": "Safe upper bound",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height NaN",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height Infinity",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height -1",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height 0",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height true",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height null",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height [object Object]",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height ",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height undefined",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height 90vh",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height 1e4",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height  1000 ",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height ",
+      "pass": true
+    },
+    {
+      "test": "Reject invalid height 99999999999999999",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"origin\":\"https://smartimateapp.com\"}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"origin\":\"https://www.smartimateapp.com.evil.test\"}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"source\":{}}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"source\":{}}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"data\":null}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"data\":[]}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"data\":{\"type\":\"other\",\"height\":3000}}",
+      "pass": true
+    },
+    {
+      "test": "Reject untrusted message {\"data\":{\"type\":\"smartmate:family-request:resize\"}}",
+      "pass": true
+    },
+    {
+      "test": "Fallback contains public slug only",
+      "pass": true
+    },
+    {
+      "test": "Consent denied sends no analytics",
+      "pass": true
+    },
+    {
+      "test": "Internal CTA retains existing event once",
+      "pass": true
+    },
+    {
+      "test": "Website event does not impersonate SmartMate",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart home es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart about es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart program es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart meals es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart space es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart request es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart infant es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart toddler es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart vouchers es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart multilingual es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Lancaster es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Hudson es -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough en -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough en -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough en -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough pt -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough pt -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough pt -> es",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough es -> en",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough es -> pt",
+      "pass": true
+    },
+    {
+      "test": "Locale counterpart Marlborough es -> es",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "base": "approved version on V1",
+  "original_files_not_found": [],
+  "changed_existing_assets": [],
+  "home_sections": {
+    "en": {
+      "before": 13,
+      "after": 13,
+      "only_modified_section": [
+        "nearby-communities"
+      ],
+      "order_identical": true,
+      "map_clinton_link": "/family-child-care-clinton-ma/"
+    },
+    "pt": {
+      "before": 13,
+      "after": 13,
+      "only_modified_section": [
+        "nearby-communities"
+      ],
+      "order_identical": true,
+      "map_clinton_link": "/pt/creche-em-clinton-ma/"
+    },
+    "es": {
+      "before": 13,
+      "after": 13,
+      "only_modified_section": [
+        "nearby-communities"
+      ],
+      "order_identical": true,
+      "map_clinton_link": "/es/guarderia-en-clinton-ma/"
+    }
+  },
+  "original_pages_retained": true,
+  "iframe_scripts_unchanged": true
+}

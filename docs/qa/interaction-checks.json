@@ -1,0 +1,74 @@
+[
+  {
+    "page": "index.html",
+    "test": "Language dropdown opens",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "Language dropdown closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "Mobile menu opens",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "Mobile menu closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "Floating contact menu opens",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "Floating contact menu closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "index.html",
+    "test": "No browser JS errors",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Language dropdown opens",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Language dropdown closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Mobile menu opens",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Mobile menu closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Floating contact menu opens",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "Floating contact menu closes with Escape",
+    "pass": true
+  },
+  {
+    "page": "pt/family-request/index.html",
+    "test": "No browser JS errors",
+    "pass": true,
+    "errors": []
+  }
+]

@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const getCurrentLanguage = () => {
 
-        return document.documentElement.lang || "en";
+        return (document.documentElement.lang || "en").toLowerCase().split("-")[0];
 
     };
 
@@ -75,7 +75,7 @@ const updateStoryCard = (slide) => {
         slide.dataset.heroLabel;
 
     const currentLanguage =
-        document.documentElement.lang || "en";
+        (document.documentElement.lang || "en").toLowerCase().split("-")[0];
 
     const translatedText =
         window.WEBSITE_TRANSLATIONS?.[currentLanguage]?.[translationKey];

@@ -1,0 +1,19 @@
+{
+  "html_pages": 47,
+  "widths_px": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "responsive_checks": 235,
+  "issues": [],
+  "interactive_pages_checked": 47,
+  "mode": "offline Chromium rendering with in-memory local assets; external Maps and SmartMate replaced only in preview memory; no live requests",
+  "limitations": [
+    "No live network/form submissions",
+    "Google fonts unavailable in offline preview",
+    "CSS transitions frozen only in layout tests"
+  ]
+}

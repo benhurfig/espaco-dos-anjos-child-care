@@ -1,0 +1,5084 @@
+{
+  "mode": "offline Chromium rendering with in-memory local assets; external Maps and SmartMate replaced only in preview memory; no live requests",
+  "batch": 0,
+  "elapsed_seconds": 13.75,
+  "pages": 16,
+  "responsive_checks": 80,
+  "issues": [],
+  "responsive_results": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 296,
+        "bottom": 268.6875,
+        "width": 272,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "about/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 268.6875,
+        "width": 342,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "about/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 260.078125,
+        "width": 720,
+        "height": 110.59375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "about/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 260.71875,
+        "right": 501.734375,
+        "bottom": 358.375,
+        "width": 477.734375,
+        "height": 97.65625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "about/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 222.515625,
+        "right": 715.34375,
+        "bottom": 428.53125,
+        "width": 595.34375,
+        "height": 206.015625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "about/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 306.140625,
+        "right": 296,
+        "bottom": 490.140625,
+        "width": 272,
+        "height": 184
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 366,
+        "bottom": 421.09375,
+        "width": 342,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 544.859375,
+        "width": 497.375,
+        "height": 282.5625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 273.484375,
+        "right": 731.59375,
+        "bottom": 494.265625,
+        "width": 611.59375,
+        "height": 220.78125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 296,
+        "bottom": 268.6875,
+        "width": 272,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/comidas/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 268.6875,
+        "width": 342,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/comidas/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 260.078125,
+        "width": 720,
+        "height": 110.59375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/comidas/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 203.375,
+        "right": 501.734375,
+        "bottom": 349.859375,
+        "width": 477.734375,
+        "height": 146.484375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/comidas/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 229.484375,
+        "right": 715.34375,
+        "bottom": 435.5,
+        "width": 595.34375,
+        "height": 206.015625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/comidas/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 42,
+        "y": 136.484375,
+        "right": 278,
+        "bottom": 200.984375,
+        "width": 236,
+        "height": 64.5
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "family-request-form",
+          "visible": true
+        },
+        {
+          "id": "request-help",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": 369.203125,
+      "path": "es/family-request/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 42,
+        "y": 136.484375,
+        "right": 348,
+        "bottom": 169.234375,
+        "width": 306,
+        "height": 32.75
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "family-request-form",
+          "visible": true
+        },
+        {
+          "id": "request-help",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": 311.609375,
+      "path": "es/family-request/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 42,
+        "y": 136.484375,
+        "right": 726,
+        "bottom": 179.484375,
+        "width": 684,
+        "height": 43
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "family-request-form",
+          "visible": true
+        },
+        {
+          "id": "request-help",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": 270.171875,
+      "path": "es/family-request/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 92,
+        "y": 154.484375,
+        "right": 932,
+        "bottom": 193.46875,
+        "width": 840,
+        "height": 38.984375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "family-request-form",
+          "visible": true
+        },
+        {
+          "id": "request-help",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": 298.46875,
+      "path": "es/family-request/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 300,
+        "y": 154.484375,
+        "right": 1140,
+        "bottom": 208.234375,
+        "width": 840,
+        "height": 53.75
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "family-request-form",
+          "visible": true
+        },
+        {
+          "id": "request-help",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": 313.234375,
+      "path": "es/family-request/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 296,
+        "bottom": 421.09375,
+        "width": 272,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-hudson",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 230.546875,
+        "right": 366,
+        "bottom": 322.546875,
+        "width": 342,
+        "height": 92
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-hudson",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 315.53125,
+        "width": 720,
+        "height": 52.984375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-hudson",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 403.578125,
+        "width": 497.375,
+        "height": 141.28125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-hudson",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 292.78125,
+        "right": 731.59375,
+        "bottom": 439.96875,
+        "width": 611.59375,
+        "height": 147.1875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-hudson",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 296,
+        "bottom": 421.09375,
+        "width": 272,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-lancaster",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 252.046875,
+        "right": 366,
+        "bottom": 344.046875,
+        "width": 342,
+        "height": 92
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-lancaster",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 315.53125,
+        "width": 720,
+        "height": 52.984375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-lancaster",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 403.578125,
+        "width": 497.375,
+        "height": 141.28125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-lancaster",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 292.78125,
+        "right": 731.59375,
+        "bottom": 439.96875,
+        "width": 611.59375,
+        "height": 147.1875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-lancaster",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 306.140625,
+        "right": 296,
+        "bottom": 490.140625,
+        "width": 272,
+        "height": 184
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-marlborough",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 252.046875,
+        "right": 366,
+        "bottom": 344.046875,
+        "width": 342,
+        "height": 92
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-marlborough",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-marlborough",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 474.21875,
+        "width": 497.375,
+        "height": 211.921875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-marlborough",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 292.78125,
+        "right": 731.59375,
+        "bottom": 439.96875,
+        "width": 611.59375,
+        "height": 147.1875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cerca-de-marlborough",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 296,
+        "bottom": 268.6875,
+        "width": 272,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "location-map",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-en-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 268.6875,
+        "width": 342,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "location-map",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-en-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 260.078125,
+        "width": 720,
+        "height": 110.59375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "location-map",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-en-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 198.703125,
+        "right": 501.734375,
+        "bottom": 296.359375,
+        "width": 477.734375,
+        "height": 97.65625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "location-map",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-en-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 190,
+        "right": 715.34375,
+        "bottom": 396.015625,
+        "width": 595.34375,
+        "height": 206.015625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "location-map",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-en-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 296,
+        "bottom": 421.09375,
+        "width": 272,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "que-significa-multilingue",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-multilingue-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 230.546875,
+        "right": 366,
+        "bottom": 368.546875,
+        "width": 342,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "que-significa-multilingue",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-multilingue-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "que-significa-multilingue",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-multilingue-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 474.21875,
+        "width": 497.375,
+        "height": 211.921875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "que-significa-multilingue",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-multilingue-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 292.78125,
+        "right": 731.59375,
+        "bottom": 439.96875,
+        "width": 611.59375,
+        "height": 147.1875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "que-significa-multilingue",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-multilingue-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 296,
+        "bottom": 421.09375,
+        "width": 272,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-infant-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 252.046875,
+        "right": 366,
+        "bottom": 390.046875,
+        "width": 342,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-infant-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-infant-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 474.21875,
+        "width": 497.375,
+        "height": 211.921875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-infant-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 292.78125,
+        "right": 731.59375,
+        "bottom": 439.96875,
+        "width": 611.59375,
+        "height": 147.1875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-infant-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 306.140625,
+        "right": 296,
+        "bottom": 490.140625,
+        "width": 272,
+        "height": 184
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cuidado-para-ninos",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 261.59375,
+        "right": 366,
+        "bottom": 399.59375,
+        "width": 342,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cuidado-para-ninos",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cuidado-para-ninos",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 474.21875,
+        "width": 497.375,
+        "height": 211.921875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cuidado-para-ninos",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 273.484375,
+        "right": 731.59375,
+        "bottom": 494.265625,
+        "width": 611.59375,
+        "height": 220.78125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "cuidado-para-ninos",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 306.140625,
+        "right": 296,
+        "bottom": 490.140625,
+        "width": 272,
+        "height": 184
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 283.09375,
+        "right": 366,
+        "bottom": 421.09375,
+        "width": 342,
+        "height": 138
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.546875,
+        "right": 744,
+        "bottom": 368.515625,
+        "width": 720,
+        "height": 105.96875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 262.296875,
+        "right": 521.375,
+        "bottom": 474.21875,
+        "width": 497.375,
+        "height": 211.921875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 273.484375,
+        "right": 731.59375,
+        "bottom": 494.265625,
+        "width": 611.59375,
+        "height": 220.78125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "about-voucher-care",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 179.84375,
+        "right": 296,
+        "bottom": 391.40625,
+        "width": 272,
+        "height": 211.5625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "home",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "monthly-bulletin",
+          "visible": true
+        },
+        {
+          "id": "visual-story",
+          "visible": true
+        },
+        {
+          "id": "programs",
+          "visible": true
+        },
+        {
+          "id": "routine",
+          "visible": true
+        },
+        {
+          "id": "learning",
+          "visible": true
+        },
+        {
+          "id": "meals",
+          "visible": true
+        },
+        {
+          "id": "space",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "google-profile",
+          "visible": true
+        },
+        {
+          "id": "nearby-communities",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [
+        "none",
+        "none",
+        "none"
+      ],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 161.921875,
+        "right": 366,
+        "bottom": 386.140625,
+        "width": 342,
+        "height": 224.21875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "home",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "monthly-bulletin",
+          "visible": true
+        },
+        {
+          "id": "visual-story",
+          "visible": true
+        },
+        {
+          "id": "programs",
+          "visible": true
+        },
+        {
+          "id": "routine",
+          "visible": true
+        },
+        {
+          "id": "learning",
+          "visible": true
+        },
+        {
+          "id": "meals",
+          "visible": true
+        },
+        {
+          "id": "space",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "google-profile",
+          "visible": true
+        },
+        {
+          "id": "nearby-communities",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [
+        "none",
+        "none",
+        "none"
+      ],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 165.921875,
+        "right": 724,
+        "bottom": 348.03125,
+        "width": 700,
+        "height": 182.109375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "home",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "monthly-bulletin",
+          "visible": true
+        },
+        {
+          "id": "visual-story",
+          "visible": true
+        },
+        {
+          "id": "programs",
+          "visible": true
+        },
+        {
+          "id": "routine",
+          "visible": true
+        },
+        {
+          "id": "learning",
+          "visible": true
+        },
+        {
+          "id": "meals",
+          "visible": true
+        },
+        {
+          "id": "space",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "google-profile",
+          "visible": true
+        },
+        {
+          "id": "nearby-communities",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [
+        "none",
+        "none",
+        "none"
+      ],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 243.390625,
+        "right": 663.65625,
+        "bottom": 540.140625,
+        "width": 639.65625,
+        "height": 296.75
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "home",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "monthly-bulletin",
+          "visible": true
+        },
+        {
+          "id": "visual-story",
+          "visible": true
+        },
+        {
+          "id": "programs",
+          "visible": true
+        },
+        {
+          "id": "routine",
+          "visible": true
+        },
+        {
+          "id": "learning",
+          "visible": true
+        },
+        {
+          "id": "meals",
+          "visible": true
+        },
+        {
+          "id": "space",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "google-profile",
+          "visible": true
+        },
+        {
+          "id": "nearby-communities",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [
+        "none",
+        "none",
+        "none"
+      ],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 243.390625,
+        "right": 820,
+        "bottom": 749.328125,
+        "width": 700,
+        "height": 505.9375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "home",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "monthly-bulletin",
+          "visible": true
+        },
+        {
+          "id": "visual-story",
+          "visible": true
+        },
+        {
+          "id": "programs",
+          "visible": true
+        },
+        {
+          "id": "routine",
+          "visible": true
+        },
+        {
+          "id": "learning",
+          "visible": true
+        },
+        {
+          "id": "meals",
+          "visible": true
+        },
+        {
+          "id": "space",
+          "visible": true
+        },
+        {
+          "id": "about",
+          "visible": true
+        },
+        {
+          "id": "google-profile",
+          "visible": true
+        },
+        {
+          "id": "nearby-communities",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [
+        "none",
+        "none",
+        "none"
+      ],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 296,
+        "bottom": 308.421875,
+        "width": 272,
+        "height": 158.9375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nosotros/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 268.6875,
+        "width": 342,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nosotros/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 260.078125,
+        "width": 720,
+        "height": 110.59375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nosotros/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 236.296875,
+        "right": 501.734375,
+        "bottom": 382.78125,
+        "width": 477.734375,
+        "height": 146.484375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nosotros/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 222.515625,
+        "right": 715.34375,
+        "bottom": 428.53125,
+        "width": 595.34375,
+        "height": 206.015625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nosotros/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 296,
+        "bottom": 268.6875,
+        "width": 272,
+        "height": 119.203125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "photo-tour",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nuestro-espacio/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 228.953125,
+        "width": 342,
+        "height": 79.46875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "photo-tour",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nuestro-espacio/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 260.078125,
+        "width": 720,
+        "height": 110.59375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "photo-tour",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nuestro-espacio/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 243.78125,
+        "right": 501.734375,
+        "bottom": 341.4375,
+        "width": 477.734375,
+        "height": 97.65625
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "photo-tour",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nuestro-espacio/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 263.828125,
+        "right": 715.34375,
+        "bottom": 401.171875,
+        "width": 595.34375,
+        "height": 137.34375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "photo-tour",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/nuestro-espacio/index.html"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 320,
+        "bottom": 75,
+        "width": 320,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 162.9375,
+        "right": 296,
+        "bottom": 242.40625,
+        "width": 272,
+        "height": 79.46875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "hours-location",
+          "visible": true
+        },
+        {
+          "id": "care-program",
+          "visible": true
+        },
+        {
+          "id": "daily-routine",
+          "visible": true
+        },
+        {
+          "id": "requests-visits",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/preguntas-frecuentes/index.html"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 75,
+        "width": 390,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 366,
+        "bottom": 228.953125,
+        "width": 342,
+        "height": 79.46875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "hours-location",
+          "visible": true
+        },
+        {
+          "id": "care-program",
+          "visible": true
+        },
+        {
+          "id": "daily-routine",
+          "visible": true
+        },
+        {
+          "id": "requests-visits",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/preguntas-frecuentes/index.html"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 768,
+        "bottom": 75,
+        "width": 768,
+        "height": 75
+      },
+      "h1": {
+        "x": 24,
+        "y": 149.484375,
+        "right": 744,
+        "bottom": 204.78125,
+        "width": 720,
+        "height": 55.296875
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "hours-location",
+          "visible": true
+        },
+        {
+          "id": "care-program",
+          "visible": true
+        },
+        {
+          "id": "daily-routine",
+          "visible": true
+        },
+        {
+          "id": "requests-visits",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/preguntas-frecuentes/index.html"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1024,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "h1": {
+        "x": 24,
+        "y": 268.515625,
+        "right": 501.734375,
+        "bottom": 317.34375,
+        "width": 477.734375,
+        "height": 48.828125
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "hours-location",
+          "visible": true
+        },
+        {
+          "id": "care-program",
+          "visible": true
+        },
+        {
+          "id": "daily-routine",
+          "visible": true
+        },
+        {
+          "id": "requests-visits",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/preguntas-frecuentes/index.html"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1440,
+        "bottom": 83,
+        "width": 1440,
+        "height": 83
+      },
+      "h1": {
+        "x": 120,
+        "y": 211.71875,
+        "right": 715.34375,
+        "bottom": 349.0625,
+        "width": 595.34375,
+        "height": 137.34375
+      },
+      "headerOverlap": [],
+      "sections": [
+        {
+          "id": "",
+          "visible": true
+        },
+        {
+          "id": "hours-location",
+          "visible": true
+        },
+        {
+          "id": "care-program",
+          "visible": true
+        },
+        {
+          "id": "daily-routine",
+          "visible": true
+        },
+        {
+          "id": "requests-visits",
+          "visible": true
+        },
+        {
+          "id": "tour",
+          "visible": true
+        }
+      ],
+      "missingImages": 0,
+      "dots": [],
+      "heroMobileOrder": true,
+      "languageControls": 1,
+      "floating": 1,
+      "iframeY": null,
+      "path": "es/preguntas-frecuentes/index.html"
+    }
+  ],
+  "interactions": [
+    {
+      "path": "about/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "daycare-accepting-vouchers-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/comidas/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/family-request/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-cerca-de-hudson-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-cerca-de-lancaster-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-cerca-de-marlborough-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-en-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-multilingue-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-para-bebes-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-para-ninos-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/guarderia-que-acepta-voucher-clinton-ma/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/nosotros/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/nuestro-espacio/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "not applicable"
+    },
+    {
+      "path": "es/preguntas-frecuentes/index.html",
+      "mobile_menu": "pass",
+      "language_menu": "pass",
+      "floating": "pass",
+      "faq_accordion": "pass"
+    }
+  ]
+}

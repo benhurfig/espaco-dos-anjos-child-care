@@ -1,0 +1,365 @@
+{
+  "mode": "synthetic DOM MessageEvents against the unchanged embed listener; not a live SmartMate submission",
+  "pages": 3,
+  "checks": 57,
+  "issues": [],
+  "results": [
+    {
+      "path": "family-request/index.html",
+      "checks": [
+        {
+          "name": "valid numeric height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong origin",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong source",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong message type",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "null payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "array payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "boolean height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "CSS payload rejected",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "missing height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "negative height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "infinite height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "NaN height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "numeric string and ceiling",
+          "actual": "981px",
+          "expected": "981px",
+          "pass": true
+        },
+        {
+          "name": "safe minimum",
+          "actual": "640px",
+          "expected": "640px",
+          "pass": true
+        },
+        {
+          "name": "safe maximum",
+          "actual": "12000px",
+          "expected": "12000px",
+          "pass": true
+        },
+        {
+          "name": "normal resize restored",
+          "actual": "860px",
+          "expected": "860px",
+          "pass": true
+        },
+        {
+          "name": "resize emits no website analytics",
+          "pass": true
+        },
+        {
+          "name": "existing contact and CTA event names",
+          "events": [
+            "phone_click",
+            "text_click",
+            "email_click",
+            "final_cta_request"
+          ],
+          "pass": true
+        },
+        {
+          "name": "no parent family_request_* events",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "path": "pt/family-request/index.html",
+      "checks": [
+        {
+          "name": "valid numeric height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong origin",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong source",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong message type",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "null payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "array payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "boolean height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "CSS payload rejected",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "missing height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "negative height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "infinite height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "NaN height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "numeric string and ceiling",
+          "actual": "981px",
+          "expected": "981px",
+          "pass": true
+        },
+        {
+          "name": "safe minimum",
+          "actual": "640px",
+          "expected": "640px",
+          "pass": true
+        },
+        {
+          "name": "safe maximum",
+          "actual": "12000px",
+          "expected": "12000px",
+          "pass": true
+        },
+        {
+          "name": "normal resize restored",
+          "actual": "860px",
+          "expected": "860px",
+          "pass": true
+        },
+        {
+          "name": "resize emits no website analytics",
+          "pass": true
+        },
+        {
+          "name": "existing contact and CTA event names",
+          "events": [
+            "phone_click",
+            "text_click",
+            "email_click",
+            "final_cta_request"
+          ],
+          "pass": true
+        },
+        {
+          "name": "no parent family_request_* events",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "path": "es/family-request/index.html",
+      "checks": [
+        {
+          "name": "valid numeric height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong origin",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong source",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "wrong message type",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "null payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "array payload",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "boolean height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "CSS payload rejected",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "missing height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "negative height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "infinite height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "NaN height",
+          "actual": "950px",
+          "expected": "950px",
+          "pass": true
+        },
+        {
+          "name": "numeric string and ceiling",
+          "actual": "981px",
+          "expected": "981px",
+          "pass": true
+        },
+        {
+          "name": "safe minimum",
+          "actual": "640px",
+          "expected": "640px",
+          "pass": true
+        },
+        {
+          "name": "safe maximum",
+          "actual": "12000px",
+          "expected": "12000px",
+          "pass": true
+        },
+        {
+          "name": "normal resize restored",
+          "actual": "860px",
+          "expected": "860px",
+          "pass": true
+        },
+        {
+          "name": "resize emits no website analytics",
+          "pass": true
+        },
+        {
+          "name": "existing contact and CTA event names",
+          "events": [
+            "phone_click",
+            "text_click",
+            "email_click",
+            "final_cta_request"
+          ],
+          "pass": true
+        },
+        {
+          "name": "no parent family_request_* events",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

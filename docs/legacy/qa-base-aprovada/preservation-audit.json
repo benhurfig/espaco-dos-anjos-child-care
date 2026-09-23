@@ -1,0 +1,75 @@
+{
+  "source_zip": "Espaco dos Anjos(1).zip",
+  "source_sha256": "fa1cbadb35286f75196a492309508deb6ac519669e9a192135db8765bd4c6b4d",
+  "homes": {
+    "en": {
+      "before_words": 1007,
+      "after_words": 977,
+      "sections": [
+        "home",
+        "trust-strip",
+        "monthly-bulletin",
+        "visual-story",
+        "programs",
+        "routine",
+        "learning",
+        "meals",
+        "space",
+        "about",
+        "google-profile",
+        "nearby-communities",
+        "tour"
+      ]
+    },
+    "pt": {
+      "before_words": 1198,
+      "after_words": 1116,
+      "sections": [
+        "home",
+        "trust-strip",
+        "monthly-bulletin",
+        "visual-story",
+        "programs",
+        "routine",
+        "learning",
+        "meals",
+        "space",
+        "about",
+        "google-profile",
+        "nearby-communities",
+        "tour"
+      ]
+    },
+    "es": {
+      "before_words": 1197,
+      "after_words": 1106,
+      "sections": [
+        "home",
+        "trust-strip",
+        "monthly-bulletin",
+        "visual-story",
+        "programs",
+        "routine",
+        "learning",
+        "meals",
+        "space",
+        "about",
+        "google-profile",
+        "nearby-communities",
+        "tour"
+      ]
+    }
+  },
+  "preserved_files": {
+    "assets/css/site.bundle.css": true,
+    "assets/css/variables.css": true,
+    "assets/js/main.js": true,
+    "assets/js/floating-booking.js": true,
+    "assets/js/config.js": true,
+    "assets/js/cookie-consent.js": true,
+    "assets/js/enrollment.js": true,
+    "_redirects": true,
+    "robots.txt": true
+  },
+  "existing_urls_retained": true
+}
