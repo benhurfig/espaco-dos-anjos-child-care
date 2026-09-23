@@ -1,0 +1,273 @@
+/* ==========================================================
+   ESPAÇO DOS ANJOS — HERO ESTÁTICO DA HOME
+   Escopo exclusivo: .eda-home #home.hero--static-fall
+========================================================== */
+
+.eda-home #home.hero--static-fall {
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: 100svh;
+  padding-top: var(--header-height);
+  overflow: hidden;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at 88% 18%, rgba(244, 197, 66, .18), transparent 23rem),
+    radial-gradient(circle at 64% 88%, rgba(40, 175, 203, .13), transparent 26rem),
+    linear-gradient(135deg, #f8fcfc 0%, #fffdf8 48%, #f6fbfa 100%);
+}
+
+.eda-home #home.hero--static-fall .hero__container {
+  display: block;
+  padding-top: clamp(92px, 9vw, 144px);
+  padding-bottom: clamp(82px, 8vw, 128px);
+}
+
+.eda-home #home.hero--static-fall .hero__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.04fr) minmax(360px, .96fr);
+  grid-template-areas:
+    "eyebrow media"
+    "title media"
+    "description media"
+    "buttons media"
+    "trust media";
+  column-gap: clamp(42px, 7vw, 96px);
+  align-items: start;
+  width: 100%;
+}
+
+.eda-home #home.hero--static-fall .hero__eyebrow {
+  grid-area: eyebrow;
+  width: fit-content;
+  margin: 0 0 22px;
+  border-color: rgba(8, 40, 54, .14);
+  color: var(--color-primary-dark);
+  background: rgba(255, 255, 255, .84);
+  box-shadow: 0 8px 26px rgba(8, 40, 54, .07);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.eda-home #home.hero--static-fall .hero__title {
+  grid-area: title;
+  max-width: 680px;
+  margin: 0 0 24px;
+  color: var(--color-text);
+  font-size: clamp(3.25rem, 5.4vw, 5.3rem);
+  text-shadow: none;
+}
+
+.eda-home #home.hero--static-fall .hero__description {
+  grid-area: description;
+  max-width: 610px;
+  margin: 0 0 32px;
+  color: var(--color-text-soft);
+  font-size: clamp(1.02rem, 1.65vw, 1.17rem);
+}
+
+.eda-home #home.hero--static-fall .hero__buttons {
+  grid-area: buttons;
+  margin: 0 0 34px;
+}
+
+.eda-home #home.hero--static-fall .button--hero-outline {
+  border-color: rgba(8, 40, 54, .25);
+  color: var(--color-primary-dark);
+  background: rgba(255, 255, 255, .78);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.eda-home #home.hero--static-fall .button--hero-outline:hover {
+  border-color: var(--color-primary-dark);
+  color: var(--color-white);
+  background: var(--color-primary-dark);
+}
+
+.eda-home #home.hero--static-fall .hero__trust-list {
+  grid-area: trust;
+  align-self: start;
+  margin: 0;
+}
+
+.eda-home #home.hero--static-fall .hero__trust-item { color: var(--color-text-soft); }
+
+.eda-home #home.hero--static-fall .hero-static__media {
+  position: relative;
+  z-index: 1;
+  grid-area: media;
+  align-self: center;
+  width: min(100%, 600px);
+  margin: 0 0 0 auto;
+  padding: clamp(8px, 1.15vw, 14px);
+  border: 1px solid rgba(8, 40, 54, .09);
+  border-radius: clamp(26px, 3vw, 38px);
+  background: #fff;
+  box-shadow: 0 28px 70px rgba(8, 40, 54, .18);
+}
+
+.eda-home #home.hero--static-fall .hero-static__media::before,
+.eda-home #home.hero--static-fall .hero-static__media::after {
+  position: absolute;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  content: "";
+}
+
+.eda-home #home.hero--static-fall .hero-static__media::before {
+  inset: 7% -5% -7% 8%;
+  background: rgba(40, 175, 203, .16);
+  transform: rotate(4deg);
+}
+
+.eda-home #home.hero--static-fall .hero-static__media::after {
+  inset: -5% 9% 8% -5%;
+  border: 1px solid rgba(202, 115, 76, .25);
+  background: rgba(255, 245, 221, .86);
+  transform: rotate(-3deg);
+}
+
+.eda-home #home.hero--static-fall .hero-static__media picture,
+.eda-home #home.hero--static-fall .hero-static__media img {
+  display: block;
+  width: 100%;
+}
+
+.eda-home #home.hero--static-fall .hero-static__media img {
+  aspect-ratio: 1.42 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: clamp(18px, 2.25vw, 28px);
+}
+
+.eda-home #home.hero--static-fall .hero-static__tag {
+  position: absolute;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  border: 1px solid rgba(8, 40, 54, .1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, .96);
+  box-shadow: 0 14px 28px rgba(8, 40, 54, .16);
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-size: .84rem;
+  font-weight: 800;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.eda-home #home.hero--static-fall .hero-static__tag--welcome {
+  top: -20px;
+  left: -22px;
+  max-width: 205px;
+  color: #a9624e;
+  transform: rotate(-4deg);
+}
+
+.eda-home #home.hero--static-fall .hero-static__tag--welcome svg { flex: 0 0 22px; width: 22px; height: 29px; fill: currentColor; }
+
+.eda-home #home.hero--static-fall .hero-static__tag--google {
+  right: 16px;
+  bottom: 16px;
+  gap: 10px;
+  padding: 11px 15px;
+  transform: rotate(3deg);
+}
+
+.eda-home #home.hero--static-fall .hero-static__google-word { font-family: Inter, sans-serif; font-weight: 700; letter-spacing: -.04em; }
+.eda-home #home.hero--static-fall .hero-static__google-score { padding-left: 8px; border-left: 1px solid rgba(8, 40, 54, .16); color: var(--color-text); }
+.eda-home #home.hero--static-fall .hero-static__stars { color: #e0a526; font-size: .76rem; letter-spacing: .04em; }
+
+@media (min-width: 1200px) {
+  .eda-home #home.hero--static-fall .hero__content {
+    grid-template-columns: minmax(0, .95fr) minmax(520px, 1.05fr);
+    column-gap: clamp(42px, 5vw, 74px);
+  }
+  .eda-home #home.hero--static-fall .hero-static__media { width: min(100%, 680px); }
+  .eda-home #home.hero--static-fall .hero__title { font-size: clamp(3.1rem, 4.5vw, 4.85rem); }
+}
+
+.eda-home #home.hero--static-fall .hero__scroll {
+  z-index: 2;
+  border-color: rgba(8, 40, 54, .28);
+}
+
+.eda-home #home.hero--static-fall .hero__scroll-line {
+  background: var(--color-primary-dark);
+  animation: hero-static-scroll 1.8s ease-in-out 2 both;
+}
+
+.eda-home #home.hero--static-fall .hero-static__leaf {
+  position: absolute;
+  z-index: 0;
+  width: 35px;
+  height: 46px;
+  color: #c97652;
+  opacity: .72;
+  pointer-events: none;
+  animation: hero-static-leaf-settle 3.6s cubic-bezier(.22,.74,.26,1) both;
+}
+
+.eda-home #home.hero--static-fall .hero-static__leaf svg { display: block; width: 100%; height: 100%; fill: currentColor; }
+.eda-home #home.hero--static-fall .hero-static__leaf--one { top: 20%; right: 7%; color: #c97652; transform: rotate(24deg); }
+.eda-home #home.hero--static-fall .hero-static__leaf--two { right: 43%; bottom: 10%; width: 26px; height: 34px; color: #d9a735; animation-delay: .35s; transform: rotate(-37deg); }
+.eda-home #home.hero--static-fall .hero-static__leaf--three { bottom: 19%; left: 5%; width: 30px; height: 39px; color: #b96955; animation-delay: .7s; transform: rotate(55deg); }
+.eda-home #home.hero--static-fall .hero-static__leaf--four { top: 12%; left: 50%; width: 24px; height: 32px; color: #d9a735; animation-delay: .2s; transform: rotate(-10deg); }
+
+@keyframes hero-static-leaf-settle {
+  from { opacity: 0; translate: 0 -42px; }
+  to { opacity: .72; translate: 0 0; }
+}
+
+@keyframes hero-static-scroll {
+  0%, 30% { opacity: 0; transform: translateY(0); }
+  50% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(18px); }
+}
+
+@media (max-width: 980px) {
+  .eda-home #home.hero--static-fall { min-height: auto; }
+  .eda-home #home.hero--static-fall .hero__container { padding-top: 104px; padding-bottom: 88px; }
+  .eda-home #home.hero--static-fall .hero__content { grid-template-columns: minmax(0, 1fr) minmax(300px, .9fr); column-gap: 34px; }
+  .eda-home #home.hero--static-fall .hero__title { font-size: clamp(2.8rem, 6.2vw, 4.45rem); }
+  .eda-home #home.hero--static-fall .hero-static__media { width: 100%; }
+}
+
+@media (max-width: 768px) {
+  .eda-home #home.hero--static-fall { padding-top: 74px; }
+  .eda-home #home.hero--static-fall .hero__container { padding-top: 32px; padding-bottom: 56px; }
+  .eda-home #home.hero--static-fall .hero__content {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "eyebrow" "title" "media" "description" "buttons" "trust";
+    gap: 0;
+  }
+  .eda-home #home.hero--static-fall .hero__eyebrow { margin-bottom: 18px; font-size: .7rem; padding: 9px 11px; }
+  .eda-home #home.hero--static-fall .hero__title { margin-bottom: 22px; font-size: clamp(2.3rem, 10vw, 3.3rem); }
+  .eda-home #home.hero--static-fall .hero-static__media { width: 100%; margin: 0 0 27px; padding: 6px; border-radius: 24px; }
+  .eda-home #home.hero--static-fall .hero-static__media img { border-radius: 18px; }
+  .eda-home #home.hero--static-fall .hero-static__tag { font-size: .72rem; padding: 8px 10px; border-radius: 12px; }
+  .eda-home #home.hero--static-fall .hero-static__tag--welcome { top: -14px; left: -8px; max-width: 178px; }
+  .eda-home #home.hero--static-fall .hero-static__tag--welcome svg { flex-basis: 18px; width: 18px; height: 24px; }
+  .eda-home #home.hero--static-fall .hero-static__tag--google { right: 10px; bottom: 10px; padding: 8px 10px; }
+  .eda-home #home.hero--static-fall .hero-static__stars { font-size: .62rem; }
+  .eda-home #home.hero--static-fall .hero-static__media::before { inset: 6% -2% -5% 5%; }
+  .eda-home #home.hero--static-fall .hero-static__media::after { inset: -4% 6% 7% -2%; }
+  .eda-home #home.hero--static-fall .hero__description { margin-bottom: 24px; font-size: 1rem; }
+  .eda-home #home.hero--static-fall .hero__buttons { margin-bottom: 24px; }
+  .eda-home #home.hero--static-fall .hero__trust-list { gap: 10px 20px; }
+  .eda-home #home.hero--static-fall .hero__scroll { display: none; }
+  .eda-home #home.hero--static-fall .hero-static__leaf--three,
+  .eda-home #home.hero--static-fall .hero-static__leaf--four { display: none; }
+  .eda-home #home.hero--static-fall .hero-static__leaf--one { top: 19%; right: -5px; width: 25px; height: 33px; }
+  .eda-home #home.hero--static-fall .hero-static__leaf--two { right: 10%; bottom: 5%; width: 20px; height: 27px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eda-home #home.hero--static-fall .hero-static__leaf,
+  .eda-home #home.hero--static-fall .hero__scroll-line { animation: none; }
+}

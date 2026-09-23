@@ -204,7 +204,7 @@
 <!-- =====================================================
          PRELOAD HERO IMAGE
     ====================================================== -->
-<link as="image" href="/assets/images/slide/hero-01.webp" rel="preload"/>
+<link as="image" href="/assets/images/slide/hero-01.webp" imagesizes="(min-width: 981px) 44vw, 100vw" imagesrcset="/assets/images/slide/hero-01-960w.webp 960w, /assets/images/slide/hero-01.webp 1600w" rel="preload"/>
 <!-- =====================================================
          FAVICON
     ====================================================== -->
@@ -213,7 +213,7 @@
          MAIN STYLESHEET
     ====================================================== -->
 <link href="/assets/css/site.bundle.css?v=20260831-2" rel="stylesheet"/>
-<link href="/assets/css/site-update.css?v=20260923-reset1" rel="stylesheet"/><link href="/assets/css/refinements.css?v=20260923-refine1" rel="stylesheet"/></head>
+<link href="/assets/css/site-update.css?v=20260923-reset1" rel="stylesheet"/><link href="/assets/css/refinements.css?v=20260923-refine1" rel="stylesheet"/><link href="/assets/css/hero-home.css?v=20260923-1" rel="stylesheet"/></head>
 <body class="eda-home eda-site">
 <!-- =====================================================
          ACCESSIBILITY
@@ -294,33 +294,12 @@
      HERO SECTION
      
 ================================================== -->
-<section class="hero" id="home">
-<!-- =============================================
-         HERO IMAGE SLIDER
-    ============================================== -->
-<div aria-hidden="true" class="hero__slider" id="hero-slider">
-<div class="hero__slide is-active" data-hero-label="hero.slideOne">
-<img alt="" class="hero__slide-image" fetchpriority="high" height="901" sizes="100vw" src="/assets/images/slide/hero-01.webp" srcset="/assets/images/slide/hero-01-960w.webp 960w, /assets/images/slide/hero-01.webp 1600w" width="1600"/>
-</div>
-<div class="hero__slide" data-hero-label="hero.slideTwo">
-<img alt="" class="hero__slide-image" height="1200" loading="lazy" sizes="100vw" src="/assets/images/slide/hero-02.webp" srcset="/assets/images/slide/hero-02-540w.webp 540w, /assets/images/slide/hero-02.webp 675w" width="675"/>
-</div>
-<div class="hero__slide" data-hero-label="hero.slideThree">
-<img alt="" class="hero__slide-image" height="1200" loading="lazy" sizes="100vw" src="/assets/images/slide/hero-03.webp" srcset="/assets/images/slide/hero-03-540w.webp 540w, /assets/images/slide/hero-03.webp 900w" width="900"/>
-</div>
-<div class="hero__slide" data-hero-label="hero.slideFour">
-<img alt="" class="hero__slide-image" height="900" loading="lazy" sizes="100vw" src="/assets/images/slide/hero-04.webp" srcset="/assets/images/slide/hero-04-960w.webp 960w, /assets/images/slide/hero-04.webp 1600w" width="1600"/>
-</div>
-</div>
-<!-- =============================================
-         HERO OVERLAY
-    ============================================== -->
-<div class="hero__overlay"></div>
-<!-- =============================================
-         DECORATIVE ELEMENTS
-    ============================================== -->
-<div aria-hidden="true" class="hero__decoration hero__decoration--one"></div>
-<div aria-hidden="true" class="hero__decoration hero__decoration--two"></div>
+<section class="hero hero--static-fall" id="home">
+<!-- INÍCIO: HERO ESTÁTICO COM DETALHES DE OUTONO -->
+<div aria-hidden="true" class="hero-static__leaf hero-static__leaf--one"><svg viewBox="0 0 40 52"><path d="M20 2C7 13 4 28 17 45c2 3 3 5 3 5s1-2 3-5C36 28 33 13 20 2Z"/></svg></div>
+<div aria-hidden="true" class="hero-static__leaf hero-static__leaf--two"><svg viewBox="0 0 40 52"><path d="M20 2C7 13 4 28 17 45c2 3 3 5 3 5s1-2 3-5C36 28 33 13 20 2Z"/></svg></div>
+<div aria-hidden="true" class="hero-static__leaf hero-static__leaf--three"><svg viewBox="0 0 40 52"><path d="M20 2C7 13 4 28 17 45c2 3 3 5 3 5s1-2 3-5C36 28 33 13 20 2Z"/></svg></div>
+<div aria-hidden="true" class="hero-static__leaf hero-static__leaf--four"><svg viewBox="0 0 40 52"><path d="M20 2C7 13 4 28 17 45c2 3 3 5 3 5s1-2 3-5C36 28 33 13 20 2Z"/></svg></div>
 <!-- =============================================
          HERO MAIN CONTENT
     ============================================== -->
@@ -329,7 +308,13 @@
 <!-- EYEBROW -->
 <span class="hero__eyebrow" data-i18n="hero.eyebrow">Licensed Family Child Care in Clinton, MA</span>
 <!-- MAIN TITLE -->
-<h1 class="hero__title" data-i18n="hero.title">A loving place to learn, grow and feel at home.</h1><div class="hero__mobile-image"><img alt="The welcoming child care room at Espaço dos Anjos" decoding="async" height="541" loading="eager" src="/assets/images/slide/hero-01-960w.webp" width="960"/></div>
+<h1 class="hero__title" data-i18n="hero.title">A loving place to learn, grow and feel at home.</h1>
+<!-- IMAGEM: estrutura única responsiva para desktop e mobile -->
+<figure class="hero-static__media">
+<picture><source media="(max-width: 980px)" srcset="/assets/images/slide/hero-01-960w.webp"/><img alt="The welcoming child care room at Espaço dos Anjos" decoding="async" fetchpriority="high" height="901" sizes="(min-width: 981px) 44vw, 100vw" src="/assets/images/slide/hero-01.webp" srcset="/assets/images/slide/hero-01-960w.webp 960w, /assets/images/slide/hero-01.webp 1600w" width="1600"/></picture>
+<div aria-hidden="true" class="hero-static__tag hero-static__tag--welcome"><svg viewBox="0 0 40 52"><path d="M20 2C7 13 4 28 17 45c2 3 3 5 3 5s1-2 3-5C36 28 33 13 20 2Z"/></svg><span>A welcoming place</span></div>
+<div aria-hidden="true" class="hero-static__tag hero-static__tag--google"><span class="hero-static__google-word">Google</span><span class="hero-static__google-score">5</span><span class="hero-static__stars">★★★★★</span></div>
+</figure>
 <!-- DESCRIPTION -->
 <p class="hero__description" data-i18n="hero.description">A safe, nurturing and educational environment for children ages 6 months to 5 years.</p>
 <!-- CTA BUTTONS -->
@@ -359,26 +344,6 @@
 </div>
 </div>
 </div>
-<!-- =========================================
-             SLIDE INFORMATION CARD
-        ========================================== -->
-<div class="hero__story-card">
-<span class="hero__story-label">
-                Espaço dos Anjos
-            </span>
-<p class="hero__story-text" data-i18n="hero.slideOne" id="hero-story-text">A safe and welcoming space created for little discoveries.</p>
-</div>
-</div>
-<!-- =============================================
-         SLIDER CONTROLS
-    ============================================== -->
-<div class="hero__controls">
-<div aria-label="Hero images" class="hero__dots" role="tablist">
-<button aria-label="Show image 1" aria-selected="true" class="hero__dot is-active" data-slide-index="0" type="button"></button>
-<button aria-label="Show image 2" aria-selected="false" class="hero__dot" data-slide-index="1" type="button"></button>
-<button aria-label="Show image 3" aria-selected="false" class="hero__dot" data-slide-index="2" type="button"></button>
-<button aria-label="Show image 4" aria-selected="false" class="hero__dot" data-slide-index="3" type="button"></button>
-</div>
 </div>
 <!-- =============================================
          SCROLL INDICATOR
@@ -386,6 +351,7 @@
 <a aria-label="Continue to the next section" class="hero__scroll" href="#visual-story">
 <span class="hero__scroll-line"></span>
 </a>
+<!-- FIM: HERO ESTÁTICO COM DETALHES DE OUTONO -->
 </section>
 <!-- =================================================
      End of HERO SECTION
@@ -995,8 +961,6 @@ Footer Section
 <script src="/assets/js/floating-booking.js?v=20260923-reset1"></script>
 <!-- Translation system -->
 <script src="/assets/js/languages.js?v=20260923-reset1"></script>
-<!-- Hero image slider -->
-<script src="/assets/js/hero-slider.js?v=20260813-1"></script>
 <!-- Enrollment form -->
 <script src="/assets/js/enrollment.js?v=20260923-reset1"></script>
 <script src="/assets/js/site-update.js?v=20260923-reset1"></script></body>
