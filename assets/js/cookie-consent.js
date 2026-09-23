@@ -130,9 +130,11 @@
             const value = accepted ? acceptedValue : rejectedValue;
             storeChoice(value);
             updateGoogleConsent(accepted);
+            if (component.contains(document.activeElement)) {
+                document.activeElement.blur();
+            }
             component.hidden = true;
             settingsButton.hidden = false;
-            settingsButton.focus();
         };
 
         acceptButton.addEventListener("click", () => closeWithChoice(true));

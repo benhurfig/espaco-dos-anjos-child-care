@@ -20,6 +20,48 @@
         return element.textContent.replace(/\s+/g, " ").trim().slice(0, 100);
     }
 
+    function normalizePath(pathname) {
+        return pathname.replace(/\/+$/, "") || "/";
+    }
+
+    function getFamilyRequestTarget(href) {
+        try {
+            const target = new URL(href, window.location.href);
+            return /^\/(?:pt\/|es\/)?family-request\/?$/.test(target.pathname)
+                ? target
+                : null;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    function getCtaLocation(link) {
+        if (link.closest(".floating-booking")) {
+            return "floating_button";
+        }
+
+        if (link.closest(".final-tour")) {
+            return "final_cta";
+        }
+
+        if (link.closest("header")) {
+            return link.closest(".site-navigation") &&
+                window.matchMedia("(max-width: 768px)").matches
+                ? "mobile_menu"
+                : "header";
+        }
+
+        if (link.closest("footer")) {
+            return "footer";
+        }
+
+        if (link.closest(".hero")) {
+            return "hero";
+        }
+
+        return "other";
+    }
+
     document.addEventListener("click", event => {
         const link = event.target.closest("a, button");
 
@@ -44,10 +86,22 @@
             return;
         }
 
-        if (link.matches("[data-family-request-link]") || href.includes("smartimateapp.com/family-request/")) {
+        const familyRequestTarget = getFamilyRequestTarget(href);
+        const isSameFamilyRequestPage = familyRequestTarget &&
+            normalizePath(familyRequestTarget.pathname) === normalizePath(window.location.pathname);
+
+        if (
+            !isSameFamilyRequestPage &&
+            (
+                link.matches("[data-family-request-link]") ||
+                familyRequestTarget ||
+                href.includes("smartimateapp.com/family-request/")
+            )
+        ) {
             sendEvent("final_cta_request", {
                 cta_text: label,
-                request_provider: "Smartimate"
+                request_provider: "Smartimate",
+                cta_location: getCtaLocation(link)
             });
             return;
         }
