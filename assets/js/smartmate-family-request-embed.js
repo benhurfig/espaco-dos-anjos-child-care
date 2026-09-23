@@ -8,6 +8,7 @@
   const TRUSTED_ORIGIN = 'https://www.smartimateapp.com';
   const MESSAGE_TYPE = 'smartmate:family-request:resize';
   const CONSENT_MESSAGE_TYPE = 'smartmate:consent:update';
+  const CONSENT_READY_MESSAGE_TYPE = 'smartmate:consent:ready';
   const CONSENT_CHANGE_EVENT = 'smartmate:parent-consent:update';
   const MIN_HEIGHT = 640;
   const MAX_HEIGHT = 12000;
@@ -106,7 +107,13 @@
     const frame = Array.from(frames).find(iframe => event.source === iframe.contentWindow);
     if (!frame) return;
     const data = event.data;
-    if (!data || typeof data !== 'object' || Array.isArray(data) || data.type !== MESSAGE_TYPE) return;
+    if (!data || typeof data !== 'object' || Array.isArray(data)) return;
+    if (data.type === CONSENT_READY_MESSAGE_TYPE) {
+      if (Object.keys(data).length !== 1) return;
+      sendAnalyticsConsent(frame);
+      return;
+    }
+    if (data.type !== MESSAGE_TYPE) return;
     // Compatible with the Sunshine resize contract (number or plain numeric string),
     // while rejecting booleans, arrays, CSS strings, missing values and oversized strings.
     const raw = data.height;
