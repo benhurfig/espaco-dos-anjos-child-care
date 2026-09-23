@@ -136,6 +136,10 @@
     syncAnalyticsConsent();
   });
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', registerFrames, { once: true });
-  else registerFrames();
+  // The script is loaded after the iframe markup. Register immediately so a
+  // fast child readiness message cannot arrive before the frame is trusted.
+  registerFrames();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', registerFrames, { once: true });
+  }
 })();
