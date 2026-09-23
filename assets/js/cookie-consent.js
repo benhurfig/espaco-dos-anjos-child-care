@@ -4,6 +4,7 @@
     const storageKey = "edaCookieConsent";
     const acceptedValue = "accepted";
     const rejectedValue = "rejected";
+    const smartMateConsentEvent = "smartmate:parent-consent:update";
 
     const translations = {
         en: {
@@ -46,23 +47,25 @@
     function updateGoogleConsent(granted) {
         window.analyticsConsentGranted = granted;
 
-        if (typeof window.gtag !== "function") {
-            return;
+        if (typeof window.gtag === "function") {
+            window.gtag("consent", "update", {
+                analytics_storage: granted ? "granted" : "denied",
+                ad_storage: "denied",
+                ad_user_data: "denied",
+                ad_personalization: "denied"
+            });
+
+            if (
+                granted &&
+                typeof window.loadGoogleAnalytics === "function"
+            ) {
+                window.loadGoogleAnalytics();
+            }
         }
 
-        window.gtag("consent", "update", {
-            analytics_storage: granted ? "granted" : "denied",
-            ad_storage: "denied",
-            ad_user_data: "denied",
-            ad_personalization: "denied"
-        });
-
-        if (
-            granted &&
-            typeof window.loadGoogleAnalytics === "function"
-        ) {
-            window.loadGoogleAnalytics();
-        }
+        document.dispatchEvent(new CustomEvent(smartMateConsentEvent, {
+            detail: { analytics: granted ? "granted" : "denied" }
+        }));
     }
 
     function storeChoice(value) {
@@ -80,6 +83,15 @@
             return null;
         }
     }
+
+    // Shared adapter for the reusable SmartMate embed script. The existing
+    // localStorage preference remains the only source of truth.
+    window.getSmartMateAnalyticsConsent = () => {
+        const choice = readChoice();
+        if (choice === acceptedValue) return "granted";
+        if (choice === rejectedValue) return "denied";
+        return null;
+    };
 
     function buildConsentInterface() {
         const language = currentLanguage();

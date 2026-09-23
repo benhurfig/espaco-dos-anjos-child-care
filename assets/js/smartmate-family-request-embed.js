@@ -1,17 +1,39 @@
 /*
  * MateGrowth — SmartMate Family Request embed v1.
  * Reusable across websites: the iframe URL supplies the company slug.
- * Owns only the iframe height and fallback URL. No PII, storage or analytics.
+ * Owns iframe height, fallback URL and the consent decision bridge. No PII.
  */
 (() => {
   'use strict';
   const TRUSTED_ORIGIN = 'https://www.smartimateapp.com';
   const MESSAGE_TYPE = 'smartmate:family-request:resize';
+  const CONSENT_MESSAGE_TYPE = 'smartmate:consent:update';
+  const CONSENT_CHANGE_EVENT = 'smartmate:parent-consent:update';
   const MIN_HEIGHT = 640;
   const MAX_HEIGHT = 12000;
   const frames = new Set();
   const pendingHeights = new Map();
   let resizeFrame = 0;
+
+  function currentAnalyticsDecision() {
+    if (typeof window.getSmartMateAnalyticsConsent !== 'function') return null;
+    const decision = window.getSmartMateAnalyticsConsent();
+    return decision === 'granted' || decision === 'denied' ? decision : null;
+  }
+
+  function sendAnalyticsConsent(frame, decision = currentAnalyticsDecision()) {
+    if (!frames.has(frame) || !frame.contentWindow) return;
+    if (decision !== 'granted' && decision !== 'denied') return;
+    frame.contentWindow.postMessage({
+      type: CONSENT_MESSAGE_TYPE,
+      analytics: decision
+    }, TRUSTED_ORIGIN);
+  }
+
+  function syncAnalyticsConsent(decision = currentAnalyticsDecision()) {
+    if (decision !== 'granted' && decision !== 'denied') return;
+    frames.forEach(frame => sendAnalyticsConsent(frame, decision));
+  }
 
   function applyFrameHeight(frame, nextHeight) {
     const currentHeight = Number.parseFloat(frame.style.height) || frame.getBoundingClientRect().height;
@@ -61,6 +83,11 @@
         const slug = url.searchParams.get('company');
         if (!slug || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) return;
         frames.add(iframe);
+        if (!iframe.dataset.smartmateConsentBridge) {
+          iframe.dataset.smartmateConsentBridge = 'ready';
+          iframe.addEventListener('load', () => sendAnalyticsConsent(iframe));
+        }
+        sendAnalyticsConsent(iframe);
         const shell = iframe.closest('.eda-request-frame-shell');
         if (shell) shell.style.overflowAnchor = 'none';
         const fallback = iframe.closest('[data-smartmate-embed]')?.querySelector('[data-family-request-fallback]');
@@ -89,6 +116,17 @@
     if (!Number.isFinite(height) || height <= 0) return;
     const applied = Math.min(MAX_HEIGHT, Math.max(MIN_HEIGHT, Math.ceil(height)));
     queueFrameHeight(frame, applied);
+  });
+
+  document.addEventListener(CONSENT_CHANGE_EVENT, event => {
+    const decision = event?.detail?.analytics;
+    if (decision !== 'granted' && decision !== 'denied') return;
+    syncAnalyticsConsent(decision);
+  });
+
+  window.addEventListener('storage', event => {
+    if (event.storageArea !== localStorage) return;
+    syncAnalyticsConsent();
   });
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', registerFrames, { once: true });
