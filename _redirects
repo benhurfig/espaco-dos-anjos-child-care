@@ -6,6 +6,11 @@ https://espacodosanjoschildcare.com/* https://www.espacodosanjoschildcare.com/:s
 /es /es/ 301
 /es/index.html /es/ 301
 
+# Family Request now opens directly in SmartMate.
+/family-request/ https://www.smartimateapp.com/family-request/?company=espaco-dos-anjos-child-care 302
+/pt/family-request/ https://www.smartimateapp.com/family-request/?company=espaco-dos-anjos-child-care 302
+/es/family-request/ https://www.smartimateapp.com/family-request/?company=espaco-dos-anjos-child-care 302
+
 # Legacy legal URLs
 /terms.html /terms-of-service 301
 /privacy.html /privacy-policy 301
