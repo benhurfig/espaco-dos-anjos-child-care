@@ -3,38 +3,15 @@
 <html lang="pt-BR">
 <head>
 <!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LD62J5RD1Z"></script>
 <script>
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function(){dataLayer.push(arguments);};
-      let analyticsConsent = 'denied';
-      try {
-        analyticsConsent = localStorage.getItem('edaCookieConsent') === 'accepted'
-          ? 'granted'
-          : 'denied';
-      } catch (error) {}
-      window.analyticsConsentGranted = analyticsConsent === 'granted';
-      window.gtag('consent', 'default', {
-        analytics_storage: analyticsConsent,
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied',
-        functionality_storage: 'granted',
-        security_storage: 'granted',
-        wait_for_update: 500
-      });
-      window.gtag('js', new Date());
-      window.gtag('config', 'G-LD62J5RD1Z');
-      window.loadGoogleAnalytics = function(){
-        if (document.querySelector('[data-google-analytics]')) return;
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LD62J5RD1Z';
-        script.setAttribute('data-google-analytics', '');
-        document.head.appendChild(script);
-      };
-      if (window.analyticsConsentGranted) window.loadGoogleAnalytics();
-    </script>
-<script defer="" src="/assets/js/cookie-consent.js?v=20260831-1"></script>
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function(){ window.dataLayer.push(arguments); };
+  window.analyticsConsentGranted = true;
+  window.gtag("js", new Date());
+  window.gtag("config", "G-LD62J5RD1Z");
+</script>
+
 <script defer="" src="/assets/js/analytics-events.js?v=20260923-reset1"></script>
 <!-- =====================================================
          BASIC DOCUMENT SETTINGS
